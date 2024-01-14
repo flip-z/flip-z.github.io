@@ -1,114 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Flipz
-        </title>
-        <style>
-            table {
-                font-family: Palatino;
-                width: 100%;
-            }
-            details > summary {
-                list-style-type: "➡️";
-            }
-            details[open] > summary {
-                list-style-type: "⬇️"
-            }
-            td > details {
-                width: 85%;
-                margin: auto;
-            }
-            td > p {
-                width: 85%;
-                margin: auto;
-            }
-            td > p > ol {
-                width:85%;
-                margin:auto;
-            }
-        </style>
-    </head>
-    <body>
-        <table>
-            <tr>
-                <td style="background-image: linear-gradient(white, #c59ae5);text-align:center;" colspan="3">
-                    <h1>Flipz</h1>
-                    🪕 🍕 🐂 🚣‍♂️ 💻
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>
-                        Hey I'm Jon.
-                    </p><br>
-                    <details>
-                        <summary> Experience</summary>
-                        <p>
-                            <b style="color: orangered">Cedar</b> / Security Analyst / Remote<br>
-                            January 2022 - Present<br>
-                            <ul>
-                                <li>Developing security operations program with continuous deployment of python detections, response and enrichment automation, and contextual vulnerability management</li>
-                            </ul>
-                            
-                        </p>
-                        <p>
-                            <b style="color: orange">HubSpot</b> / Security Engineer / Remote<br>
-                            April 2020 - April 2021<br>
-                            <ul>
-                                <li>Developed and launched risk-based alerting (RBA) to provide SOC with more contextual, meaningful alerts</li>
-                                <li>Supported Splunk infrastructure and advised/assisted operational teams using the platform</li>
-                            </ul>
-                        </p>
-                        <p>
-                            <b style="color: teal">Advocate Aurora Health</b> / Information Security Analyst / Milwaukee, WI<br>
-                            July 2017 - April 2020<br>
-                            <ul>
-                                <li>Deployed and maintained Splunk Enterprise Security for the SOC, including data onboarding, update and transfer of legacy alerting rules, and front-end support for all Splunk users</li>
-                                <li>Transferred monitoring capabilities from managed security service to our internal SOC by duplicating security alerts and developing consistent triage workflows</li>
-                                <li>Lead workflow improvements with automation and data enrichments, alongside testing for new Security Orchestration platforms</li>
-                            </ul>
-                        </p>
-                        <p>
-                            <b style="color:royalblue">SpaceX</b> / Information Security Intern / Hawthorne, CA<br>
-                            May 2016 - August 2016<br>
-                            
-                            <ul>
-                                <li>Audited internal network segments to restrict access to the internet and other internal networks based on business need</li>
-                                <li>Reviewed and approved vendor solutions for compliance and general risk</li>
-                            </ul>
-                        </p>
-                    </details><br>
-                    <details>
-                        <summary> Education & Certifications</summary>
-                        <p>
-                            <b style="color: orange">Rochester Institute of Technology</b><br>
-                            BS - Computing Security
-                        </p>
-                        <hr>
-                        <p>
-                            Splunk Enterprise Certified Administrator / September 2019<br>
-                            Splunk Enterprise Security Certified Administrator / March 2019<br>
-                            GIAC Certified Penetration Tester / March 2018<br>
-                        </p>
-                    </details><br>
-                    <details>
-                        <summary> Blogs</summary>
-                        <p>
-                            <a href="https://decode.cedar.com/optimizing-panther-based-threat-detection-development-with-local-caching-2/">Optimizing Panther-based Threat Detection Development with Local Caching</a>
-                        </p>
-                    </details>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-image:linear-gradient(#c59ae5, white);font-size:100%; text-align:center;" height="50px" colspan="3">
-                    <a href="https://github.com/flip-z" target="_blank">Github</a>
-                     - 
-                    <a href="https://LinkedIn.com/jonmassari" target="_blank">LinkedIn</a>
-                     - 
-                    <a href="https://www.dotabuff.com/players/86742695" target="_blank" title="Hoping all my hard work is relevant somewhere">Dotabuff</a>
-                </td>
-            </tr>
-        </table>
-    </body>
+<head>
+    <title>Flipz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E6E6FA; /* Light purple background */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            background-color: white;
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+        }
+        .social-links {
+            margin: 10px;
+        }
+        .social-links a {
+            margin: 0 5px;
+            text-decoration: none;
+        }
+        .about-me {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Jon Massari</h1>
+            <div class="social-links">
+                <!-- Replace with your URLs -->
+                <a href="https://github.com/flip-z">
+                    <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-github-1.png" alt="GitHub" width="30" height="30">
+                </a>
+                <a href="https://linkedin.com/in/jonmassari">
+                    <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-linkedin-1.png" alt="LinkedIn" width="30" height="30">
+                </a>
+                <a href="your-resume-link.pdf">
+                    <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2021/240/iconmonstr-cv-1.png" alt="Resume" width="30" height="30">
+                </a>
+            </div>
+        </div>
+
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>
+                Brief description about yourself...
+            </p>
+        </div>
+    </div>
+</body>
 </html>
