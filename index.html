@@ -64,6 +64,10 @@
         display: flex;
         justify-content: center;
       }
+
+      #right {
+        text-align: right;
+      }
     </style>
   </head>
   <body>
@@ -72,7 +76,7 @@
       <header class="pure-u-1">
         <h1>Jon</h1>
         <p>
-          Security Engineer, Amateur Triathlete, Pizza Master, Aspiring Rancher
+          Security Engineer, Amateur Triathlete, Aspiring Rancher, Big Pizza Guy
         </p>
       </header>
 
@@ -80,11 +84,6 @@
       <div class="pure-g">
         <!-- Left Column -->
         <div class="pure-u-1-2">
-          <h2>About Me</h2>
-          <p>
-            I am a security analyst specializing in detection engineering and
-            cloud security.
-          </p>
           <div class="social-links">
             <a href="https://github.com/flip-z">
               <img
@@ -113,26 +112,8 @@
               />
             </a>
           </div>
-          <h2>Big Shit Club</h2>
-          <p>We go do fun stuff. Here's a facebook page.</p>
-        </div>
-
-        <!-- Right Column -->
-        <div class="pure-u-1-2">
-          <div class="nightnoon-logo">
-            <img src="nightnoon.png" />
-          </div>
-          <p>
-            Nightnoon Security Team is dedicated to providing comprehensive
-            cybersecurity services, focusing on detection engineering, security
-            automation, and vulnerability management in cloud environments. We
-            offer customized solutions to help companies stay ahead of evolving
-            threats.
-          </p>
-        </div>
-        <div class="pure-u-1">
           <h3>Opinions</h3>
-          <p>Some living documents for topics that have me fired up.</p>
+          <p>Some living notes on topics that have me fired up. Reach out if I'm wrong.</p>
           <a href="/opinions/vulnerability-management.html"
             >Vulnerability Management</a
           >
@@ -142,6 +123,16 @@
           <a href="/opinions/land-trusts.html">Land Trusts</a>
           |
           <a href=""></a>
+        </div>
+
+        <!-- Right Column -->
+        <div class="pure-u-1-2">
+          <div class="nightnoon-logo">
+            <img src="nightnoon.png" />
+          </div>
+          <p id="right">
+            Some Consulting: <a href="mailto:jon@nightnoonsec.com">jon@nightnoonsec.com</a>
+          </p>
         </div>
       </div>
     </div>
