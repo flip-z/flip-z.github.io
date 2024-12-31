@@ -1,85 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Flipz</title>
-    <link rel="icon" type="image/png" href="logo.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jon</title>
+    <link rel="icon" href="/crescent.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link to PureCSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+    />
+
     <style>
       body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #e6e6fa; /* Light purple background */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .container {
-        background-color: white;
-        width: 80%;
-        max-width: 800px;
-        margin: 20px auto;
+        background-color: #464646;
+        color: #fff;
+        font-family: "Rubik", sans-serif;
         padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
-      h1 {
-        align-items: center;
+
+      .content {
+        background-color: #ffffff;
+        color: #333;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        color: #1a1a1a;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      /* Style the social links */
+      .social-links {
         display: flex;
         justify-content: center;
       }
-      .header {
-        text-align: center;
-      }
-      .social-links {
-        margin: 10px;
-      }
+
       .social-links a {
-        margin: 0 10px;
+        list-style-type: none;
+        padding: 15px;
         text-decoration: none;
       }
-      .about-me {
-        text-align: center;
+
+      .nightnoon-logo {
+        display: flex;
+        justify-content: center;
+      }
+
+      #right {
+        text-align: right;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <h1>
-          <img src="logo.svg" alt="Warden" width="100" height="100" />
-          Jon Massari
-        </h1>
-        <div class="social-links">
-          <a href="https://github.com/flip-z">
-            <img
-              src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-github-1.png"
-              alt="GitHub"
-              width="30"
-              height="30"
-            />
-          </a>
-          <a href="https://linkedin.com/in/jonmassari">
-            <img
-              src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-linkedin-1.png"
-              alt="LinkedIn"
-              width="30"
-              height="30"
-            />
-          </a>
-          <a
-            href="https://docs.google.com/document/d/1qVmxE-KnagEh00I9FBGJXVlxPLixQrivWa16bYBTuWA/edit?usp=sharing"
-          >
-            <img
-              src="https://cdns.iconmonstr.com/wp-content/releases/preview/2021/240/iconmonstr-cv-1.png"
-              alt="Resume"
-              width="30"
-              height="30"
-            />
-          </a>
-        </div>
-      </div>
+    <div class="content">
+      <!-- Header Section -->
+      <header class="pure-u-1">
+        <h1>Jon</h1>
+        <p>
+          Security Engineer, Amateur Triathlete, Aspiring Rancher, Big Pizza Guy
+        </p>
+      </header>
 
-      <div class="about-me">
-        <p>🍕 - 🏊‍♂️🚴‍♂️🏃‍♂️ - 🐄🚜</p>
+      <!-- Two-Column Layout using PureCSS grid -->
+      <div class="pure-g">
+        <!-- Left Column -->
+        <div class="pure-u-1-2">
+          <div class="social-links">
+            <a href="https://github.com/flip-z">
+              <img
+                src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-github-1.png"
+                alt="GitHub"
+                width="30"
+                height="30"
+              />
+            </a>
+            <a href="https://linkedin.com/in/jonmassari">
+              <img
+                src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-linkedin-1.png"
+                alt="LinkedIn"
+                width="30"
+                height="30"
+              />
+            </a>
+            <a
+              href="https://docs.google.com/document/d/1qVmxE-KnagEh00I9FBGJXVlxPLixQrivWa16bYBTuWA/edit?usp=sharing"
+            >
+              <img
+                src="https://cdns.iconmonstr.com/wp-content/releases/preview/2021/240/iconmonstr-cv-1.png"
+                alt="Resume"
+                width="30"
+                height="30"
+              />
+            </a>
+          </div>
+          <h3>Opinions</h3>
+          <p>Some living notes on topics that have me fired up. Reach out if I'm wrong.</p>
+          <a href="/opinions/vulnerability-management.html"
+            >Vulnerability Management</a
+          >
+          |
+          <a href="/opinions/self-storage.html">Self Storage</a>
+          |
+          <a href="/opinions/land-trusts.html">Land Trusts</a>
+          |
+          <a href=""></a>
+        </div>
+
+        <!-- Right Column -->
+        <div class="pure-u-1-2">
+          <div class="nightnoon-logo">
+            <img src="nightnoon.png" />
+          </div>
+          <p id="right">
+            Some Consulting: <a href="mailto:jon@nightnoonsec.com">jon@nightnoonsec.com</a>
+          </p>
+        </div>
       </div>
     </div>
   </body>
