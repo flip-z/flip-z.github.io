@@ -1,0 +1,20 @@
+.contact-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.contact-stack a {
+    color: #6b46c1;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.contact-stack a:hover {
+    color: #553c9a;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}

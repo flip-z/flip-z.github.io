@@ -1,0 +1,65 @@
+.icon {
+    width: 20px;
+    height: 20px;
+    color: #6b46c1;
+    transition: all 0.2s ease;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-stack {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.contact-stack a {
+    color: #6b46c1;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.contact-stack a:hover {
+    color: #553c9a;
+    background: rgba(107, 70, 193, 0.1);
+    transform: translateY(-1px);
+}
+
+.contact-stack a:hover .icon {
+    color: #553c9a;
+    transform: scale(1.1);
+}
+
+.nightnoon-contact {
+    margin-top: 1rem;
+}
+
+.nightnoon-contact a {
+    color: #6b46c1;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.nightnoon-contact a:hover {
+    color: #553c9a;
+    background: rgba(107, 70, 193, 0.1);
+    transform: translateY(-1px);
+}
+
+.nightnoon-contact a:hover .icon {
+    color: #553c9a;
+    transform: scale(1.1);
+}

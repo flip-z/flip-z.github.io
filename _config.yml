@@ -1,0 +1,58 @@
+# Site settings
+title: Flipz
+subtitle: "Security Engineer, Amateur Triathlete, Aspiring Rancher, Big Pizza Guy"
+email: jon@nightnoonsec.com
+baseurl: ""
+url: "https://flip-z.github.io"
+github_username: flip-z
+linkedin_username: jonmassari
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# GitHub Pages compatibility
+repository: flip-z/flip-z.github.io
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  opinions:
+    output: true
+    permalink: /:collection/:name/
+  reviews:
+    output: true
+    permalink: /:collection/:name/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "opinions"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "reviews"
+    values:
+      layout: "post"

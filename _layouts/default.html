@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="icon" href="/crescent.png" type="image/x-icon" />
+    {% seo %}
+    {% include head/fonts.html %}
+    {% include head/styles.html %}
+</head>
+<body>
+    {% include header.html %}
+
+    <div class="main-layout">
+        <main class="content-flow">
+            {% unless page.url == "/" %}
+                {% include navigation.html %}
+            {% endunless %}
+            {{ content }}
+        </main>
+
+        {% include sidebar.html %}
+    </div>
+</body>
+</html>

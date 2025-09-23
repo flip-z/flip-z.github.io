@@ -1,0 +1,18 @@
+.personality-note {
+    background: #6b46c1;
+    color: white;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.personality-note::before {
+    content: '"';
+    font-size: 2rem;
+    position: absolute;
+    top: -0.2rem;
+    left: 0.5rem;
+    opacity: 0.5;
+}

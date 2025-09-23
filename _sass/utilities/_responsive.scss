@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .main-layout {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    body {
+        padding: 2rem 1rem;
+    }
+
+    .name-block {
+        font-size: 1.4rem;
+        padding: 0.6rem 1.5rem 0.6rem 0;
+    }
+
+    .sidebar {
+        position: static;
+    }
+
+    .info-block {
+        padding: 1.5rem;
+    }
+
+    .header {
+        margin-bottom: 2.5rem;
+    }
+
+    .content-flow {
+        gap: 2rem;
+    }
+}

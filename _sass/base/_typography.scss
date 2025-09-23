@@ -1,0 +1,74 @@
+// Typography base styles
+.section-title {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6b46c1;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+}
+
+.writing-blurb {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+h4 {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    color: #1a1a1a;
+}
+
+strong {
+    color: #6b46c1;
+    font-weight: 600;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+// Post-specific typography
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.7;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #1a1a1a;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.3rem; }
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+

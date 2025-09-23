@@ -1,0 +1,28 @@
+.sidebar {
+    position: sticky;
+    top: 2rem;
+}
+
+.info-block {
+    background: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-top: 4px solid #6b46c1;
+    box-shadow: 0 2px 8px rgba(107, 70, 193, 0.08);
+}
+
+.triathlon-list {
+    list-style: decimal;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+
+    li {
+        margin-bottom: 0.3rem;
+    }
+}
+
+.nightnoon-logo {
+    margin-top: 1rem;
+    text-align: center;
+}
