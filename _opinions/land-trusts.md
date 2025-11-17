@@ -2,13 +2,20 @@
 layout: post
 title: "Land Trusts"
 ---
-## Small Town Progress: Tradeoffs between conservation and development
+## Land Trusts
 
-Struggling with this one. We’re moving into a small town in a region where local conservation land trusts are prominent and popular. I want to support most of their stated missions, but it seems to be in direct conflict with the long term sustainability of the town. The population is aging out, land is exceptionally expensive, and the few town amenities are struggling to stay open. Young families can’t afford property (not that there’s anything available anyway) and want reasonable access to amenities.
+This year my family moved to a very small, very rural town Northwest Connecticut. The area seems to balance a lengthy history of agriculture with modern NYC residents' rural vacation homes. 
 
-I wouldn’t advocate for a strip mall and a Walmart, but small zoning changes to allow some smaller plots and tiny mixed use central zone would - to me - be a reasonable compromise that keeps the character of a rural town but immediately attracts younger families.
+My town's most recent [Plan of Conservation & Development](https://portal.ct.gov/opm/igpp/org/conservation-and-development-policies-plan/municipal-plans-of-conservation-and-development) prioritizes a handful of conflicting stewardship goals, but "Attract & Retain Young Families" still tops the protection and conservation items.
 
-My gut says land trusts are the right scapegoat here, but I’m looking forward to learning more. We attended a nearby event this past summer celebrating a trust’s acquisition of a conservation easement. Parked in the line of BMW’s and Teslas I realized that the “working farmland” bit was just a bit, and that the primary goals were tax avoidance and preventing development.
+The aging population and second-home affluence, though, fuels support for local Land Trusts, freezing land use for future generations in whatever shape today's retirees happen to prefer.
 
-We’ll see! 
+Land Trusts offer a private solution to circumvent municipal interest. They operate by holding conservation easements that legally restrict land use in perpetuity. There's rarely a timeout, a re-evaluation, or any recourse for future generations.
+
+Landowners should be free to do what they want with their kingdoms. But choosing a permanent freeze admits a distrust of the inheriting generation, sabotaging the agency of those who follow and tanking any sense of shared ownership in the community that landowners claim to protect.
+
+If the town is serious about attracting young families _and_ long-term conservation, a viable solution can't box out the former. If Land Trusts want a seat at the table, I expect them to weigh public opinion in their pursuits. If they jump at every opportunity to lock acreage away from our future, then they aren't a partner for the long haul. 
+
+Let's conserve working farmland rationally, and let's build an environment that actually gives young families a reason to believe that this is a community  worth stewarding.
+
 
