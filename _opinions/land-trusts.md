@@ -2,9 +2,7 @@
 layout: post
 title: "Land Trusts"
 ---
-## Land Trusts
-
-This year my family moved to a very small, very rural town Northwest Connecticut. The area seems to balance a lengthy history of agriculture with modern NYC residents' rural vacation homes. 
+This year my family moved to a very small, very rural town in Northwest Connecticut. The area seems to balance a lengthy history of agriculture with modern NYC residents' rural vacation homes. 
 
 My town's most recent [Plan of Conservation & Development](https://portal.ct.gov/opm/igpp/org/conservation-and-development-policies-plan/municipal-plans-of-conservation-and-development) prioritizes a handful of conflicting stewardship goals, but "Attract & Retain Young Families" still tops the protection and conservation items.
 
@@ -16,6 +14,6 @@ Landowners should be free to do what they want with their kingdoms. But choosing
 
 If the town is serious about attracting young families _and_ long-term conservation, a viable solution can't box out the former. If Land Trusts want a seat at the table, I expect them to weigh public opinion in their pursuits. If they jump at every opportunity to lock acreage away from our future, then they aren't a partner for the long haul. 
 
-Let's conserve working farmland rationally, and let's build an environment that actually gives young families a reason to believe that this is a community  worth stewarding.
+Let's conserve working farmland rationally, and let's build an environment that actually gives young families a reason to believe that this is a community worth stewarding.
 
 

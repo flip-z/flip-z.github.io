@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Self Storage"
-subtitle: "You only need ~10 things"
 ---
 
 A grey, architecturally soulless cube near my home in northwestern Connecticut stabs me in my eyes every time I drive into town. A mile down the road, another is in the early stages of construction. Self storage units have been popping up everywhere and I hate them. There's something about the industry's safe, reliable profit from peoples' attachment that repulses me.
-
-It's a box of uncertainty - stuff we hold onto because we don't know when we might "need" it or how to let it go.
 
 Just have less things. Empty the storage unit full of uncertainty, and start living with what you have. The cost of maintaining, storing, and sifting through excessive things most often outweighs the cost of a brand new thing.
 
