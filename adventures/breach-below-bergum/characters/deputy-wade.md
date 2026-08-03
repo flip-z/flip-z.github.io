@@ -9,8 +9,6 @@ permalink: /adventures/breach-below-bergum/characters/deputy-wade/
 
 **Gunslinger 5 · Versatile Human**
 
-![Deputy Wade character presentation]({{ '/assets/adventures/breach-below-bergum/characters/deputy-wade.png' | relative_url }})
-
 Deputy Wade is a fixture of Bergum, having arrived twenty years ago during the peak of the silver fever. He’s one of the few who stayed when the mines began to thin out, primarily because he’s too stubborn to admit the easy money is gone. He relies on the quick hands and sharp eyes he developed over the years—first tracking claim jumpers and then reluctantly enforcing the Sheriff’s strained law.
 
 Wade views the current crisis with the Apparitions spilling from the ancient shrine not as a supernatural mystery, but as a severe target prioritization problem. His solution to nearly every issue is to apply maximum pressure and the largest caliber of ordnance he can shoulder. He is utterly without fear, which the townsfolk usually confuse for genuine bravery.
@@ -24,4 +22,10 @@ Wade is the party’s precise ranged striker. Keep a clear line of fire, use mob
 **Party role:** Ranged damage and target control  
 **Likely strengths:** Accuracy, awareness, quick reactions, and reliable single-target pressure
 
-[Open the full presentation image]({{ '/assets/adventures/breach-below-bergum/characters/deputy-wade.png' | relative_url }}){: .button-link }
+Outside combat, Wade is Bergum’s local authority and social bridge. He knows the town, the mine’s recent history, and the habits of the people who stayed after the silver rush. His blunt confidence is useful for getting frightened locals moving, though another investigator may need to soften his approach during delicate conversations.
+
+## Character sheet
+
+The supplied PDF contains Wade’s narrative presentation but not his mechanical character sheet. Once the sheet data is supplied, this section can become a fully web-native stat reference.
+
+<details class="source-slide"><summary>View original character presentation</summary><img src="{{ '/assets/adventures/breach-below-bergum/characters/deputy-wade.png' | relative_url }}" alt="Deputy Wade character presentation"></details>

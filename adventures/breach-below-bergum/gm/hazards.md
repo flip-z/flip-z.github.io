@@ -52,6 +52,6 @@ The PDF names four published hazards but does not reproduce their rules. Use the
 - **Reset:** Does not reset after the Runelord is destroyed
 - **Source:** Custom level-4 complex hazard; see the [Barrow Pulse reference]({{ '/adventures/breach-below-bergum/gm/bestiary/barrow-pulse/' | relative_url }})
 
-> **Source-material TODO:** The PDF does not contain the four published hazard stat blocks, and the plan’s finalized `barrow-pulse-hazard.html` was not supplied. Add exact source URLs and complete custom statistics from those sources rather than inventing mechanics.
+> **Source-material TODO:** The PDF names the four published hazards without reproducing their rules or exact source URLs. Add their complete published references once the precise source entries are confirmed. The finalized custom Barrow Pulse is fully integrated.
 
-<nav class="page-links" aria-label="Page navigation"><a href="{{ '/adventures/breach-below-bergum/gm/chapter-2/' | relative_url }}">← Chapter 2</a><a href="{{ '/adventures/breach-below-bergum/gm/' | relative_url }}">GM contents</a><a href="{{ '/adventures/breach-below-bergum/gm/maps/' | relative_url }}">Next: Maps →</a></nav>
+<nav class="page-links" aria-label="Page navigation"><a href="{{ '/adventures/breach-below-bergum/gm/adventure/' | relative_url }}">← Adventure</a><a href="{{ '/adventures/breach-below-bergum/gm/' | relative_url }}">GM contents</a><a href="{{ '/adventures/breach-below-bergum/gm/maps/' | relative_url }}">Next: Maps →</a></nav>

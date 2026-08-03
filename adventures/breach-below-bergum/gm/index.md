@@ -50,12 +50,11 @@ Use the XP values from the linked published creature and hazard references after
 
 ## Contents
 
-- [Chapter 1: Into the Crypt]({{ '/adventures/breach-below-bergum/gm/chapter-1/' | relative_url }})
-- [Chapter 2: Grand Mausoleum]({{ '/adventures/breach-below-bergum/gm/chapter-2/' | relative_url }})
+- [Into the Crypt: complete adventure]({{ '/adventures/breach-below-bergum/gm/adventure/' | relative_url }})
 - [Hazard index]({{ '/adventures/breach-below-bergum/gm/hazards/' | relative_url }})
 - [Dungeon map]({{ '/adventures/breach-below-bergum/gm/maps/' | relative_url }})
 - [Barrow Pulse]({{ '/adventures/breach-below-bergum/gm/bestiary/barrow-pulse/' | relative_url }})
 - [Hryngar Retainer]({{ '/adventures/breach-below-bergum/gm/bestiary/hryngar-retainer/' | relative_url }})
 - [Reanimated Hryngar Runelord]({{ '/adventures/breach-below-bergum/gm/bestiary/reanimated-hryngar-runelord/' | relative_url }})
 
-<nav class="page-links" aria-label="Page navigation"><span></span><a href="{{ '/adventures/breach-below-bergum/gm/chapter-1/' | relative_url }}">Next: Chapter 1 →</a></nav>
+<nav class="page-links" aria-label="Page navigation"><span></span><a href="{{ '/adventures/breach-below-bergum/gm/adventure/' | relative_url }}">Next: Into the Crypt →</a></nav>
