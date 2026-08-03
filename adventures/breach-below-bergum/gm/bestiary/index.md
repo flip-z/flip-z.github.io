@@ -20,28 +20,28 @@ Quick notes for everything the GM needs to run the crypt. Published rules stay l
 - **Trigger:** A creature touches the coffin or its contents
 - **Detection:** The scratching spirit is concealed within the damaged tomb
 - **GM note:** The casket cover is AC 15, Hardness 5, and requires DC 18 Athletics to move. The blue crystal is inside.
-- **Rules:** [Entombed Spirit on Archives of Nethys](https://2e.aonprd.com/Search.aspx?q=%22Entombed%20Spirit%22)
+- **Rules:** [Entombed Spirit on Archives of Nethys](https://2e.aonprd.com/Hazards.aspx?ID=151)
 
 ### Hampering Web {#hampering-web}
 
 - **Location:** A3, large northern funerary urn
 - **Trigger:** A creature reaches into the urn and enters the webbing
 - **GM note:** The web controls movement while the Spider Swarm emerges. The urn also holds 48 gp, a lesser Mistform Elixir, and a Feather Token (bird).
-- **Rules:** [Hampering Web on Archives of Nethys](https://2e.aonprd.com/Search.aspx?q=%22Hampering%20Web%22)
+- **Rules:** [Hampering Web on Archives of Nethys](https://2e.aonprd.com/Hazards.aspx?ID=473)
 
 ### Phantom Footsteps {#phantom-footsteps}
 
 - **Location:** A5, immediately past the collapsed wall
 - **Trigger:** The first character enters the hallway
 - **GM note:** Use the unseen steps to make the dark corridor feel occupied before the party reaches the skeleton and pit.
-- **Rules:** [Phantom Footsteps on Archives of Nethys](https://2e.aonprd.com/Search.aspx?q=%22Phantom%20Footsteps%22)
+- **Rules:** [Phantom Footsteps on Archives of Nethys](https://2e.aonprd.com/Hazards.aspx?ID=133)
 
 ### Pit of Toil {#pit-of-toil}
 
 - **Location:** A5, near the corner and skeleton
 - **Trigger:** A character approaching without darkvision or a light source trips over the skeleton
 - **GM note:** Characters using light or darkvision can Seek the skeleton and its crimson crystal before blundering into the pit.
-- **Rules:** [Pit of Toil on Archives of Nethys](https://2e.aonprd.com/Search.aspx?q=%22Pit%20of%20Toil%22)
+- **Rules:** [Pit of Toil on Archives of Nethys](https://2e.aonprd.com/Hazards.aspx?ID=254)
 
 ## Custom final encounter
 
