@@ -24,3 +24,8 @@ title: Home
         {% endfor %}
     </ol>
 </section>
+
+<section>
+    <h2 class="section-title">Adventures</h2>
+    <p>Tabletop adventures and game materials, starting with <a href="{{ '/adventures/breach-below-bergum/' | relative_url }}"><em>Breach Below Bergum</em></a>, a short Pathfinder Second Edition dungeon for four 5th-level characters.</p>
+</section>

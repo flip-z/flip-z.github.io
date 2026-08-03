@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 # Use GitHub Pages gem which includes Jekyll and other dependencies
 gem "github-pages", group: :jekyll_plugins
+gem "erb"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
