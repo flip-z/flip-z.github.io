@@ -51,7 +51,7 @@ Use the XP values from the linked published creature and hazard references after
 ## Contents
 
 - [Into the Crypt: complete adventure]({{ '/adventures/breach-below-bergum/gm/adventure/' | relative_url }})
-- [Hazard index]({{ '/adventures/breach-below-bergum/gm/hazards/' | relative_url }})
+- [Hazards & bestiary]({{ '/adventures/breach-below-bergum/gm/bestiary/' | relative_url }})
 - [Dungeon map]({{ '/adventures/breach-below-bergum/gm/maps/' | relative_url }})
 - [Barrow Pulse]({{ '/adventures/breach-below-bergum/gm/bestiary/barrow-pulse/' | relative_url }})
 - [Hryngar Retainer]({{ '/adventures/breach-below-bergum/gm/bestiary/hryngar-retainer/' | relative_url }})

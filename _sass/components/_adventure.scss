@@ -262,11 +262,32 @@
   img { margin-top: 1rem; border-radius: 8px; }
 }
 
+.embedded-reference {
+  margin: 1rem 0;
+  border: 1px solid #c9bad8;
+  border-radius: 9px;
+  background: #fff;
+
+  > summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.15rem;
+    color: #523087;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  > summary::marker { color: #6941aa; }
+  > .stat-block { margin: 0 .75rem .75rem; box-shadow: none; }
+}
+
 @media (max-width: 600px) {
   .adventure-page .adventure-shell { width: min(100% - 1.25rem, 1180px); }
   .adventure-page .adventure-content { font-size: 1rem; }
   .map-figure { margin-inline: 0; }
   .stat-block__title, .page-links { flex-direction: column; }
+  .embedded-reference > summary { flex-direction: column; gap: .2rem; }
   .stat-summary, .degree-results { grid-template-columns: 1fr; gap: .15rem; }
   .stat-summary dd, .degree-results dd { margin-bottom: .55rem; }
   .adventure-nav, .gm-nav { gap: .75rem; }

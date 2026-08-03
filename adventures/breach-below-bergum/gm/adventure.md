@@ -29,7 +29,7 @@ Establish the scale, decay, and disturbed seals. A2 is within this burial hall; 
 A **DC 15 Seek** check identifies the cracked sarcophagus near the entrance. Its cover is **AC 15, Hardness 5**, and requires **DC 18 Athletics** to move.
 
 <div class="room-details">
-  <aside><strong>Hazard</strong><a href="{{ '/adventures/breach-below-bergum/gm/hazards/#entombed-spirit' | relative_url }}">Entombed Spirit</a><span>Interaction with the damaged tomb risks awakening the spirit inside.</span></aside>
+  <aside><strong>Hazard</strong><a href="{{ '/adventures/breach-below-bergum/gm/bestiary/#entombed-spirit' | relative_url }}">Entombed Spirit</a><span>Interaction with the damaged tomb risks awakening the spirit inside.</span></aside>
   <aside><strong>Reward</strong><span>A fist-sized deep-blue crystal in a shattered amulet. It feels unnaturally cold and pulses faintly.</span></aside>
 </div>
 
@@ -42,7 +42,7 @@ The blue crystal is one of three that can bypass the guardians in A7.
 Reaching into a large urn on the north side triggers the web and releases the swarm.
 
 <div class="room-details">
-  <aside><strong>Hazard</strong><a href="{{ '/adventures/breach-below-bergum/gm/hazards/#hampering-web' | relative_url }}">Hampering Web</a><span>The web erupts when a creature reaches into the northern urn.</span></aside>
+  <aside><strong>Hazard</strong><a href="{{ '/adventures/breach-below-bergum/gm/bestiary/#hampering-web' | relative_url }}">Hampering Web</a><span>The web erupts when a creature reaches into the northern urn.</span></aside>
   <aside><strong>Creature</strong><span>Spider Swarm</span><span>Emerges from the trapped urn after the web triggers.</span></aside>
   <aside><strong>Reward</strong><span>48 gp, a lesser Mistform Elixir, and a Feather Token (bird).</span></aside>
 </div>
@@ -62,7 +62,7 @@ Climbing the wreckage requires **DC 8 Athletics**. At the top, crossing shifting
 The first character to pass the collapsed wall is afflicted by Phantom Footsteps. Near the corner, a character without darkvision or light trips over a skeleton and triggers Pit of Toil. A character with darkvision or a light source must Seek the skeleton to notice what it holds.
 
 <div class="room-details">
-  <aside><strong>Hazards</strong><a href="{{ '/adventures/breach-below-bergum/gm/hazards/#phantom-footsteps' | relative_url }}">Phantom Footsteps</a><a href="{{ '/adventures/breach-below-bergum/gm/hazards/#pit-of-toil' | relative_url }}">Pit of Toil</a></aside>
+  <aside><strong>Hazards</strong><a href="{{ '/adventures/breach-below-bergum/gm/bestiary/#phantom-footsteps' | relative_url }}">Phantom Footsteps</a><a href="{{ '/adventures/breach-below-bergum/gm/bestiary/#pit-of-toil' | relative_url }}">Pit of Toil</a></aside>
   <aside><strong>Reward</strong><span>A heavy crimson crystal clutched in the skeleton’s hand, with a faint internal glimmer.</span></aside>
 </div>
 
@@ -122,4 +122,4 @@ Use three visible tokens for Retainer state and flip each between active and ine
 
 > The PDF’s numbered B1 outline and “Boulder Roll” placeholder are obsolete. This is the finalized encounter.
 
-<nav class="page-links" aria-label="Page navigation"><a href="{{ '/adventures/breach-below-bergum/gm/' | relative_url }}">← GM contents</a><a href="{{ '/adventures/breach-below-bergum/gm/hazards/' | relative_url }}">Hazards →</a></nav>
+<nav class="page-links" aria-label="Page navigation"><a href="{{ '/adventures/breach-below-bergum/gm/' | relative_url }}">← GM contents</a><a href="{{ '/adventures/breach-below-bergum/gm/bestiary/' | relative_url }}">Hazards &amp; bestiary →</a></nav>
