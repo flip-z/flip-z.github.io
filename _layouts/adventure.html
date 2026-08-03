@@ -5,23 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if page.gm_only %}<meta name="robots" content="noindex, nofollow">{% endif %}
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <link rel="icon" href="/crescent.png" type="image/x-icon" />
+    <link rel="icon" href="{{ '/crescent.png' | relative_url }}" type="image/x-icon">
     {% seo %}
     {% include head/fonts.html %}
     {% include head/styles.html %}
 </head>
-<body>
+<body class="adventure-page">
     {% include header.html %}
-
-    <div class="main-layout">
-        <main class="content-flow">
-            {% unless page.url == "/" %}
-                {% include navigation.html %}
-            {% endunless %}
+    <main class="adventure-shell">
+        {% include navigation.html %}
+        {% if page.adventure == "breach-below-bergum" %}{% include adventure-nav.html %}{% endif %}
+        <article class="adventure-content">
             {{ content }}
-        </main>
-
-        {% include sidebar.html %}
-    </div>
+        </article>
+    </main>
 </body>
 </html>
