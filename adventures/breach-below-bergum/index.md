@@ -29,13 +29,11 @@ You are the nearest detectives of the Ministry of Obscure Affairs—plus two loc
 The team combines Ministry expertise with Bergum locals who know the mine—and each other’s reputations.
 
 <div class="card-grid">
-  <article class="character-card"><h3><a href="{{ '/adventures/breach-below-bergum/characters/deputy-wade/' | relative_url }}">Deputy Wade</a></h3><p>A fearless local gunslinger with a direct solution to almost every problem.</p></article>
-  <article class="character-card"><h3><a href="{{ '/adventures/breach-below-bergum/characters/blastmaster-seamus/' | relative_url }}">Blastmaster Seamus</a></h3><p>The mining guild’s brilliant, boisterous demolitions supervisor.</p></article>
-  <article class="character-card"><h3><a href="{{ '/adventures/breach-below-bergum/characters/inquisitor-giulia/' | relative_url }}">Inquisitor Giulia</a></h3><p>A disciplined spiritual investigator who listens closely to the dead.</p></article>
-  <article class="character-card"><h3><a href="{{ '/adventures/breach-below-bergum/characters/inquisitor-boone/' | relative_url }}">Inquisitor Boone</a></h3><p>A jovial Ministry enforcer with one foot near the threshold of death.</p></article>
+  <article class="character-card"><img src="{{ '/assets/adventures/breach-below-bergum/characters/deputy-wade-portrait.png' | relative_url }}" alt="Portrait of Deputy Wade"><h3><a href="{{ '/adventures/breach-below-bergum/characters/deputy-wade/' | relative_url }}">Deputy Wade</a></h3><p><strong>Gunslinger 5 · Versatile Human</strong></p><p>A fearless local gunslinger with a direct solution to almost every problem.</p></article>
+  <article class="character-card"><img src="{{ '/assets/adventures/breach-below-bergum/characters/blastmaster-seamus-portrait.png' | relative_url }}" alt="Portrait of Blastmaster Seamus"><h3><a href="{{ '/adventures/breach-below-bergum/characters/blastmaster-seamus/' | relative_url }}">Blastmaster Seamus</a></h3><p><strong>Alchemist 5 · Skilled Human</strong></p><p>The mining guild’s brilliant, boisterous demolitions supervisor.</p></article>
+  <article class="character-card"><img src="{{ '/assets/adventures/breach-below-bergum/characters/inquisitor-giulia-portrait.png' | relative_url }}" alt="Portrait of Inquisitor Giulia"><h3><a href="{{ '/adventures/breach-below-bergum/characters/inquisitor-giulia/' | relative_url }}">Inquisitor Giulia</a></h3><p><strong>Animist 5 · Versatile Human</strong></p><p>A disciplined spiritual investigator who listens closely to the dead.</p></article>
+  <article class="character-card"><img src="{{ '/assets/adventures/breach-below-bergum/characters/inquisitor-boone-portrait.png' | relative_url }}" alt="Portrait of Inquisitor Boone"><h3><a href="{{ '/adventures/breach-below-bergum/characters/inquisitor-boone/' | relative_url }}">Inquisitor Boone</a></h3><p><strong>Barbarian 5 · Versatile Human</strong></p><p>A jovial Ministry enforcer with one foot near the threshold of death.</p></article>
 </div>
-
-[Browse all characters]({{ '/adventures/breach-below-bergum/characters/' | relative_url }}){: .button-link }
 
 ## Running the adventure
 
