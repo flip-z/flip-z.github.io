@@ -69,6 +69,12 @@
   gap: 1rem;
 }
 
+.card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+@media (max-width: 600px) {
+  .card-grid { grid-template-columns: 1fr; }
+}
+
 .adventure-meta {
   margin: 1.5rem 0;
   padding: 0;
@@ -86,8 +92,55 @@
   box-shadow: 0 5px 20px rgba(41, 28, 60, .07);
 }
 
-.character-card img { border-radius: 8px; aspect-ratio: 16 / 9; object-fit: cover; }
-.character-card h2, .adventure-card h2 { margin-top: 1rem; }
+.character-card img {
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center 15%;
+}
+.character-card h2, .character-card h3, .adventure-card h2 { margin-top: 1rem; }
+
+.character-intro { display: flow-root; }
+
+.character-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .75rem;
+  margin: 1.25rem 0 1.5rem;
+
+  aside {
+    padding: 1rem;
+    border: 1px solid #d8cde2;
+    border-radius: 8px;
+    background: #fff;
+  }
+
+  strong, span { display: block; }
+  strong { margin-bottom: .35rem; color: #6941aa; }
+  span { font-size: .95rem; line-height: 1.5; }
+}
+
+@media (max-width: 700px) {
+  .character-highlights { grid-template-columns: 1fr; }
+}
+
+.character-portrait {
+  float: right;
+  width: min(42%, 320px);
+  margin: 0 0 1.25rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(33, 26, 43, .16);
+}
+
+.character-portrait + p { margin-top: 0; }
+
+@media (max-width: 600px) {
+  .character-portrait {
+    float: none;
+    width: 100%;
+    margin: 1.25rem 0;
+  }
+}
 
 .button-link {
   display: inline-block;
