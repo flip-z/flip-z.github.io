@@ -1,0 +1,113 @@
+difficulty:
+  party_level: 10
+  baseline_dc: 27
+  bands:
+    very_easy: 22
+    easy: 25
+    standard: 27
+    hard: 29
+    very_hard: 32
+  guidance:
+    - Keep most investigation and social checks between 25 and 29.
+    - Required information is never lost on a failed check; failure costs time, position, certainty, or adds another route.
+    - DC 32 represents bypassing preparation or making a difficult inference early.
+
+chase:
+  target_obstacles: 8
+  conditional_obstacle: Reacquire the Hart if it was freed before the rite.
+  obstacle_dc_pattern:
+    best_fit: 25
+    secondary: 29
+    awkward_but_plausible: 32
+  failure_effect: Increase breach pressure rather than ending the chase.
+
+npc_checks:
+  elara_venn:
+    volunteers:
+      - three outbreak symptoms
+      - timeline of recent escalation
+      - useful local contacts and basic town access
+    dc_25:
+      skills: [Diplomacy, Society]
+      result: Learn politically sensitive context about village morale, disputes, and who trusts whom.
+    does_not_know:
+      - the Hart's identity
+      - the old ritual
+
+  maelin_tor:
+    volunteers:
+      - Wolf's Tooth relic
+      - Iron-Maw folklore
+      - archaic mercy and appointed-end language
+      - approximate shrine lore
+    dc_25:
+      skills: [Society, Occultism]
+      result: Organize Maelin's fragmented account into a coherent historical clue.
+    dc_29:
+      skills: [Society, Occultism]
+      result: Infer early that Maelin's use of mercy may mean release or completion rather than healing.
+
+  taran_holt:
+    volunteers_when_shown_relic:
+      - cold iron identification
+      - mounting points
+      - resemblance to an obsolete ceremonial implement
+    cooperation:
+      automatic_if:
+        - party assists with practical shop work
+        - party has earned his practical trust
+        - party brings relevant overlook research
+      otherwise:
+        dc: 27
+        skill: Diplomacy
+    crafting_support:
+      dc: 25
+      skill: Crafting
+      effect: Earn trust faster or improve reconstruction position; failure never blocks reconstruction or damages the relic.
+
+  ewan_rusk:
+    volunteers:
+      - local game has become scarce
+      - parts of his trap line have gone unchecked
+      - route of the trap line
+    follow_trap_line:
+      with_directions_dc: 25
+      without_guide_dc: 27
+      skill: Survival
+    accompany_party:
+      before_evidence_dc: 27
+      skill: Diplomacy
+      after_evidence: substantially easier or automatic
+    bellkeeper: Automatic once he accepts what happened and understands the rite.
+
+  sera_wynn:
+    volunteers:
+      - spirit trail location
+      - shrine existence
+      - access to overlook library
+    research:
+      basic_history: automatic
+      useful_hunt_reference:
+        dc: 25
+        skills: [Society, Lore]
+      bellkeeper_hunter_distinction:
+        dc: 27
+        skills: [Society, Lore]
+      traditional_tool_diagram:
+        dc: 29
+        skills: [Society, Lore]
+        effect: Grants an advantage on reconstruction.
+
+creature_candidates:
+  corrupted_fauna:
+    - Tar Zombie Predator chassis for malformed elk, deer, or wolves; remove undead assumptions and reflavor tar as biological or spiritual corruption.
+    - Giant Anaconda chassis for the tainted-water branch.
+    - Mastodon chassis for an enormous corrupted stag or moose brute.
+  corruption_or_vegetation:
+    - Snapdrake chassis for predatory malformed vegetation.
+  liminal_taster:
+    - Feathered Bear or Strong Guide chassis for a large beast whose spiritual state can be forced toward corporeality; use as a mechanical preview of the Hart.
+    - Phantom Beast as inspiration only; avoid importing precision immunity and broad incorporeal defenses wholesale.
+  hart:
+    target_level: 11
+    note: Build custom; borrow the Feathered Bear idea of shifting from spiritual protection into a vulnerable corporeal state.
