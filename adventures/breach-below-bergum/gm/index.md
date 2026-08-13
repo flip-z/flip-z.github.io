@@ -51,10 +51,10 @@ Use the XP values from the linked published creature and hazard references after
 ## Contents
 
 - [Into the Crypt: complete adventure]({{ '/adventures/breach-below-bergum/gm/adventure/' | relative_url }})
-- [Hazards & bestiary]({{ '/adventures/breach-below-bergum/gm/bestiary/' | relative_url }})
+- [Compendium]({{ '/adventures/breach-below-bergum/gm/compendium/' | relative_url }})
 - [Dungeon map]({{ '/adventures/breach-below-bergum/gm/maps/' | relative_url }})
-- [Barrow Pulse]({{ '/adventures/breach-below-bergum/gm/bestiary/barrow-pulse/' | relative_url }})
-- [Hryngar Retainer]({{ '/adventures/breach-below-bergum/gm/bestiary/hryngar-retainer/' | relative_url }})
-- [Reanimated Hryngar Runelord]({{ '/adventures/breach-below-bergum/gm/bestiary/reanimated-hryngar-runelord/' | relative_url }})
+- [Barrow Pulse]({{ '/adventures/breach-below-bergum/gm/compendium/barrow-pulse/' | relative_url }})
+- [Hryngar Retainer]({{ '/adventures/breach-below-bergum/gm/compendium/hryngar-retainer/' | relative_url }})
+- [Reanimated Hryngar Runelord]({{ '/adventures/breach-below-bergum/gm/compendium/reanimated-hryngar-runelord/' | relative_url }})
 
 <nav class="page-links" aria-label="Page navigation"><span></span><a href="{{ '/adventures/breach-below-bergum/gm/adventure/' | relative_url }}">Next: Into the Crypt →</a></nav>
