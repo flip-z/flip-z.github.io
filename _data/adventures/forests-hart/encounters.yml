@@ -1,20 +1,24 @@
 encounters:
   - id: FH-00
-    name: Enter Coedmyr
+    name: Ministry Arrival
     type: introduction
-    teaches:
-      - corruption affects animals and vegetation
-      - life and death are out of balance
+    premise: The mayor requested Ministry help after a sudden increase in corrupted fauna and a tainted water supply.
+    symptoms:
+      - malformed aggressive wildlife
+      - crop failure
+      - tainted water supply
+    druid_read: The disturbance reflects a broken natural cycle rather than ordinary contamination.
     unresolved:
       - exact opening challenge
   - id: FH-01
-    name: Old Cook and Wolf Relic
-    type: social
+    name: Sage and Wolf Relic
+    type: social-research
     gains:
       - wolf_tooth_relic_found
+      - archaic_mercy_language
     teaches:
       - Iron-Maw folklore
-      - old language frames the relic as mercy or purification
+      - old language frames the relic as mercy, purification, and returning what has strayed to its appointed end
   - id: FH-02
     name: Blacksmith
     type: social-crafting
@@ -23,54 +27,77 @@ encounters:
     gains:
       - weapon_nature_known
       - wolf_tooth_weapon_complete
+    teaches:
+      - the relic is cold iron
+      - it was fashioned to mount as the head of an old ceremonial regional implement
+    support:
+      - the blacksmith can show a modern mundane example
+      - the party can earn shop help by assisting with ordinary work or gaining his favor
+      - overlook library research improves reconstruction
     unresolved:
-      - crafting DC and duration
-      - what the PCs must buy or contribute
+      - final implement form
+      - crafting procedure and DCs
   - id: FH-03
     name: Ruined Shrine
     type: exploration
+    discovery_paths:
+      - overlook attendant mentions the old site
+      - sage provides approximate direction
+      - overlook library contains a reference
+      - perceptive exploration of the spirit trail finds it directly
     gains:
       - shrine_found
       - bell_behavior_known
-    teaches:
-      - an incorrect bell strike briefly suppresses corruption
-      - bellkeeper and hunters were separate roles
+      - ritual_hunt_record
+    restoration: Clear enough overgrowth and debris to traverse the site, expose the bell, and read the carvings.
+    weak_bell_strike:
+      duration: less than one round
+      effects:
+        - pale aura flashes around the shrine
+        - nearby corruption is suppressed for an instant
+        - carvings establish separate bellkeeper and hunter roles
     unresolved:
-      - how the shrine is located
-      - restoration task
-      - exact aura rules
+      - exact aura rules for the finale
   - id: FH-04
-    name: Hunter and First Hart Encounter
+    name: Hunter and Hart Source
     type: encounter
+    setup: The hunter has not checked his trap line because local game has dwindled. Following that line leads the party to the Hart and the center of the recent outburst.
+    hunter_knowledge: He did not know the Hart had reached one of his unattended traps or that this event corresponded with the sudden escalation.
+    player_options:
+      - release the Hart early
+      - test ordinary approaches and learn that they do not resolve its condition
+      - leave the Hart at the known source while preparing the old rite
     gains:
-      - hunt_method_known
-    teaches:
-      - ordinary methods do not resolve the Hart's condition
-      - sustained pursuit exhausts it
+      - hart_source_known
+    consequences:
+      release_early: The Hart must be located again when the party is ready, adding an extra pursuit obstacle and extending pressure on the bellkeeper.
+      leave_in_place: The final hunt can begin from a known starting point once the bellkeeper begins the rite.
     unresolved:
-      - whether the Hart begins caught in a trap
-      - encounter objective and departure rule
-      - alternate information path if the party stays behind
+      - exact first-encounter behavior
   - id: FH-05
     name: Recruit Bellkeeper
     type: social-training
     gains:
       - bellkeeper_recruited
-    unresolved:
-      - exact candidate
-      - required proof or social threshold
-      - training procedure
+    default_candidate: npc-hunter
+    alternate_candidates: Any willing competent villager who accepts the reconstructed rite.
+    teaches:
+      - someone must remain at the shrine and maintain the bell while the party follows the Hart
+    no_helper: One PC remains at the shrine for the pursuit.
   - id: FH-FINAL
     name: Ritual Hunt
     type: chase-and-encounter
     requires:
       - wolf_tooth_weapon_complete
-    uses:
       - shrine_found
-      - hunt_method_known
+      - truth_known
+    uses:
+      - hart_source_known
+      - hart_freed_early
       - bellkeeper_recruited
     phases:
-      - activate bell
-      - pursue and exhaust Hart
-      - resolve shrine phase
-      - complete final passage
+      - coordinate bellkeeper and hunters
+      - begin the bell and release or reacquire the Hart
+      - drive the Hart toward the shrine
+      - resolve shrine pressure
+      - complete the Hart's natural passage
