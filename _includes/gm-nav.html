@@ -1,6 +1,8 @@
+{% assign adventure_slug = page.adventure | default: 'breach-below-bergum' %}
+{% assign gm_root = '/adventures/' | append: adventure_slug | append: '/gm/' %}
 <nav class="gm-nav" aria-label="Game master contents">
-    <a href="{{ '/adventures/breach-below-bergum/gm/' | relative_url }}">GM Overview</a>
-    <a href="{{ '/adventures/breach-below-bergum/gm/adventure/' | relative_url }}">Adventure</a>
-    <a href="{{ '/adventures/breach-below-bergum/gm/maps/' | relative_url }}">Maps</a>
-    <a href="{{ '/adventures/breach-below-bergum/gm/bestiary/' | relative_url }}">Hazards &amp; Bestiary</a>
+    <a href="{{ gm_root | relative_url }}">GM Overview</a>
+    <a href="{{ gm_root | append: 'adventure/' | relative_url }}">Adventure</a>
+    <a href="{{ gm_root | append: 'maps/' | relative_url }}">Maps</a>
+    <a href="{{ gm_root | append: 'compendium/' | relative_url }}">Compendium</a>
 </nav>
