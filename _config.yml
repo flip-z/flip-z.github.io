@@ -13,7 +13,6 @@ highlighter: rouge
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-redirect-from
 
 # GitHub Pages compatibility
 repository: flip-z/flip-z.github.io
