@@ -1,0 +1,49 @@
+target_sessions: 3
+
+session_1:
+  focus: arrival and local crisis
+  beats:
+    - mayor briefing
+    - early investigation
+    - dawn_or_dusk_town_incursion
+    - initial social leads
+
+town_incursion:
+  timing: dawn or dusk
+  role: make the regional threat immediate and connect multiple outbreak symptoms
+  structure: several simultaneous town objectives rather than one chokepoint
+  examples:
+    - defend the water access
+    - protect civilians or livestock
+    - contain a larger malformed animal
+  clue: tracks and surviving signs point toward the same forest region as Ewan Rusk's neglected trap line
+
+session_2:
+  focus: reconstruct the forgotten tradition and reach the Hart source
+  beats:
+    - overlook, sage, smith, and shrine in flexible order
+    - liminal_beast_on_trap_line
+    - Hart source discovery
+
+liminal_beast_on_trap_line:
+  placement: on the way to or from the Hart source
+  role:
+    - substantial wilderness pressure before the finale
+    - preview the Hart's liminal defensive concept
+    - show that animals become stranger closer to the source
+  suggested_chassis: Feathered Bear or Strong Guide, reflavored as a corrupted local beast
+  support: lower-level malformed local fauna
+  preview_mechanic: the large beast shifts from spiritual protection toward a more vulnerable corporeal state under the right conditions
+
+session_3:
+  focus: complete preparations and perform the rite
+  beats:
+    - finish missing preparation
+    - recruit or assign bellkeeper
+    - eight-obstacle pursuit
+    - shrine finale
+
+additional_encounter_policy:
+  default: Do not add another mandatory major fight before playtesting pacing.
+  reason: The three-session shape already contains a town set piece, wilderness beast encounter, Hart source interaction, eight-obstacle pursuit, and finale.
+  optional_candidate: A short shrine-boundary test after the weak bell strike, used only if Session 2 needs more pressure. It should demonstrate that even the momentary aura suppresses nearby corruption and should remain smaller than the town or wilderness encounters.
