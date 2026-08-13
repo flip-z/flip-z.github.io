@@ -1,0 +1,28 @@
+party:
+  size: 4
+  level: 10
+characters:
+  - id: pc-twilight-druid
+    name: TBD
+    class: Druid
+    subclass: Order of Twilight
+    role: spiritual investigator and primary interpreter of the disturbance
+    order_skill: Occultism
+    order_spell: Cycle Life and Death
+    feat: Tapetum Lucidum
+    feat_effect: gains darkvision; eyes gleam in dim light or darkness without shedding light
+    anathema: prevent the natural passage from life to death; bind or reanimate the unwilling dead; deny the dead their return to the earth
+    mock_fields_needed:
+      - ancestry
+      - background
+      - key skills and modifiers
+      - prepared spells
+      - relevant feats
+      - equipment
+      - motivation
+  - id: pc-2
+    status: TBD
+  - id: pc-3
+    status: TBD
+  - id: pc-4
+    status: TBD
