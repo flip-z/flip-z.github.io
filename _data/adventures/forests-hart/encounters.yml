@@ -1,0 +1,76 @@
+encounters:
+  - id: FH-00
+    name: Enter Coedmyr
+    type: introduction
+    teaches:
+      - corruption affects animals and vegetation
+      - life and death are out of balance
+    unresolved:
+      - exact opening challenge
+  - id: FH-01
+    name: Old Cook and Wolf Relic
+    type: social
+    gains:
+      - wolf_tooth_relic_found
+    teaches:
+      - Iron-Maw folklore
+      - old language frames the relic as mercy or purification
+  - id: FH-02
+    name: Blacksmith
+    type: social-crafting
+    requires:
+      - wolf_tooth_relic_found
+    gains:
+      - weapon_nature_known
+      - wolf_tooth_weapon_complete
+    unresolved:
+      - crafting DC and duration
+      - what the PCs must buy or contribute
+  - id: FH-03
+    name: Ruined Shrine
+    type: exploration
+    gains:
+      - shrine_found
+      - bell_behavior_known
+    teaches:
+      - an incorrect bell strike briefly suppresses corruption
+      - bellkeeper and hunters were separate roles
+    unresolved:
+      - how the shrine is located
+      - restoration task
+      - exact aura rules
+  - id: FH-04
+    name: Hunter and First Hart Encounter
+    type: encounter
+    gains:
+      - hunt_method_known
+    teaches:
+      - ordinary methods do not resolve the Hart's condition
+      - sustained pursuit exhausts it
+    unresolved:
+      - whether the Hart begins caught in a trap
+      - encounter objective and departure rule
+      - alternate information path if the party stays behind
+  - id: FH-05
+    name: Recruit Bellkeeper
+    type: social-training
+    gains:
+      - bellkeeper_recruited
+    unresolved:
+      - exact candidate
+      - required proof or social threshold
+      - training procedure
+  - id: FH-FINAL
+    name: Ritual Hunt
+    type: chase-and-encounter
+    requires:
+      - wolf_tooth_weapon_complete
+    uses:
+      - shrine_found
+      - hunt_method_known
+      - bellkeeper_recruited
+    phases:
+      - activate bell
+      - pursue and exhaust Hart
+      - resolve shrine phase
+      - complete final passage
