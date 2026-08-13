@@ -1,34 +1,63 @@
 npcs:
-  - id: npc-old-cook
-    name: TBD
-    role: eccentric believer and keeper of the Wolf's Tooth relic
-    belief: the Hart can be purified or shown mercy through the old traditions
+  - id: npc-sage
+    name: Maelin Tor
+    role: elderly sage and keeper of the Wolf's Tooth relic
+    public_reputation: Knows old Coedmyr traditions but communicates elliptically enough that many villagers dismiss him as a kook.
+    belief: The Hart can be shown mercy by restoring the old traditions, though his archaic language obscures what mercy originally meant.
     knows:
       - Iron-Maw folklore
       - archaic hunting vocabulary
-      - approximate shrine tradition or location
+      - the Wolf's Tooth is associated with the old spiritual hunt
+      - approximate directions to the old shrine
     provides:
       - Wolf's Tooth relic
+      - archaic_mercy_language clue
+
   - id: npc-blacksmith
-    name: TBD
-    role: practical skeptic and crafting expert
-    belief: village folklore is mostly irrelevant to current problems
+    name: Taran Holt
+    role: practical blacksmith and skeptical local craftsman
+    public_reputation: Busy, capable, and uninterested in village mysticism unless it produces a practical problem.
+    belief: Most surviving Hart folklore is unreliable, but old tools can still be understood by how they were made.
     knows:
-      - relic is designed to mount on a haft
-      - construction resembles an obsolete ceremonial hunting implement
-    condition: PCs must establish a practical reason to use the shop
+      - the Wolf's Tooth is cold iron
+      - it was fashioned to mount on a haft
+      - its shape corresponds to an obsolete ceremonial regional polearm or mace head
+    functions:
+      - shows the party a mundane completed analogue
+      - helps reconstruct the traditional implement after the party earns his cooperation
+    cooperation_paths:
+      - assist with ordinary shop work
+      - gain his practical trust elsewhere
+    research_synergy: Overlook library material about traditional Coedmyr tools makes reconstruction easier.
+
   - id: npc-hunter
-    name: TBD
-    role: skeptical hunter and potential bellkeeper
-    belief: the Hart can be treated as an ordinary dangerous animal until evidence proves otherwise
+    name: Ewan Rusk
+    role: skeptical local hunter and default bellkeeper candidate
+    public_reputation: Experienced woodsman frustrated by the collapse of local game populations.
+    belief: The region's problems have mundane causes until direct evidence changes his mind.
+    situation: He has neglected parts of his trap line because game has become scarce. He does not know that the Hart reached one of those unattended traps or that this corresponds with the recent escalation.
     functions:
-      - initiates or joins the first Hart encounter
-      - can return injured with information if the party does not accompany him
-      - can become a bellkeeper candidate
-  - id: npc-authority
-    name: TBD
-    role: village authority or civic representative
-    belief: TBD
+      - tells the party where his trap line runs
+      - can guide the party toward the Hart's current source location
+      - is the most natural bellkeeper candidate after seeing enough evidence
+
+  - id: npc-mayor
+    name: Elara Venn
+    role: mayor of Coedmyr and Ministry contact
+    belief: The village is facing a dangerous environmental or supernatural outbreak and needs outside help before panic finishes what the failing land started.
     functions:
-      - contextualize crop failure and local stakes
-      - respond to the party's conclusions
+      - requested Ministry assistance
+      - briefs the party on tainted water, failed crops, and aggressive malformed wildlife
+      - provides civic context and access to local records
+
+  - id: npc-overlook-attendant
+    name: Sera Wynn
+    role: attendant at the old pilgrimage overlook
+    belief: Most pilgrimage customs are cultural remnants, but the old spirit trail and shrine are real places worth preserving.
+    knows:
+      - the route of the spirit trail
+      - the existence of the old shrine
+      - where relevant local records are kept in the overlook library
+    functions:
+      - provides one independent route to discovering the shrine
+      - directs research toward old hunt and tool traditions
