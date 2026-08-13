@@ -1,38 +1,77 @@
 finale:
   id: FH-FINAL
   name: Ritual Hunt
+
+  prerequisites:
+    required:
+      - wolf_tooth_weapon_complete
+      - shrine_found
+      - truth_known
+    advantages:
+      - hart_source_known
+      - bellkeeper_recruited
+      - traditional_tool_research
+
   trigger:
-    action: strike_shrine_bell
+    action: strike_shrine_bell_with_wolf_tooth
     required_item: wolf_tooth_weapon_complete
+    effect: The bell produces a sustained aura and calls the Hart toward the old shrine without fully compelling its route.
+
   bell:
-    calls_hart_to_shrine: true
     suppresses_corruption: true
     maintenance_required: true
-    helper_effect: bellkeeper_recruited frees a PC from maintaining the shrine
+    helper_effect: A recruited bellkeeper allows all four PCs to join the pursuit.
+    no_helper_effect: One PC remains at the shrine for the duration of the pursuit.
+    interruption_effect: Each interruption increases breach pressure at the shrine.
+
+  starting_state:
+    hart_trapped: The party can begin from the known trap-line source and release the Hart when the bell begins.
+    hart_freed_early: The party must first relocate the Hart, adding one pursuit obstacle before the normal route.
+
   pursuit:
     structure: modified_pf2e_chase
-    known_destination: shrine
-    objective: build_hart_exhaustion_before_arrival
-    failure_costs:
-      - stronger_corruption_at_shrine
-      - more_side_pressure
-      - less_exhausted_hart
+    destination: shrine
+    objective: Keep contact with the Hart and drive it toward the shrine while preventing its corrupted wake from reaching the bellkeeper first.
+    skip_prevention: Waiting at the shrine does not complete the rite; the Hart is called in that direction but must be actively driven along the old hunt route.
+    success_measure: breach_pressure
+    initial_breach_pressure: 0
+    on_obstacle_failure: increase breach_pressure by 1
     obstacle_types:
-      - corrupted_terrain
-      - malformed_vegetation
-      - voidspawn
-      - broken_paths
+      - relocate_hart_if_freed_early
       - maintain_contact
+      - corrupted_terrain
+      - malformed_fauna
+      - broken_spirit_trail
+    shrine_consequences:
+      low_pressure: bellkeeper is secure and the aura is intact
+      medium_pressure: bellkeeper has been interrupted and one complication begins inside the aura
+      high_pressure: multiple complications have crossed the boundary and the party arrives to an unstable shrine phase
+
   shrine_phase:
+    purpose: Protect the active bell, clear accumulated breach pressure, and strip the Hart's remaining liminal corruption within the shrine aura.
     exact_rules: TBD
-    success_state: Hart sufficiently exhausted and liminal corruption sufficiently shed
+    final_state: The Hart is exposed within the active shrine and the Wolf's Tooth can complete the rite.
+
   final_action:
+    name: Complete the Passage
+    actions: 1
     required_item: wolf_tooth_weapon_complete
-    effect: completes the Hart's natural passage
+    requirements:
+      - adjacent_to_hart
+      - shrine_aura_active
+      - hart_exposed
+    check: none
+    effect: The player deliberately uses the Wolf's Tooth to complete the old rite and the Hart's natural passage.
+    design_note: The encounter challenge is creating this state; the adventure does not hinge on one final d20 roll.
+
+  failure:
+    primary: The party is defeated or abandons the active rite.
+    consequence: The Coedmyr corruption continues to worsen and may damage the old shrine, creating a larger regional problem for later adventures.
+
   unresolved:
-    - number of chase obstacles
-    - exhaustion thresholds
-    - exact bell maintenance action cost
-    - exact aura radius and side-creature effects
+    - number and exact content of normal pursuit obstacles
+    - breach pressure thresholds
+    - exact bellkeeper interruption procedure
+    - exact aura radius and suppression rules
     - shrine-phase stat block and difficulty
-    - failure thresholds and village consequences
+    - exact long-term failure consequence
