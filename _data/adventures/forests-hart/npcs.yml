@@ -1,0 +1,34 @@
+npcs:
+  - id: npc-old-cook
+    name: TBD
+    role: eccentric believer and keeper of the Wolf's Tooth relic
+    belief: the Hart can be purified or shown mercy through the old traditions
+    knows:
+      - Iron-Maw folklore
+      - archaic hunting vocabulary
+      - approximate shrine tradition or location
+    provides:
+      - Wolf's Tooth relic
+  - id: npc-blacksmith
+    name: TBD
+    role: practical skeptic and crafting expert
+    belief: village folklore is mostly irrelevant to current problems
+    knows:
+      - relic is designed to mount on a haft
+      - construction resembles an obsolete ceremonial hunting implement
+    condition: PCs must establish a practical reason to use the shop
+  - id: npc-hunter
+    name: TBD
+    role: skeptical hunter and potential bellkeeper
+    belief: the Hart can be treated as an ordinary dangerous animal until evidence proves otherwise
+    functions:
+      - initiates or joins the first Hart encounter
+      - can return injured with information if the party does not accompany him
+      - can become a bellkeeper candidate
+  - id: npc-authority
+    name: TBD
+    role: village authority or civic representative
+    belief: TBD
+    functions:
+      - contextualize crop failure and local stakes
+      - respond to the party's conclusions
