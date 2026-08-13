@@ -1,0 +1,71 @@
+adventure:
+  id: forests-hart
+  system: Pathfinder Second Edition
+  party_size: 4
+  party_level: 10
+  level_plan:
+    breach_below_bergum: 5
+    forests_hart: 10
+    ash_communion: 15
+    intent: Use level as an anthology capability progression, not as a proxy for session count.
+
+case:
+  caller: npc-mayor
+  initial_problem:
+    - malformed aggressive wildlife
+    - crop failure
+    - tainted water supply
+  party_initial_knowledge: The Ministry knows these symptoms may be connected but does not initially know about the Hart or the forgotten rite.
+  slow_cause: Coedmyr has ignored the old spiritual hunt for generations, producing a gradual decline in the land and its traditions.
+  sudden_trigger: The Hart reached an unattended trap on Ewan Rusk's neglected trap line, causing the recent escalation. Ewan does not initially know this happened.
+  druid_initial_read: The apparent void influence is an imbalance in the natural cycle affecting local life.
+
+investigation:
+  hart_source:
+    primary_route: Learn about Ewan Rusk's neglected trap line and follow it to the source.
+    early_release: Allowed; later requires the party to locate the Hart again before the final pursuit.
+  shrine_discovery:
+    - Sera Wynn at the overlook
+    - Maelin Tor's approximate directions
+    - overlook library research
+    - direct discovery while exploring the spirit trail
+  shrine_restoration: Clear growth and debris only; expose the bell, make the site traversable, and reveal the carvings.
+  weak_bell_response: An ordinary strike produces a sub-round pale aura that briefly suppresses nearby corruption but cannot sustain the rite.
+  truth_rule:
+    required_clue_categories: 2
+    categories:
+      - Maelin Tor's archaic mercy and appointed-end language
+      - Taran Holt's recognition that the Wolf's Tooth was made to mount as a traditional implement
+      - shrine or library records describing the old spiritual hunt
+
+relic:
+  name: Wolf's Tooth
+  folklore: A supposed cold-iron tooth of the mythical Iron-Maw, the great wolf invoked by Coedmyr hunters to guide spiritual hunts.
+  blacksmith_read:
+    - material is cold iron
+    - form was deliberately made to mount on a haft
+    - shape matches an obsolete ceremonial Coedmyr implement
+  reconstruction: Taran Holt can show a mundane analogue and assist after the party earns his cooperation. Overlook research provides an advantage.
+
+finale:
+  chase_logic: The bell calls the Hart toward the shrine but does not compel its route; the party must stay with it and drive it along the old hunt path.
+  chase_measure: breach pressure
+  chase_failure_effect: Problems from the Hart's wake reach the bellkeeper before the party, making the shrine phase less stable.
+  no_bellkeeper: One PC remains at the shrine during the pursuit.
+  final_action: Once the active shrine has exposed the Hart and the character is in position with the Wolf's Tooth, completing the rite costs one action and requires no final check.
+
+party:
+  - class: Druid
+    subclass: Order of Twilight
+    emphasis: Wisdom; natural-cycle and spiritual interpretation
+  - class: Investigator
+    methodology: Forensic Medicine
+    emphasis: Intelligence; physical evidence, medicine, and reconstruction
+  - class: Rogue
+    racket: Scoundrel
+    emphasis: Dexterity with Charisma priority; social investigation and liaison work
+  - class: Fighter
+    emphasis: Strength or Dexterity; Crafting, Survival, and practical fieldwork
+  replaced_concept:
+    class: Commander
+    reason: Commander and Investigator are both Intelligence-oriented, while the Druid already fills the story's lead-specialist role. A Scoundrel Rogue adds dedicated social coverage without another spellcaster.
