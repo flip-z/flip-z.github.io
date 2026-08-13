@@ -10,68 +10,63 @@ permalink: /adventures/forests-hart/gm/design/workflow/
 # Workflow Design
 {: tabindex="-1" }
 
-_Status: working playtest design._
+_Status: working playtest design. Canonical state lives in `_data/adventures/forests-hart/`._
 
 ## Core arc
 
-1. Enter Coedmyr through the corrupted Hart's wake.
-2. Explore competing village beliefs while assuming the Hart must be saved or purified.
-3. Recover practical preparations whose original purpose has been forgotten.
-4. Reinterpret those preparations and realize the Hart is trapped between life and death.
-5. Perform the ritual hunt: activate the bell, pursue and exhaust the Hart, reach the shrine, and complete its natural passage.
+1. The Ministry arrives after Mayor Elara Venn reports malformed wildlife, crop failure, and a tainted water supply.
+2. Investigation reveals a long spiritual decline and traces the recent escalation to Ewan Rusk's neglected trap line.
+3. The party recovers the Wolf's Tooth, studies old Coedmyr traditions, reconstructs the ceremonial implement, and finds the forgotten shrine.
+4. Connecting at least two independent clue categories reveals that the old rite was a spiritual hunt and that helping the Hart means completing its interrupted natural passage.
+5. The party activates the shrine bell, follows and drives the Hart toward the shrine, manages consequences from its corrupted wake, and completes the rite with the Wolf's Tooth.
 
 ## Preparation model
 
-- **FH-01 — Wolf's Tooth relic:** recover the essential ritual object.
-- **FH-02 — Blacksmith:** recognize the relic as a weapon component and reconstruct it with PC participation.
-- **FH-03 — Shrine:** discover the bell, protective aura, destination, and separate bellkeeper role.
-- **FH-04 — Hunter encounter:** learn that ordinary force does not resolve the Hart and that pursuit can exhaust it.
-- **FH-05 — Bellkeeper:** recruit and train a local so the full party can participate in the pursuit.
+- **FH-01 — Maelin Tor:** obtain the Wolf's Tooth and archaic language about mercy and an appointed end.
+- **FH-02 — Taran Holt:** identify the cold-iron relic as part of a traditional implement and reconstruct it with the party's help.
+- **FH-03 — Shrine and overlook:** discover the bell, aura, separate bellkeeper role, and records of the old spiritual hunt.
+- **FH-04 — Ewan's trap line:** locate the Hart and learn that ordinary intervention does not resolve the disturbance. Freeing it early is allowed but makes later reacquisition necessary.
+- **FH-05 — Bellkeeper:** recruit Ewan or another willing villager so all four PCs can join the pursuit.
 
-Only the reconstructed Wolf's Tooth is currently intended as a true gate. Other missing preparations increase final difficulty.
+The reconstructed Wolf's Tooth, shrine, and reconstructed truth are required before the final rite. Other preparation changes how difficult the final sequence becomes.
 
 ## Finale
 
 **Trigger:** Strike the shrine bell with the reconstructed Wolf's Tooth.
 
-**Pursuit:** Use a modified PF2e chase structure. Success keeps pressure on the Hart and builds exhaustion. Failure carries remaining corruption and stronger pressure into the shrine phase.
+**Pursuit:** The bell calls the Hart toward the shrine but does not compel its route. The party must keep contact and drive it along the old hunt path. Failed obstacles increase **breach pressure**, representing corrupted problems reaching the bellkeeper first.
 
-**Shrine:** The maintained bell aura suppresses or excludes corrupted side threats while the Hart is brought to its final vulnerable state.
+**Shrine:** Breach pressure determines how unstable the shrine phase is when the party arrives. The maintained aura suppresses corruption while the party protects the rite and exposes the Hart beneath its liminal corruption.
 
-**Final passage:** The Wolf's Tooth reaches the mortal creature beneath the remaining liminal corruption.
+**Final passage:** Once the Hart is exposed inside the active aura, a character adjacent to it can spend 1 action with the Wolf's Tooth to complete the rite. No final check is required.
 
 ## Dependency graph
 
 ```mermaid
 flowchart TD
-    ENTRY["FH-00 Enter Coedmyr"]
-    COOK["FH-01 Old Cook<br/>Wolf's Tooth relic"]
-    SMITH["FH-02 Blacksmith<br/>Weapon knowledge + forge"]
-    SHRINE["FH-03 Ruined Shrine<br/>Bell + aura"]
-    HUNTER["FH-04 Hunter Encounter<br/>Pursuit + exhaustion"]
-    KEEPER["FH-05 Bellkeeper<br/>Free party action economy"]
-    WEAPON["Reconstruct Wolf's Tooth"]
-    TRUTH["Reconstruct the truth"]
+    ENTRY["FH-00 Ministry arrives"]
+    SAGE["FH-01 Maelin Tor<br/>Wolf's Tooth + old language"]
+    SMITH["FH-02 Taran Holt<br/>Identify + reconstruct implement"]
+    SHRINE["FH-03 Shrine / overlook<br/>Bell + hunt records"]
+    HUNTER["FH-04 Ewan's trap line<br/>Locate Hart"]
+    KEEPER["FH-05 Bellkeeper<br/>Free full party for pursuit"]
+    TRUTH["Connect 2 clue categories"]
     FINAL["FH-FINAL Ritual Hunt"]
 
-    ENTRY --> COOK
+    ENTRY --> SAGE
     ENTRY --> SHRINE
     ENTRY --> HUNTER
-    COOK --> SMITH
-    SMITH --> WEAPON
-    SHRINE --> KEEPER
-    HUNTER --> KEEPER
-    COOK --> TRUTH
+    SAGE --> SMITH
+    SAGE --> TRUTH
     SMITH --> TRUTH
     SHRINE --> TRUTH
-    HUNTER --> TRUTH
-    WEAPON --> FINAL
+    SMITH --> FINAL
     SHRINE --> FINAL
-    HUNTER --> FINAL
     TRUTH --> FINAL
+    HUNTER --> FINAL
     KEEPER -. advantage .-> FINAL
 ```
 
 ## Mock test rule
 
-For each simulated path, record what the party currently believes, what options they know exist, what action they are most likely to take next, whether any missing content creates an arbitrary dead end, and how each preparation changes the finale.
+For each simulated path, record what the party currently believes, what options they know exist, what action they are most likely to take next, whether missing content creates an arbitrary dead end, and how each preparation changes the finale.
