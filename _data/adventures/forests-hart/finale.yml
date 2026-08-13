@@ -1,0 +1,38 @@
+finale:
+  id: FH-FINAL
+  name: Ritual Hunt
+  trigger:
+    action: strike_shrine_bell
+    required_item: wolf_tooth_weapon_complete
+  bell:
+    calls_hart_to_shrine: true
+    suppresses_corruption: true
+    maintenance_required: true
+    helper_effect: bellkeeper_recruited frees a PC from maintaining the shrine
+  pursuit:
+    structure: modified_pf2e_chase
+    known_destination: shrine
+    objective: build_hart_exhaustion_before_arrival
+    failure_costs:
+      - stronger_corruption_at_shrine
+      - more_side_pressure
+      - less_exhausted_hart
+    obstacle_types:
+      - corrupted_terrain
+      - malformed_vegetation
+      - voidspawn
+      - broken_paths
+      - maintain_contact
+  shrine_phase:
+    exact_rules: TBD
+    success_state: Hart sufficiently exhausted and liminal corruption sufficiently shed
+  final_action:
+    required_item: wolf_tooth_weapon_complete
+    effect: completes the Hart's natural passage
+  unresolved:
+    - number of chase obstacles
+    - exhaustion thresholds
+    - exact bell maintenance action cost
+    - exact aura radius and side-creature effects
+    - shrine-phase stat block and difficulty
+    - failure thresholds and village consequences
