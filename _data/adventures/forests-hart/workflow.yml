@@ -1,0 +1,28 @@
+adventure: forests-hart
+status: pre-playtest
+core_arc:
+  - id: FH-00
+    name: Enter Coedmyr
+  - id: FH-INVESTIGATE
+    name: Explore Coedmyr
+  - id: FH-PREPARE
+    name: Recover forgotten preparations
+  - id: FH-REVEAL
+    name: Reconstruct the truth
+  - id: FH-FINAL
+    name: Ritual Hunt
+hard_gates:
+  - wolf_tooth_weapon_complete
+advantages:
+  - shrine_found
+  - hunt_method_known
+  - bellkeeper_recruited
+state_variables:
+  wolf_tooth_relic_found: false
+  weapon_nature_known: false
+  wolf_tooth_weapon_complete: false
+  shrine_found: false
+  bell_behavior_known: false
+  hunt_method_known: false
+  bellkeeper_recruited: false
+  truth_known: false
