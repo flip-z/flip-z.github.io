@@ -29,4 +29,4 @@ The source map is unlabeled. Use this key with the preview:
 
 [Download full-resolution map]({{ '/assets/adventures/breach-below-bergum/maps/dungeon-map-full.png' | relative_url }}){: .button-link }
 
-<nav class="page-links" aria-label="Page navigation"><a href="{{ '/adventures/breach-below-bergum/gm/bestiary/' | relative_url }}">← Hazards &amp; bestiary</a><a href="{{ '/adventures/breach-below-bergum/gm/' | relative_url }}">GM contents</a><span></span></nav>
+<nav class="page-links" aria-label="Page navigation"><a href="{{ '/adventures/breach-below-bergum/gm/compendium/' | relative_url }}">← Compendium</a><a href="{{ '/adventures/breach-below-bergum/gm/' | relative_url }}">GM contents</a><span></span></nav>
