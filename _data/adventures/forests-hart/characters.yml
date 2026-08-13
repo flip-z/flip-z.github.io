@@ -6,23 +6,68 @@ characters:
     name: TBD
     class: Druid
     subclass: Order of Twilight
-    role: spiritual investigator and primary interpreter of the disturbance
+    role: spiritual investigator and interpreter of the disturbance
+    primary_coverage:
+      - Occultism
+      - Nature
+      - spiritual research
+    automatic_case_read: Can identify the corruption as an imbalance in the natural cycle and recognize corrupted fauna as local life altered by that imbalance. Does not automatically know the old Coedmyr rite.
     order_skill: Occultism
     order_spell: Cycle Life and Death
     feat: Tapetum Lucidum
-    feat_effect: gains darkvision; eyes gleam in dim light or darkness without shedding light
-    anathema: prevent the natural passage from life to death; bind or reanimate the unwilling dead; deny the dead their return to the earth
     mock_fields_needed:
       - ancestry
       - background
-      - key skills and modifiers
+      - skill modifiers
       - prepared spells
       - relevant feats
       - equipment
       - motivation
-  - id: pc-2
-    status: TBD
-  - id: pc-3
-    status: TBD
-  - id: pc-4
-    status: TBD
+  - id: pc-commander
+    name: TBD
+    class: Commander
+    role: Ministry field leader and social coordinator
+    recommended_coverage:
+      - Diplomacy
+      - Society
+      - Intimidation
+      - group coordination
+    mock_fields_needed:
+      - subclass or doctrine
+      - skill modifiers
+      - tactics
+      - equipment
+      - motivation
+  - id: pc-investigator
+    name: TBD
+    class: Investigator
+    methodology: Forensic Medicine
+    role: evidence reconstruction and practical medical support
+    recommended_coverage:
+      - Medicine
+      - Society
+      - Perception
+      - investigative Recall Knowledge
+    mock_fields_needed:
+      - skill modifiers
+      - feats
+      - methodology abilities
+      - equipment
+      - motivation
+  - id: pc-fighter
+    name: TBD
+    class: Fighter
+    role: martial specialist and practical field hand
+    recommended_coverage:
+      - Crafting
+      - Athletics
+      - Survival
+    design_note: A practical or artisan background can give this character meaningful ownership of the blacksmith and fieldcraft branches.
+    mock_fields_needed:
+      - ancestry
+      - background
+      - skill modifiers
+      - feats
+      - weapon group
+      - equipment
+      - motivation
