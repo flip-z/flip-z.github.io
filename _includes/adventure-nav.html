@@ -1,5 +1,7 @@
-<nav class="adventure-nav" aria-label="Breach Below Bergum">
-    <a href="{{ '/adventures/breach-below-bergum/' | relative_url }}">Overview</a>
-    <a href="{{ '/adventures/breach-below-bergum/#choose-an-investigator' | relative_url }}">Characters</a>
-    <a href="{{ '/adventures/breach-below-bergum/gm/' | relative_url }}">GM Access</a>
+{% assign adventure_slug = page.adventure | default: 'breach-below-bergum' %}
+{% assign adventure_root = '/adventures/' | append: adventure_slug | append: '/' %}
+<nav class="adventure-nav" aria-label="Adventure navigation">
+    <a href="{{ adventure_root | relative_url }}">Overview</a>
+    <a href="{{ adventure_root | append: '#choose-an-investigator' | relative_url }}">Characters</a>
+    <a href="{{ adventure_root | append: 'gm/' | relative_url }}">GM Access</a>
 </nav>
