@@ -20,4 +20,16 @@ These are tabletop roleplaying adventures and play materials: spoiler-free intro
   <a class="button-link" href="{{ '/adventures/breach-below-bergum/' | relative_url }}">View the adventure</a>
 </section>
 
+<section class="adventure-card">
+  <p class="eyebrow">Pathfinder Second Edition · Pre-playtest</p>
+  <h2>Forest's Hart</h2>
+  <p>Coedmyr is failing beneath a spreading disturbance in the old mountain forest. Ministry investigators arrive to save what remains and discover that the village's forgotten hunting traditions mean something very different from what its surviving stories suggest.</p>
+  <ul class="adventure-meta">
+    <li><strong>Party</strong> Four pregenerated characters in development</li>
+    <li><strong>Format</strong> 2–3 session investigation sandbox</li>
+    <li><strong>System</strong> Pathfinder Second Edition</li>
+  </ul>
+  <a class="button-link" href="{{ '/adventures/forests-hart/' | relative_url }}">View the adventure</a>
+</section>
+
 <p class="legal-note">Pathfinder and associated marks are property of Paizo Inc. This independent fan material is not an official Paizo product and does not imply endorsement.</p>
