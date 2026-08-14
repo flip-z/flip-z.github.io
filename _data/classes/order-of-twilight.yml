@@ -1,0 +1,96 @@
+name: Order of Twilight
+system: Pathfinder Second Edition
+status: draft
+
+order:
+  skill: Occultism
+  feat: Tapetum Lucidum
+  spell: Cycle Life and Death
+  anathema:
+    - prevent the natural passage from life to death
+    - bind or reanimate unwilling dead
+    - deny the dead their return to the earth
+
+feat_cadence:
+  - 1
+  - 4
+  - 6
+  - 8
+  - 10
+  - 16
+  - 18
+  note: Mirrors the density of established order-specific feat support such as the Storm order; a Twilight druid is not expected to take every feat.
+
+feats:
+  - level: 1
+    name: Tapetum Lucidum
+    traits: [Druid]
+    prerequisite: Order of Twilight
+    effect: You gain darkvision. In dim light or darkness, your eyes reflect a pale gold, green, silver, or ash-blue gleam without shedding light.
+    role: establishes the order's visual identity and comfort at the boundary between light and darkness
+
+  - level: 4
+    name: Read the Cycle
+    traits: [Druid]
+    prerequisite: Order of Twilight
+    effect:
+      - When you Recall Knowledge about a living creature, undead, spirit, haunt, or a creature altered by vitality, void, or soul magic, you can use Nature or Occultism, whichever is more appropriate or higher.
+      - On a success, in addition to the normal information, you learn whether the creature's current relationship to life and death appears natural, corrupted, artificially sustained, or displaced.
+      - On a critical success, you also learn one relevant interaction involving vitality, void, spirit, healing, or the effect sustaining its unnatural state, if one exists.
+    role: investigation and diagnosis without automatically revealing the solution to a mystery
+
+  - level: 6
+    name: Sever the Tether
+    traits: [Druid]
+    prerequisite: Order of Twilight
+    actions: 1
+    requirements: You successfully Recalled Knowledge about a creature, haunt, or effect whose current state is sustained by an unnatural spiritual bond.
+    effect: Until the end of your next turn, you and your allies gain a +1 circumstance bonus to checks and DCs made specifically to counteract, disable, Escape from, or otherwise disrupt the identified bond or sustaining effect. This does not grant a bonus to ordinary Strikes or damage rolls.
+    role: turns correct diagnosis into a temporary team advantage
+
+  - level: 8
+    name: Eyes Beyond Twilight
+    traits: [Druid]
+    prerequisite: Order of Twilight
+    effect: You gain an imprecise sense with a range of 60 feet that detects the presence of spiritual essence in living creatures, most undead, haunts, and disembodied spirits. This sense does not identify a creature, reveal precise location, or automatically distinguish natural from unnatural spiritual states.
+    inspiration: Uses the same general power benchmark as other 8th-level supernatural-sense feats such as Soulsight.
+    role: high-level supernatural awareness without replacing investigation
+
+  - level: 10
+    name: Keeper of the Threshold
+    traits: [Druid]
+    prerequisite: Order of Twilight
+    trigger: A creature within 30 feet would be possessed, have its soul displaced, be transformed into an unwilling undead creature, or be prevented from dying by an ongoing magical effect.
+    action_type: reaction
+    effect: Attempt a counteract check using your spellcasting modifier against the triggering effect. On a success, you prevent or suppress that instance of the effect. On a failure, if the triggering effect allows a saving throw, the target gains a +2 circumstance bonus to that saving throw instead.
+    role: makes the druid an active guardian of the life-death boundary
+
+  - level: 16
+    name: Hold the Threshold
+    traits: [Druid]
+    prerequisite: Keeper of the Threshold
+    trigger: A living creature within 30 feet would die.
+    action_type: reaction
+    frequency: once per hour
+    effect: You hold the creature at the threshold of death until the end of your next turn. During that time it cannot die, recover naturally, or have its dying value reduced by recovery checks. If it is restored to at least 1 Hit Point before the effect ends, it survives normally. Otherwise, the delayed death occurs when the effect ends. This feat postpones death; it does not reverse or permanently prevent a natural death.
+    role: grants one final window for intervention while preserving the order's anathema
+
+  - level: 18
+    name: Walk Between Worlds
+    traits: [Druid]
+    prerequisite: Eyes Beyond Twilight
+    actions: 2
+    frequency: once per day
+    duration: 1 minute
+    effect:
+      - Your Eyes Beyond Twilight becomes a precise sense for the duration.
+      - You can see and interact with incorporeal spirits and creatures as though they were corporeal for purposes of your own spells, Strikes, and skill actions, though this does not remove their incorporeal defenses against other creatures.
+      - You gain a +2 status bonus to counteract checks against possession, soul displacement, forced undeath, haunts, and effects that unnaturally bind a soul or prevent its passage.
+    role: capstone expression of a druid who can consciously operate on both sides of the threshold
+
+balance_notes:
+  - The feat line is intentionally optional rather than a prerequisite chain from 1 through 18.
+  - Levels 4, 8, and 10 are the strongest candidates for the Forest's Hart level-10 pregen.
+  - Sever the Tether should be tested carefully because circumstance bonuses to counteract or disable checks can become broad if the sustaining effect is defined too loosely.
+  - Hold the Threshold deliberately delays rather than negates death to remain consistent with the order's anathema.
+  - Walk Between Worlds is a draft capstone and should be benchmarked against published level-18 druid and archetype feats before final publication.
