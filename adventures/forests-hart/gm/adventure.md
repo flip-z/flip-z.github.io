@@ -18,7 +18,13 @@ Players should be able to form reasonable hypotheses, test them, make mistakes, 
 
 ## FH-00 — Ministry Arrival
 
-Mayor Elara Venn has called the Ministry after three problems accelerated together: malformed aggressive wildlife attacking near town, crop failure, and a tainted water supply. The party is sent to determine whether they share a cause. They do not initially know about the Hart.
+### Ministry dispatch
+
+Elara Venn of Coedmyr has submitted annual requests for Ministry assistance for several years, citing worsening harvests, sick livestock, and increasingly unusual wildlife. Previous reports have not warranted investigation.
+
+Her latest correspondence claims that a chicken she had slaughtered, dressed, and placed upon her kitchen counter subsequently escaped through a window and killed a neighbor's cat.
+
+A team is being dispatched to Coedmyr to determine whether conditions warrant Ministry attention or whether Venn's future correspondence can be safely disregarded.
 
 The Order of Twilight druid can recognize that the apparent void influence is actually local life distorted by an imbalance in the natural cycle. This points toward a spiritual cause without explaining it.
 
