@@ -26,8 +26,6 @@ Her latest correspondence claims that a chicken she had slaughtered, dressed, an
 
 A team is being dispatched to Coedmyr to determine whether conditions warrant Ministry attention or whether Venn's future correspondence can be safely disregarded.
 
-The Order of Twilight druid can recognize that the apparent void influence is actually local life distorted by an imbalance in the natural cycle. This points toward a spiritual cause without explaining it.
-
 Taran Holt can provide an early street-level introduction to the village before the party meets Elara. He knows the practical symptoms but has no supernatural explanation.
 
 ### Dusk attack
