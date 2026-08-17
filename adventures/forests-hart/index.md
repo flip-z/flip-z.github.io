@@ -17,7 +17,7 @@ Long before the pilgrims, there was real magic here. The forest was not scenery.
 
 Now the rites have faded with the elders. The shrines go untended. The old hunting customs have become half-remembered stories. The young leave when they can. The forest that once drew pilgrims up the mountain has grown thin, quiet, and mean.
 
-The Ministry is drawn to Coedmyr by a disturbance felt through old druidic channels: life caught where death should have carried it onward. On the road in, the party finds the first signs of the wound. A stream runs thick and dark. Birds call in wrong voices. Malformed beasts spill from the trees.
+For several years, Elara Venn of Coedmyr has written to the Ministry of Obscure Affairs about worsening harvests, sick livestock, and increasingly strange wildlife. The reports never justified sending investigators into an isolated dying forest. Her latest letter is harder to dismiss: she claims that a chicken she had already slaughtered and dressed got off her kitchen counter and killed a neighbor's cat. The Ministry sends a small field team to determine whether Coedmyr actually has an Obscure Affair—or whether Venn's future correspondence can safely be disregarded.
 
 <ul class="adventure-meta">
   <li><strong>System</strong> Pathfinder Second Edition</li>
