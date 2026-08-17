@@ -1,24 +1,41 @@
 encounters:
   - id: FH-00
     name: Ministry Arrival
-    type: introduction
-    premise: The mayor requested Ministry help after a sudden increase in corrupted fauna and a tainted water supply.
+    type: introduction-investigation
+    premise: The Ministry finally sends a team after years of low-priority reports from remote Coedmyr culminate in Elara's claim that a slaughtered chicken got up and killed a neighbor's cat.
     symptoms:
       - malformed aggressive wildlife
       - crop failure
       - tainted water supply
-    druid_read: The disturbance reflects a broken natural cycle rather than ordinary contamination.
-    unresolved:
-      - exact opening challenge
+    uncertainty:
+      - Elara has no physical evidence of the chicken incident
+      - the party may reasonably suspect exaggeration or fabrication
+      - the initial symptoms do not need a single obvious cause
+    spring_branch:
+      finding: A badly decomposed animal lodged at the spring source explains the local water contamination.
+      remaining_problem: Abnormal regional vegetation and malformed wildlife remain unexplained.
+    dusk_incursion:
+      timing: Around dusk, preferably on the party's return toward town or as they consider lodging.
+      fauna: Use ordinary local animals with grotesque, disorganized biological growth.
+      ewan_entry: If the party has not already sought out Ewan, he can enter during the encounter and help finish the final creature.
+    description_rule: Present observable pathology rather than phrases that announce the theme or explain what life and death are doing.
+
   - id: FH-01
-    name: Sage and Wolf Relic
+    name: Maelin, Nessa, and Wolf Relic
     type: social-research
     gains:
-      - wolf_tooth_relic_found
-      - archaic_mercy_language
+      - maelin_stewardship_context
+      - wolf_tooth_relic_found when discovered or contextually recognized
     teaches:
-      - Iron-Maw folklore
-      - old language frames the relic as mercy, purification, and returning what has strayed to its appointed end
+      - Coedmyr once treated reverence for the forest as an obligation to actively care for it
+      - Iron-Maw represents necessary predation, harvest, culling, and limits within that stewardship tradition
+      - the Hart belongs to the same old body of local tradition
+    communication: Maelin speaks an archaic local dialect rather than cryptic fragments. Nessa translates imperfectly; suitable PC knowledge can recover words or correct context.
+    relic_discovery:
+      early: A careful search of the relic-filled house can notice the unusual cold-iron tooth before its significance is known.
+      prompted: Mentioning Iron-Maw, the old hunt, the shrine implements, or the bell prompts Maelin to recognize and retrieve it.
+      safeguard: Later clues naturally support returning to Maelin, so the required relic cannot be permanently missed.
+
   - id: FH-02
     name: Blacksmith
     type: social-crafting
@@ -31,20 +48,24 @@ encounters:
       - the relic is cold iron
       - it was fashioned to mount as the head of an old ceremonial regional implement
     support:
-      - the blacksmith can show a modern mundane example
+      - the blacksmith can show a mundane completed analogue
       - the party can earn shop help by assisting with ordinary work or gaining his favor
       - overlook library research improves reconstruction
     unresolved:
       - final implement form
-      - crafting procedure and DCs
+
   - id: FH-03
-    name: Ruined Shrine
-    type: exploration
+    name: Overlook, Spirit Trail, and Ruined Shrine
+    type: exploration-research
+    overlook_context: The overlook survived longest as an accessible spiritual retreat and tourist destination, preserving archives while helping turn older working traditions into simplified ceremony and heritage.
+    research_teaches:
+      - Iron-Maw belongs to old hunting and stewardship traditions
+      - the Hart appears in the same body of material and can be introduced here if the party has not heard the name
+      - old spiritual hunts concerned active care for ecological balance, including necessary limits and taking, without directly describing the current crisis
     discovery_paths:
       - overlook attendant mentions the old site
-      - sage provides approximate direction
-      - overlook library contains a reference
-      - perceptive exploration of the spirit trail finds it directly
+      - overlook library contains route material
+      - perceptive exploration follows wolf-marked spirit trail
     gains:
       - shrine_found
       - bell_behavior_known
@@ -52,17 +73,32 @@ encounters:
     restoration: Clear enough overgrowth and debris to traverse the site, expose the bell, and read the carvings.
     weak_bell_strike:
       duration: less than one round
+      rule: Any ordinary striker produces the same weak ritual response regardless of force.
       effects:
         - pale aura flashes around the shrine
         - nearby corruption is suppressed for an instant
         - carvings establish separate bellkeeper and hunter roles
-    unresolved:
-      - exact aura rules for the finale
+        - hunter carvings show distinctive long implements without identifying their exact purpose
+    wolf_tooth_strike: Produces a qualitatively cleaner and stronger resonance, revealing the relic as the correct striker without explaining the whole rite.
+
   - id: FH-04
     name: Hunter and Hart Source
     type: encounter
-    setup: The hunter has not checked his trap line because local game has dwindled. Following that line leads the party to the Hart and the center of the recent outburst.
-    hunter_knowledge: He did not know the Hart had reached one of his unattended traps or that this event corresponded with the sudden escalation.
+    setup: Ewan has not checked the far end of his trap line because local game has dwindled. Following that line leads toward the center of the recent outburst.
+    progression:
+      - empty neglected traps establish the abandoned line
+      - a trapped doe shows severe disorganized growth around an old injury and incorporated debris or trap metal
+      - examination establishes that the trap itself is mundane
+      - later traps lead into increasingly abnormal forest conditions
+      - one to two minutes before the Hart, vegetation and other biological activity become visibly excessive and unnatural
+      - the Hart is found trapped at the center of the strongest effect
+    hart_presentation: The Hart must be visibly and perceptually exceptional on sight without relying on antlers: unusual coat, eyes, proportions, presence, and an immediate sense that this is not ordinary wildlife.
+    aura:
+      hazardous_radius_feet: 25
+      fortitude_dc: 32
+      effect_style: Painful uncontrolled biological activity in the exposed creature's own body; use concrete manifestations such as inflamed scars, thickened tissue, nail or hair growth, or swelling around old injuries.
+      gradient: Environmental abnormalities extend well beyond the mechanical radius and intensify on approach.
+    hunter_knowledge: Ewan did not know the Hart had reached one of his unattended traps or that this event corresponded with the sudden escalation. He supplies practical forest knowledge, not supernatural interpretation.
     player_options:
       - release the Hart early
       - test ordinary approaches and learn that they do not resolve its condition
@@ -72,8 +108,7 @@ encounters:
     consequences:
       release_early: The Hart must be located again when the party is ready, adding an extra pursuit obstacle and extending pressure on the bellkeeper.
       leave_in_place: The final hunt can begin from a known starting point once the bellkeeper begins the rite.
-    unresolved:
-      - exact first-encounter behavior
+
   - id: FH-05
     name: Recruit Bellkeeper
     type: social-training
@@ -84,13 +119,14 @@ encounters:
     teaches:
       - someone must remain at the shrine and maintain the bell while the party follows the Hart
     no_helper: One PC remains at the shrine for the pursuit.
+
   - id: FH-FINAL
     name: Ritual Hunt
     type: chase-and-encounter
     requires:
       - wolf_tooth_weapon_complete
       - shrine_found
-      - truth_known
+    interpretation: The party may enter the finale with an incomplete or mistaken theory. No automatic truth-known state is required; the rite's final meaning becomes clear through play.
     uses:
       - hart_source_known
       - hart_freed_early
