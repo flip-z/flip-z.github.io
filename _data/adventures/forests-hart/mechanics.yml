@@ -10,7 +10,15 @@ difficulty:
   guidance:
     - Keep most investigation and social checks between 25 and 29.
     - Required information is never lost on a failed check; failure costs time, position, certainty, or adds another route.
-    - DC 32 represents bypassing preparation or making a difficult inference early.
+    - DC 32 represents a genuinely dangerous exposure or difficult early inference.
+
+investigation_style:
+  description_rule: Describe observable physical evidence before supplying interpretation. Avoid thematic phrases that state what life, death, or nature is doing.
+  inference_rule: No number of successful clue checks automatically reveals the adventure's solution.
+  chicken_claim: No physical evidence is available from Elara. Treat reliability as unresolved unless play establishes otherwise.
+  spring:
+    basic_finding: A badly decomposed animal lodged at the source provides a mundane explanation for the local water contamination.
+    useful_result: The larger forest abnormalities remain, ruling out the spring itself as a sufficient explanation for the regional problem.
 
 chase:
   target_obstacles: 8
@@ -21,31 +29,67 @@ chase:
     awkward_but_plausible: 32
   failure_effect: Increase breach pressure rather than ending the chase.
 
+hart_source:
+  approach:
+    warning_distance: Begin obvious environmental escalation one to two minutes before reaching the trap.
+    signs:
+      - vegetation becomes excessively dense and produces fresh shoots from damaged or crowded growth
+      - fungi, insects, roots, and other biological activity become conspicuously abundant
+      - abnormalities intensify toward the Hart rather than beginning abruptly at the mechanical aura boundary
+  presentation:
+    - Do not rely on antlers to identify the Hart.
+    - Its coat, eyes, proportions, movement, and presence should make it immediately clear that it is not ordinary wildlife.
+    - It should appear distressed and trapped rather than visually corrupted in the same manner as mundane malformed animals.
+  aura:
+    radius_feet: 25
+    save: Fortitude
+    dc: 32
+    trigger: Entering the radius or beginning a turn within it during structured play.
+    manifestations:
+      - old scars inflame or thicken
+      - minor cuts rapidly produce excessive tender tissue
+      - nails or hair grow painfully at the roots
+      - swelling develops around old injuries
+    guidance: Use concrete bodily effects. Stronger exposure can increase severity with proximity or repeated failed saves rather than introducing an unexplained second boundary.
+
 npc_checks:
   elara_venn:
     volunteers:
       - three outbreak symptoms
       - timeline of recent escalation
       - useful local contacts and basic town access
+      - Coedmyr's history as a remote pilgrimage destination whose visitors disappeared as the forest and rites declined
     dc_25:
       skills: [Diplomacy, Society]
       result: Learn politically sensitive context about village morale, disputes, and who trusts whom.
     does_not_know:
       - the Hart's identity
       - the old ritual
+      - whether the spring contamination shares the larger cause
 
   maelin_tor:
+    communication: Speaks an archaic local dialect rather than cryptic fragments. Nessa provides imperfect translation.
     volunteers:
-      - Wolf's Tooth relic
-      - Iron-Maw folklore
-      - archaic mercy and appointed-end language
-      - approximate shrine lore
-    dc_25:
-      skills: [Society, Occultism]
-      result: Organize Maelin's fragmented account into a coherent historical clue.
-    dc_29:
-      skills: [Society, Occultism]
-      result: Infer early that Maelin's use of mercy may mean release or completion rather than healing.
+      - criticism of modern Coedmyr's neglect of the forest, history, and old obligations
+      - old stewardship context when the party asks about pilgrimage or hunting traditions
+    comprehension_checks:
+      dc_25:
+        skills: [Society, Lore, Occultism]
+        result: Catch useful old words, correct part of Nessa's translation, or recognize the ecological meaning of a custom without gaining procedural ritual knowledge.
+      dc_29:
+        skills: [Society, Lore, Occultism]
+        result: Recover a more precise connection among Iron-Maw, hunting, limits, and stewardship from Maelin's dialect.
+    wolf_tooth:
+      early_discovery:
+        dc: 27
+        skills: [Perception, Society, relevant Lore]
+        result: Notice the unusual dark-metal tooth among the house's many relics before its importance is understood.
+      contextual_trigger: Mentioning Iron-Maw, the old hunt, the shrine's long implements, or the bell prompts Maelin to identify and retrieve the object from his collection without a check.
+      safeguard: Failure to find it early never removes it from the adventure.
+    does_not_know:
+      - the complete ritual procedure
+      - that the Tooth is the correct bell striker
+      - the exact modern cause of the outbreak
 
   taran_holt:
     volunteers_when_shown_relic:
@@ -70,6 +114,7 @@ npc_checks:
       - local game has become scarce
       - parts of his trap line have gone unchecked
       - route of the trap line
+    dusk_introduction: If the party has not already met or sought him out, Ewan can enter the first dusk incursion and help finish the final malformed creature.
     follow_trap_line:
       with_directions_dc: 25
       without_guide_dc: 27
@@ -78,18 +123,23 @@ npc_checks:
       before_evidence_dc: 27
       skill: Diplomacy
       after_evidence: substantially easier or automatic
-    bellkeeper: Automatic once he accepts what happened and understands the rite.
+    bellkeeper: Automatic once he accepts what happened and understands the practical role required of him.
+    limits:
+      - does not identify the Hart from folklore
+      - does not explain the rite
 
   sera_wynn:
     volunteers:
       - spirit trail location
       - shrine existence
       - access to overlook library
+      - history of the overlook as a surviving spiritual retreat and tourist attraction
     research:
       basic_history: automatic
       useful_hunt_reference:
         dc: 25
         skills: [Society, Lore]
+        result: Learn that Iron-Maw belongs to traditions of hunting, culling, harvest, and active stewardship rather than stories about retrieving something that wandered away.
       bellkeeper_hunter_distinction:
         dc: 27
         skills: [Society, Lore]
@@ -97,6 +147,7 @@ npc_checks:
         dc: 29
         skills: [Society, Lore]
         effect: Grants an advantage on reconstruction.
+    guidance: If the party has not already heard of the Hart, archive material can introduce it naturally as part of the old local tradition.
 
 creature_candidates:
   corrupted_fauna:
