@@ -15,37 +15,53 @@ case:
     - malformed aggressive wildlife
     - crop failure
     - tainted water supply
-  party_initial_knowledge: The Ministry knows these symptoms may be connected but does not initially know about the Hart or the forgotten rite.
-  slow_cause: Coedmyr has ignored the old spiritual hunt for generations, producing a gradual decline in the land and its traditions.
+  ministry_context: Coedmyr is a remote former pilgrimage destination whose long decline has not justified scarce Ministry resources. Elara's latest chicken story is strange enough that the Ministry finally sends a team to determine whether the situation warrants attention or her future reports can be disregarded.
+  chicken_claim: Elara claims that a slaughtered and dressed chicken got off her kitchen counter and killed a neighbor's cat. She has no physical evidence. The claim may be true, exaggerated, or fabricated to force a response.
+  party_initial_knowledge: The Ministry knows Coedmyr has been deteriorating for years but does not initially know whether the current symptoms share a cause, whether Elara is reliable, or anything about the Hart or forgotten rite.
+  slow_cause: Coedmyr's old pilgrimage traditions once joined reverence with practical stewardship of the forest. As the forest declined, the rites faded into memory and tourism, leaving generations increasingly detached from the practices that maintained ecological balance.
   sudden_trigger: The Hart reached an unattended trap on Ewan Rusk's neglected trap line, causing the recent escalation. Ewan does not initially know this happened.
-  druid_initial_read: The apparent void influence is an imbalance in the natural cycle affecting local life.
+  druid_read: Investigation can reveal abnormal, disorganized biological growth across plants and animals. Do not state the adventure's underlying meaning unless the player earns or articulates that inference.
 
 investigation:
+  spring_branch:
+    premise: Elara reports foul or avoided water north of the village.
+    finding: A badly decomposed animal is lodged at the spring source, providing a mundane explanation for the local contamination.
+    value: The surrounding forest remains abnormal, separating the water problem from the larger regional problem without creating a new major clue node.
+  dusk_incursion:
+    timing: Around dusk, preferably as the party returns toward town or settles in for the night.
+    ewan_entry: If the party has not already sought out Ewan, he may enter during the encounter and help finish the last malformed animal, creating a natural introduction.
   hart_source:
     primary_route: Learn about Ewan Rusk's neglected trap line and follow it to the source.
     early_release: Allowed; later requires the party to locate the Hart again before the final pursuit.
   shrine_discovery:
     - Sera Wynn at the overlook
-    - Maelin Tor's approximate directions
     - overlook library research
     - direct discovery while exploring the spirit trail
+    - Maelin can help contextualize old hunt material after the party brings him relevant details
   shrine_restoration: Clear growth and debris only; expose the bell, make the site traversable, and reveal the carvings.
-  weak_bell_response: An ordinary strike produces a sub-round pale aura that briefly suppresses nearby corruption but cannot sustain the rite.
-  truth_rule:
-    required_clue_categories: 2
-    categories:
-      - Maelin Tor's archaic mercy and appointed-end language
-      - Taran Holt's recognition that the Wolf's Tooth was made to mount as a traditional implement
-      - shrine or library records describing the old spiritual hunt
+  weak_bell_response: Any ordinary strike produces only a sub-round pale aura that briefly suppresses nearby corruption. Greater force changes volume, not ritual effectiveness.
+  inference_model: Clues from Maelin, Sera, Taran, the shrine, the trap line, and the Hart should remain compatible without automatically revealing a solution. The players must decide what the old rite means and what to attempt.
 
 relic:
   name: Wolf's Tooth
-  folklore: A supposed cold-iron tooth of the mythical Iron-Maw, the great wolf invoked by Coedmyr hunters to guide spiritual hunts.
+  folklore: A cold-iron object associated with Iron-Maw, the great wolf in Coedmyr's old hunting and stewardship traditions.
+  location: Hidden in plain sight among the many inherited relics in Maelin Tor's house.
+  discovery:
+    early: A careful search can notice the unusual dark-metal tooth before its significance is understood.
+    prompted: Mentioning Iron-Maw, the old hunt, the shrine's long implements, or the bell can prompt Maelin to recognize the object as belonging to that tradition and retrieve it.
+    gate_rule: The relic cannot be permanently missed. Later clues should naturally create a reason to return to Maelin rather than causing the relic to appear automatically.
+  maelin_read: Maelin knows its provenance and association with the old hunt, not its mechanical role in the rite.
   blacksmith_read:
     - material is cold iron
     - form was deliberately made to mount on a haft
     - shape matches an obsolete ceremonial Coedmyr implement
   reconstruction: Taran Holt can show a mundane analogue and assist after the party earns his cooperation. Overlook research provides an advantage.
+
+folklore:
+  core_theme: Healthy stewardship requires limits, endings, predation, harvest, fire, rest, and making room as well as growth.
+  iron_maw: Represents the necessary destructive and selective side of caring for the forest, not a tracker that returns things that wandered away.
+  hart: A nature spirit within the old body of Coedmyr tradition. It is not normally astray; the present crisis is an abnormal condition rather than the ordinary premise of Hart stories.
+  spiritual_hunt: Old hunt material encodes active stewardship and maintenance of balance. Records should not directly state the present-day solution.
 
 finale:
   chase_logic: The bell calls the Hart toward the shrine but does not compel its route; the party must stay with it and drive it along the old hunt path.
