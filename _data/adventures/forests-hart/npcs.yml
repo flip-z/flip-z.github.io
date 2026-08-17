@@ -1,33 +1,39 @@
 npcs:
   - id: npc-sage
     name: Maelin Tor
-    role: elderly sage and keeper of the Wolf's Tooth relic
-    public_reputation: Knows old Coedmyr traditions but communicates elliptically enough that many villagers dismiss him as a kook.
-    belief: The Hart can be shown mercy by restoring the old traditions, though his archaic language obscures what mercy originally meant.
+    role: elderly keeper of old Coedmyr language, relics, and local tradition
+    public_reputation: Knows more old Coedmyr material than anyone left, but speaks an archaic local dialect that modern villagers struggle to understand.
+    communication: Maelin is not cryptic. He speaks plainly in an old dialect. Nessa translates incompletely and sometimes incorrectly; PCs with relevant Society, Lore, Occultism, or linguistic knowledge can catch words, context, or errors.
+    belief: Coedmyr abandoned the obligations that once accompanied its reverence for the forest. The village preserves fragments and souvenirs while neglecting the place, its history, and the practices that once kept people engaged with it.
     knows:
-      - Iron-Maw folklore
-      - archaic hunting vocabulary
-      - the Wolf's Tooth is associated with the old spiritual hunt
-      - approximate directions to the old shrine
-    provides:
-      - Wolf's Tooth relic
-      - archaic_mercy_language clue
+      - old Coedmyr hunting and stewardship traditions
+      - Iron-Maw folklore as a figure of necessary predation, culling, harvest, and ecological limits
+      - the Hart appears in old local tradition
+      - many inherited objects in his house belonged to pilgrimage and hunting practices
+      - the Wolf's Tooth is associated with Iron-Maw and the old hunt once its context is recognized
+    functions:
+      - provides historical and cultural context rather than a procedural answer
+      - can identify the Hart after hearing a sufficiently distinctive description
+      - can retrieve the Wolf's Tooth when the party mentions Iron-Maw, the old hunt, the shrine implements, or the bell
+      - allows a careful search of his crowded house to discover the Wolf's Tooth early
 
   - id: npc-blacksmith
     name: Taran Holt
     role: practical blacksmith and skeptical local craftsman
     public_reputation: Busy, capable, and uninterested in village mysticism unless it produces a practical problem.
-    belief: Most surviving Hart folklore is unreliable, but old tools can still be understood by how they were made.
+    belief: Most surviving folklore is unreliable, but old tools can still be understood by how they were made.
     knows:
       - the Wolf's Tooth is cold iron
       - it was fashioned to mount on a haft
-      - its shape corresponds to an obsolete ceremonial regional polearm or mace head
+      - its shape corresponds to an obsolete ceremonial regional implement
     functions:
-      - shows the party a mundane completed analogue
+      - provides an early practical introduction to village conditions
+      - shows the party a mundane completed analogue once shown the relic
       - helps reconstruct the traditional implement after the party earns his cooperation
     cooperation_paths:
       - assist with ordinary shop work
       - gain his practical trust elsewhere
+      - bring relevant overlook research
     research_synergy: Overlook library material about traditional Coedmyr tools makes reconstruction easier.
 
   - id: npc-hunter
@@ -39,25 +45,35 @@ npcs:
     functions:
       - tells the party where his trap line runs
       - can guide the party toward the Hart's current source location
+      - if not already encountered, can enter the first dusk incursion and help finish the final malformed animal
       - is the most natural bellkeeper candidate after seeing enough evidence
+    limits:
+      - does not recognize the Hart by lore alone
+      - does not interpret the old rite or supply supernatural explanations
 
   - id: npc-mayor
     name: Elara Venn
     role: mayor of Coedmyr and Ministry contact
-    belief: The village is facing a dangerous environmental or supernatural outbreak and needs outside help before panic finishes what the failing land started.
+    belief: The village is facing a serious environmental or supernatural problem and repeated ordinary explanations no longer account for everything she has seen.
     functions:
-      - requested Ministry assistance
+      - requested Ministry assistance for several years
       - briefs the party on tainted water, failed crops, and aggressive malformed wildlife
+      - explains Coedmyr's long decline from remote pilgrimage destination to isolated village
       - provides civic context and access to local records
+    chicken_claim: Claims a slaughtered and dressed chicken got off her kitchen counter and killed a neighbor's cat. She retained no physical evidence. The GM need not establish whether the story is fully true, exaggerated, or fabricated to force Ministry attention.
 
   - id: npc-overlook-attendant
     name: Sera Wynn
-    role: attendant at the old pilgrimage overlook
-    belief: Most pilgrimage customs are cultural remnants, but the old spirit trail and shrine are real places worth preserving.
+    role: caretaker of the old pilgrimage overlook and its surviving archive
+    belief: Coedmyr's pilgrimage heritage deserves preservation, though the accessible retreat culture that kept the overlook alive also helped reduce older practices to tourism and symbolism.
+    site_context: The overlook survived as a pleasant spiritual destination for meditation, exercise, prayer, picnics, views, and simplified ceremonies after harder forest rites were already fading.
     knows:
       - the route of the spirit trail
       - the existence of the old shrine
       - where relevant local records are kept in the overlook library
+      - Iron-Maw appears in old hunting and stewardship traditions
+      - old pilgrimage material treats care for the forest as involving limits and active management as well as reverence
     functions:
       - provides one independent route to discovering the shrine
-      - directs research toward old hunt and tool traditions
+      - introduces the Hart in old records if the party has not already heard the name
+      - directs research toward old hunt, stewardship, and tool traditions without revealing the present-day solution
