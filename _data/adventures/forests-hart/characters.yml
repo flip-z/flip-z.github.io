@@ -2,31 +2,170 @@ party:
   size: 4
   level: 10
   level_note: Current midpoint for the planned 5 / 10 / 15 anthology progression.
+  role_split:
+    druid: Reads nature, spiritual states, and transitions between life and death.
+    investigator: Reconstructs events from physical evidence, medicine, chronology, and research.
+    rogue: Extracts information from people and handles direct social pressure.
+    fighter: Commands the mission, manages risk, and keeps the team alive.
+  design_rule: Each character should contribute to investigation through a distinct channel. Avoid mechanics that let one character automatically solve another character's domain or convert uncertain clues into categorical answers.
+
 characters:
   - id: pc-twilight-druid
     name: TBD
     class: Druid
     subclass: Order of Twilight
     primary_attribute: Wisdom
-    role: spiritual and natural-cycle specialist
+    role: mission specialist for nature, spirits, and the boundary between states
+    persona:
+      summary: Quiet old understanding without brooding or cryptic mysticism.
+      behavior:
+        - listens and observes before speaking
+        - communicates plainly when he has something useful to say
+        - treats death, decomposition, predation, and renewal as ordinary parts of ecology
+        - is comfortable communicating with animals, plants, spirits, and liminal phenomena
+    strengths:
+      - identifies abnormal biological and spiritual states
+      - interprets animal behavior, vegetation, and environmental responses
+      - recognizes when natural processes are out of balance
+      - provides the party's specialized understanding of life, death, and transitions between them
+    weaknesses:
+      - poor at reconstructing human history from records or artifacts
+      - should not automatically infer ritual procedure from natural or spiritual observations
+      - quiet demeanor can leave social initiative to others
+    role_boundary: Reveals states, sensations, and natural relationships; does not announce plot conclusions or the correct ritual solution.
+    build_guidance:
+      suggested:
+        - name: Plant Empathy
+          purpose: Makes direct plant communication a useful investigative tool without automatically revealing conclusions.
+        - name: Natural Medicine
+          purpose: Reinforces practical field knowledge and the connection between medicine and ecology.
+        - name: Twilight-order feats
+          purpose: Favor perception of liminal states, spirits, darkness, and transitions rather than generic druid breadth.
+      avoid:
+        - name: Order Explorer
+          reason: Broadening into unrelated druid orders weakens the deliberately narrow Twilight specialist identity.
+        - name: categorical life-death detection
+          reason: Custom abilities should reveal observable spiritual or biological states, not identify the correct narrative interpretation automatically.
+
   - id: pc-investigator
     name: TBD
     class: Investigator
     methodology: Forensic Medicine
     primary_attribute: Intelligence
-    role: evidence and medical specialist
+    role: forensic reconstruction, evidence, medicine, chronology, and research
+    persona:
+      summary: Overtly curious and methodical; turns observations into testable explanations.
+      behavior:
+        - examines bodies, tools, tracks, records, and scenes closely
+        - builds timelines and compares conflicting testimony
+        - proposes material explanations and tests them against new evidence
+        - keeps asking what physically happened before deciding what it means
+    strengths:
+      - forensic medicine and examination of bodies
+      - reconstructing cause and sequence from physical evidence
+      - archival research and organizing fragmented clues
+      - distinguishing a locally mundane explanation from the larger unresolved problem
+    weaknesses:
+      - can become overconfident in material explanations
+      - may follow a plausible mundane theory farther than the rest of the group
+      - should not receive automatic confirmation that a lead is plot-relevant
+    role_boundary: Determines what happened and how evidence fits together; the druid interprets natural or spiritual state, while the rogue owns social extraction.
+    build_guidance:
+      suggested:
+        - name: Forensic Acumen
+          purpose: Strongly reinforces the methodology and makes physical examination a signature activity.
+        - name: Ongoing Investigation
+          purpose: Keeps him actively examining environments during exploration without consuming the whole group's pace.
+        - name: Known Weaknesses
+          purpose: Rewards knowledge use in encounters without converting investigation clues into automatic answers.
+      avoid:
+        - name: That's Odd
+          reason: Automatically spotlighting unusual objects undermines deliberate clue placement such as the Wolf's Tooth hidden among Maelin's relics.
+        - name: Red Herring
+          reason: Mechanically determining whether a lead matters undermines productive uncertainty such as the spring contamination branch.
+
   - id: pc-social-rogue
     name: TBD
     class: Rogue
     racket: Scoundrel
     primary_attribute: Dexterity
     secondary_attribute_priority: Charisma
-    role: social and liaison specialist
+    role: face, liaison, deception, and aggressive social investigation
+    persona:
+      summary: Very forward; somewhere between femme fatale and succubus without reducing every interaction to seduction.
+      behavior:
+        - invades conversational space without hesitation
+        - asks questions other characters would soften or avoid
+        - lies, flatters, teases, embarrasses, and redirects naturally
+        - treats social boundaries as obstacles rather than fixed rules
+    strengths:
+      - gets reluctant people talking
+      - controls the tone and tempo of social encounters
+      - strong Deception and Diplomacy coverage
+      - comfortable taking interpersonal risks the rest of the party will not
+    weaknesses:
+      - can push witnesses or locals too hard
+      - may create resistance another party member has to repair
+      - poor fit for solemn or delicate situations when restraint matters
+    role_boundary: Extracts information from people; should not replace the investigator's evidence work or the fighter's authority over mission risk.
+    build_guidance:
+      suggested:
+        - name: Distracting Feint
+          purpose: Gives the combat build the same attention-control identity as the social persona.
+        - name: Tumble Behind
+          purpose: Rewards bold positional play rather than passive damage optimization.
+        - name: Mobility
+          purpose: Supports a fearless, invasive combat style.
+        - name: Bon Mot
+          purpose: Fits verbal pressure and social aggression.
+        - name: Charming Liar
+          purpose: Reinforces deception without making Intimidation the character's primary social tool.
+        - name: Lie to Me
+          purpose: Supports social dueling and reading deceptive NPCs.
+      avoid:
+        - name: Predictive Purchase / Implausible Purchase
+          reason: Retroactively producing needed equipment undercuts Coedmyr's isolation and the adventure's emphasis on discovering and reconstructing the correct tool.
+        - name: Intimidation-primary build
+          reason: Deception and Diplomacy better preserve the distinctive brazen-charmer identity.
+
   - id: pc-fighter
     name: TBD
     class: Fighter
     primary_attribute: Strength or Dexterity
-    role: practical field and crafting specialist
+    role: mission commander, protector, practical field leader, and risk manager
+    persona:
+      summary: The person the group looks to when incomplete information still requires a decision.
+      behavior:
+        - prioritizes whether everyone comes home safely
+        - listens to specialist opinions before making a call
+        - is decisive once enough information exists to act
+        - treats unexplained hazards conservatively until the team understands the risk
+    strengths:
+      - battlefield protection and control
+      - decisive mission leadership
+      - practical fieldcraft and physical problem solving
+      - evaluates whether the group should press forward, withdraw, or change approach
+    weaknesses:
+      - conservative risk tolerance can slow aggressive investigation
+      - may clash with the rogue's willingness to push ahead socially or physically
+      - relies on other characters for specialized interpretation rather than producing it himself
+    role_boundary: Makes decisions with specialist input and protects the team; should not become another knowledge character or solve evidence through combat mechanics.
+    build_guidance:
+      suggested:
+        - name: Quick Shield Block
+          purpose: Strong fit for a protection-first mission commander if using a shield.
+        - name: Reactive Shield
+          purpose: Reinforces immediate defensive response to threats.
+        - name: Slam Down
+          purpose: Gives useful battlefield control rather than only increasing damage.
+        - name: Cut from the Air
+          purpose: Extends the protector identity to threats aimed at the team.
+        - name: Guardian's Deflection
+          purpose: Supports direct intervention on behalf of allies if compatible with the final weapon setup.
+      avoid:
+        - name: Combat Assessment
+          reason: Learning creature information by attacking trespasses on the investigator's knowledge role.
+
 party_design:
   replaced_class: Commander
-  reason: Reduce Intelligence overlap and add a dedicated Charisma-oriented role.
+  reason: Reduce Intelligence overlap and add a dedicated Charisma-oriented role while preserving mission command as a character function on the Fighter.
