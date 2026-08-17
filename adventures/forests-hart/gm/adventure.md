@@ -16,41 +16,87 @@ The investigation should not simply reveal the solution. It gives the party enou
 
 Players should be able to form reasonable hypotheses, test them, make mistakes, and learn from the consequences. Only the Wolf's Tooth is a true gate. Missing other preparations creates difficulty rather than a dead end.
 
+Clues should remain mutually consistent without converting into an automatic GM explanation after a threshold is reached. Describe evidence first. Let the players decide what it means.
+
 ## FH-00 — Ministry Arrival
 
 ### Ministry dispatch
 
-Elara Venn of Coedmyr has submitted annual requests for Ministry assistance for several years, citing worsening harvests, sick livestock, and increasingly unusual wildlife. Previous reports have not warranted investigation.
+Coedmyr is a remote former spiritual pilgrimage destination. Visitors once made the difficult journey specifically for the forest, shrines, vigils, hunts, and local rites. As the forest declined and those traditions faded, pilgrims stopped coming and the village contracted with them.
 
-Her latest correspondence claims that a chicken she had slaughtered, dressed, and placed upon her kitchen counter subsequently escaped through a window and killed a neighbor's cat.
+Elara Venn of Coedmyr has submitted annual requests for Ministry assistance for several years, citing worsening harvests, sick livestock, and increasingly unusual wildlife. The Ministry has more urgent work than sending investigators into an isolated dying forest, and previous reports have not warranted the resources.
 
-A team is being dispatched to Coedmyr to determine whether conditions warrant Ministry attention or whether Venn's future correspondence can be safely disregarded.
+Her latest correspondence claims that a chicken she had slaughtered and dressed subsequently got off her kitchen counter and killed a neighbor's cat.
+
+This is not treated as proven evidence of a supernatural emergency. It is strange and persistent enough that the Ministry finally sends a small team to determine whether conditions warrant attention or whether Venn's future correspondence can safely be disregarded.
+
+Elara has no physical evidence of the chicken incident. She may have disposed of it, exaggerated what happened, or even fabricated the story to force a response. The adventure does not need to establish the truth early. Reasonable suspicion of Elara is useful.
 
 Taran Holt can provide an early street-level introduction to the village before the party meets Elara. He knows the practical symptoms but has no supernatural explanation.
 
+### Elara's briefing
+
+Elara can supply three concrete branches without knowing their shared cause:
+
+- failed or badly distorted crops;
+- increasingly aggressive or malformed wildlife;
+- a north spring that animals have begun avoiding and that has gone foul more than once.
+
+She can also explain Coedmyr's history. It was never a crossroads. People came here deliberately for spiritual pilgrimage. The decline was gradual enough that residents adapted year by year while those with money or reason to leave did so.
+
+### North spring
+
+The spring is a useful red herring rather than a major clue node.
+
+The water appears clear, but investigation finds a badly decomposed animal lodged at or immediately beside the source. Its advanced decay provides a mundane and satisfying explanation for the local contamination.
+
+That does not explain the broader condition of the forest. Vegetation around the spring can still show the same regional abnormalities visible elsewhere: overcrowded shoots, distorted growth around damage, excessive fungal activity, or other biological processes occurring without healthy organization.
+
+The useful conclusion is narrow: the spring itself is not a sufficient explanation for Coedmyr's larger problem.
+
 ### Dusk attack
 
-A first attack by malformed local wildlife should occur around dusk, preferably as the party considers settling in for the night. Use ordinary forest animals distorted by uncontrolled life rather than overt void creatures.
+A first attack by malformed local wildlife should occur around dusk, preferably as the party returns toward town or considers settling in for the night. Use ordinary forest animals distorted by uncontrolled biological growth rather than overt void creatures.
 
-Inspection reveals the important pattern: damaged tissue has continued growing where it should have died, cleared, or stopped. Old wounds heal incorrectly rather than resolving. The creatures are not simply diseased; life itself is failing to yield.
+Describe the pathology concretely. Bone may thicken in the wrong direction. Skin may grow across debris. Old injuries may be buried under badly organized new tissue. Animals can be feverish, impaired, aggressive, or exhausted. Do not summarize this for the players with thematic phrases about life, death, endings, or what nature is "trying" to do.
 
-An old local arrow, trap wound, or similar evidence can naturally point toward Ewan Rusk without requiring the GM to direct the party there.
+If the party has not already sought out Ewan Rusk, he can enter during this encounter and help finish the final malformed creature. This provides a direct practical introduction to the hunter without requiring an arrowhead or trap wound planted solely as a clue to his identity.
+
+If the party has already met Ewan, run the incursion without using him as an entrance beat.
 
 ## FH-01 — Maelin Tor, Nessa, and the Wolf's Tooth
 
-Maelin Tor is an elderly keeper of old Coedmyr traditions whose knowledge is better than his ability to communicate it. He often stares, drifts away from conversations, and answers in archaic fragments that modern listeners misunderstand.
+Maelin Tor is an elderly keeper of old Coedmyr language, relics, and tradition. He is not a cryptic mystic and should not speak in short prophetic fragments.
 
-His granddaughter **Nessa Tor** is the party's primary social contact at the house. She can explain Maelin's habits, translate context, and describe the modern folk version of old stories without knowing the lost rite herself.
+Maelin speaks an archaic local dialect that has drifted far enough from modern speech that most villagers struggle to follow him. From his perspective he is speaking normally and can explain himself at length. His granddaughter **Nessa Tor** translates, but she simplifies, guesses, argues with him, and occasionally gets a word or concept wrong.
 
-Maelin's role is conceptual rather than procedural. Once told about the spirit beast, he can identify it as **the Hart** and speak of it as having "stayed too long," "strayed," or needing "mercy" and to be "set right." His archaic vocabulary carries older meanings closer to release, restoration of order, or an appointed end.
+PCs with appropriate Society, Lore, Occultism, linguistic knowledge, or another justified approach can catch old terms, recognize cognates, or correct parts of Nessa's translation. These checks improve precision; they should not turn Maelin into a procedural answer machine.
 
-Maelin should **not** mention the bell, shrine, bellkeeper, ritual procedure, or explicitly tell the party the Hart must die.
+### What Maelin actually believes
+
+Maelin's central argument is cultural and practical. Coedmyr once treated the forest as something people were obligated to care for, not simply admire. Pilgrimage involved work, restraint, hunting, harvest, maintenance, and knowledge of place as well as prayer and ceremony.
+
+Modern Coedmyr has kept souvenirs and softened stories while losing much of that responsibility. Maelin thinks the village is worse because people no longer respect the forest, its history, or the obligations attached to either. He can be bitter about this without possessing a complete supernatural explanation for the current outbreak.
+
+When given a sufficiently distinctive description of the unusual spirit animal, he can identify it as **the Hart**, a figure from old Coedmyr tradition.
+
+Iron-Maw, the great wolf of old hunting stories, represents the necessary destructive and selective side of stewardship: predation, culling, harvest, limits, and making room. The old stories are not normally about the Hart wandering astray.
+
+Maelin should **not** explain the bell, bellkeeper role, complete ritual procedure, or explicitly tell the party the Hart must die.
 
 ### Discovering the Wolf's Tooth
 
-Maelin's house is crowded with old books, hunting pieces, pilgrimage keepsakes, carved animals, bones, iron charms, and hanging ornaments. The Wolf's Tooth is among this clutter rather than presented as an obvious quest item.
+Maelin's house is crowded with old books, hunting pieces, pilgrimage keepsakes, carved animals, bones, iron charms, and hanging ornaments. The Wolf's Tooth is among this clutter rather than displayed as an obvious quest item.
 
-Investigation reveals repeated old wolf imagery. When the party notices the unusual dark metal "tooth," Maelin identifies it with **Iron-Maw**, the great wolf of old hunting stories. He describes the wolf as finding what had strayed and turning it toward its proper course. He gives the Tooth to the party "for the Hart."
+There are two valid routes to it.
+
+**Early search:** A careful examination of the house can notice the unusual dark-metal "tooth" among repeated wolf imagery. At this point its significance may be unclear.
+
+**Contextual recognition:** If the party later mentions Iron-Maw, the old hunt, the long implements shown at the shrine, or the bell itself, something in that description gives Maelin enough context to remember the relevant object in his collection. He retrieves it without requiring the party to guess a specific search action.
+
+This makes the relic missable in the moment but not permanently missable. Later discoveries should naturally create a reason to return to Maelin.
+
+Maelin identifies the object as belonging to Iron-Maw and the old hunt. He knows its provenance, not its mechanical role in the rite.
 
 The relic is cold iron, hand-length, with a broad blunt root and a pronounced point. At this stage it still plausibly looks like a symbolic tooth rather than an obvious weapon component.
 
@@ -60,7 +106,7 @@ Taran is a practical skeptic. He recognizes that the Wolf's Tooth is forged cold
 
 He knows ordinary Iron-Maw folklore but not the lost ritual. His useful contribution is material interpretation.
 
-Once the shrine proves the Tooth is significant, Taran can help reconstruct the full implement. The PCs participate rather than handing the problem to him.
+Once the party has reason to believe the Tooth matters, Taran can help reconstruct the full implement. The PCs participate rather than handing the problem to him.
 
 ### Reconstruction challenge
 
@@ -79,9 +125,22 @@ The weapon is never lost to failed rolls. Results determine time and finish:
 
 ## FH-03 — Overlook, Spirit Trail, and Shrine
 
-Sera Wynn tends the remains of the old pilgrimage overlook and its poorly catalogued archive. Her role is historical corroboration and geography.
+Sera Wynn tends the old pilgrimage overlook and its poorly catalogued archive.
 
-Research can establish that Iron-Maw belongs to older Coedmyr hunting traditions, that the Hart appears in the same body of material, and that old "spiritual hunts" concerned returning or releasing something that had strayed from its proper course. The records should deepen Maelin's clues without explicitly stating that the Hart must be killed.
+The overlook survived longer than the harder forest traditions because it remained the pleasant, accessible part of pilgrimage culture. Visitors could meditate, exercise, pray, picnic, admire the view, and participate in simplified ceremonies without learning the older routes and obligations deeper in the forest.
+
+Sera genuinely values and preserves Coedmyr's heritage. That preservation is also part of the problem: the overlook's success as a spiritual retreat and tourist attraction helped separate the visible symbolism of pilgrimage from older working traditions of stewardship.
+
+### Overlook research
+
+The archive can introduce several ideas without giving the solution:
+
+- **Iron-Maw** appears throughout older hunting and stewardship material as a figure associated with necessary predation, harvest, culling, and limits.
+- **The Hart** appears in the same broad body of tradition. If the party has not already heard the name, this is a natural place to introduce it.
+- Old **spiritual hunts** were not ordinary subsistence hunts, but neither were they vague exercises in "returning something that strayed." They were ceremonial expressions of active stewardship and ecological balance.
+- Old tool diagrams and hunting accounts can support later reconstruction of the Wolf's Tooth implement.
+
+Records should deepen the party's understanding of what Coedmyr once valued without directly stating what must happen to the present Hart.
 
 Old records or exploration reveal the **spirit trail**, marked by weathered wolf carvings, leading from the overlook to a ruined hunting shrine.
 
@@ -89,37 +148,72 @@ Old records or exploration reveal the **spirit trail**, marked by weathered wolf
 
 The shrine requires only clearing enough growth and debris to traverse it, expose the bell, and study its carvings.
 
-A normal strike produces a weak note and a sub-round pale aura that briefly suppresses nearby corruption before collapsing.
+Any ordinary strike produces a weak note and a sub-round pale aura that briefly suppresses nearby corruption before collapsing. A fist, hammer, weapon haft, or other mundane striker can change how loud the bell sounds, but not how strong the ritual response is.
 
-Striking the bell with the Wolf's Tooth produces a dramatically stronger, cleaner resonance and a larger aura, but without continued ringing the effect still fades quickly. This reveals that the Tooth is the correct striker without explaining the entire rite.
+Striking the bell with the Wolf's Tooth produces a qualitatively different response: a dramatically cleaner resonance and a larger, stronger aura. Without continued ringing the effect still fades quickly. This reveals that the Tooth is the correct striker without explaining the entire rite.
 
-Carvings show distinct roles: one participant remains at the bell while several hunters leave the shrine carrying long implements. The party can reasonably infer that the bell was maintained while the others hunted. The shrine does **not** tell them that the bell calls the Hart or that the Hart must die.
+Carvings show distinct roles: one participant remains at the bell while several hunters leave the shrine carrying long implements. The implement heads are broad at the root with a pronounced point, enough to support later recognition without functioning as an instruction diagram.
+
+The party can reasonably infer that the bell was maintained while the others hunted. The shrine does **not** tell them what is hunted, that the bell calls the Hart, why the hunt was necessary, or that the Hart must die.
 
 ## FH-04 — Ewan Rusk's Trap Line
 
 Ewan Rusk is an experienced hunter who has stopped checking distant portions of his trap line because local game has dwindled. He does not know the Hart reached one of those unattended traps or that this corresponds with the recent escalation.
 
+Ewan supplies practical forest knowledge. He does not recognize the Hart through old lore and should not explain the supernatural meaning of the rite.
+
+### Trap-line progression
+
+Let the route build rather than jumping directly to the Hart.
+
+Early traps are empty or show only old fur, blood, or signs that Ewan has neglected them. This establishes his carelessness and the collapse in local game.
+
 ### The doe
 
-Before reaching the Hart, the party finds a doe from Ewan's line whose trap injury demonstrates the underlying pathology. Bone, muscle, and skin have continued growing around damage and infection instead of resolving it. The animal remained alive when it should have died.
+Before reaching the Hart, the party finds a doe caught in one of Ewan's distant traps.
 
-A careful examination should let the Twilight druid articulate the central phenomenon: this is not accelerated healing. Damaged life is accumulating because normal endings are failing.
+The injury demonstrates the regional pathology without summarizing its meaning. Bone has thickened around the trap jaws without restoring the joint. Muscle fibers run in conflicting directions. Skin has grown across metal or debris. Infection remains present alongside layers of new tissue. The animal is exhausted, feverish, and badly impaired.
+
+Examination establishes that the trap itself is ordinary. The abnormality is in the animal's biological response, not the metal or mechanism.
+
+If the party frees the doe, it can stagger away despite the grotesquely altered limb. Let the players decide what that implies.
+
+### Approaching the Hart
+
+The Hart should affect the environment well before the party reaches its mechanical aura.
+
+Roughly one or two minutes from the final trap, the forest becomes progressively stranger. Vegetation crowds itself with new shoots. Fresh growth pushes from damaged stems and old breaks. Fungi become excessive. Insect activity is conspicuously dense. Roots knot over one another. The closer the party gets, the more intense these effects become.
+
+Characters using abilities that communicate with plants or otherwise sense natural conditions should receive the same broad information in the form appropriate to that ability: overwhelming growth, crowding, and a strong concentration ahead. Do not turn plants into narrators that explain the plot.
 
 ### The trapped Hart
 
-Farther down the neglected line, the party finds the Hart trapped and surrounded by a dangerous aura of uncontrolled vitality. The Hart should not be visually identified by antlers; its nature is spiritual rather than a mundane male deer.
+Farther down the neglected line, the party finds the Hart trapped at the center of the strongest effect.
 
-The aura makes close approach hazardous. Entering it causes painful uncontrolled biological responses and requires appropriate saves. This prevents simply walking up to manipulate the trap without consequence.
+The Hart should be unmistakably exceptional on sight without relying on antlers. Its coat catches light unusually. Its eyes show an awareness unlike ordinary prey. Its proportions and movement are subtly but clearly outside mundane wildlife. Even frightened and exhausted, it has a presence that makes the surrounding forest feel secondary.
 
-Recall Knowledge can establish that the same imbalance radiates outward from the creature and that it resembles a powerful local nature spirit. It should **not** reveal the final solution or teach that its death is necessary.
+It should not look like simply another malformed deer. The surrounding environment bears the grotesque excess more visibly than the Hart itself.
 
-Ordinary attacks can wound the Hart but cannot complete its death. Wounds begin closing through the same grotesque accumulation seen in other animals. The party learns that the creature cannot finish dying.
+A **25-foot aura** around the Hart is actively hazardous. Entering it or beginning a turn within it during structured play requires a **DC 32 Fortitude save**.
+
+Use concrete bodily manifestations:
+
+- old scars inflame or thicken;
+- small cuts rapidly produce excessive tender tissue;
+- swelling develops around old injuries;
+- nails or hair grow painfully at the roots.
+
+Repeated exposure or deeper proximity can increase severity. The larger environmental gradient should warn the party before they cross the mechanical boundary.
+
+Recall Knowledge can establish that the concentration radiates from the creature and that it resembles a powerful local nature spirit. It should **not** reveal the final solution or teach that its death is necessary.
+
+Ordinary attacks can wound the Hart, but wounds begin closing through the same badly organized biological accumulation seen elsewhere. Experimentation can establish that simply attacking it does not resolve the larger disturbance.
 
 The party may experiment with the Wolf's Tooth, attack the Hart, leave it trapped, or free it. None of these ordinary interventions resolves its liminal condition.
 
 ### Freeing the Hart early
 
-Freeing the Hart is a valid player choice and should not be blocked. Once freed, the source of the corruption becomes mobile. Outbreaks around Coedmyr intensify and the Hart must later be reacquired during the ritual hunt.
+Freeing the Hart is a valid player choice and should not be blocked. Once freed, the concentrated source becomes mobile. Outbreaks around Coedmyr intensify and the Hart must later be reacquired during the ritual hunt.
 
 A second, more severe wildlife attack near town can demonstrate this escalation and create urgency without forcing the party directly into the finale.
 
@@ -129,26 +223,27 @@ The shrine carvings establish that someone traditionally remained at the bell wh
 
 If the players recognize the action-economy problem, they can recruit any competent villager willing to participate. Ewan is the most natural candidate after confronting the consequences of his neglected trap line.
 
-Ewan should require persuasion. Guilt makes him receptive, but he has no reason to assume a reconstructed ritual is safe. Diplomacy can establish the rite's credibility, Intimidation can press his responsibility, and Nature, Occultism, or other appropriate approaches can explain why the shrine's aura offers protection.
+Ewan should require persuasion before he has seen convincing evidence. Guilt and firsthand exposure make him much more receptive afterward. Diplomacy can establish credibility, Intimidation can press his responsibility, and Nature, Occultism, or other appropriate approaches can explain the practical protection offered by the shrine's aura.
 
 Failure does not remove the advantage permanently. Ewan can refuse while frightened or drunk and be approached again later, another villager can be recruited, or the party can proceed without help.
 
 Without a bellkeeper, one PC must remain at the shrine and maintain the bell while the others pursue the Hart.
 
-## What the Party Should Know Before the Finale
+## What the Party May Know Before the Finale
 
 There is no automatic "investigation reveal" that explains the solution.
 
-A well-prepared party should instead understand:
+A well-prepared party can reasonably have assembled the following observations:
 
-- the Hart is the concentrated source of Coedmyr's imbalance;
-- it cannot complete death through ordinary violence;
-- Iron-Maw and the Hart belong to an older tradition concerned with spiritual hunts and returning what has strayed;
+- the Hart is the center of the strongest current abnormality;
+- ordinary attacks and ordinary biological repair do not resolve what is happening around it;
+- older Coedmyr tradition treated stewardship as requiring limits, harvest, predation, and active intervention as well as reverence;
+- Iron-Maw and the Hart both belong to that older body of tradition;
 - the Wolf's Tooth was built as part of a hunting implement;
 - the Tooth correctly activates the shrine bell;
 - the old rite involved a bellkeeper remaining behind while hunters departed.
 
-They should **not** yet know with certainty that the bell calls the Hart, exactly how the shrine removes corruption, or that the final act is a mortal wound. The finale teaches those truths through play.
+These facts support theories. They do not automatically produce the correct one. The party can enter the finale uncertain about why the hunt exists, exactly what the bell does, or what final action will be required.
 
 ## FH-FINAL — Ritual Hunt
 
@@ -194,7 +289,7 @@ As the final corruption layer is removed, the Hart becomes visibly ordinary, exh
 
 This is the finale's central reveal. The party can see that the corruption has not been destroyed and that if containment ends while the Hart remains alive, it has an obvious vessel to reclaim.
 
-Maelin's language and the old records can finally click into place: the Hart has been unable to complete its natural passage. The rite creates the temporary separation necessary for that passage to occur.
+The older stewardship material can finally click into place. The rite has created a temporary separation in which an ending that could not otherwise occur is possible.
 
 A character must take the Wolf's Tooth from the bell, approach the exposed Hart, and spend 1 action to **Complete the Passage**, delivering the proper mortal wound. No final attack roll is required; reaching this state is the encounter's challenge.
 
