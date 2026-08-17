@@ -7,10 +7,10 @@ core_arc:
     name: Explore Coedmyr and trace the source
   - id: FH-PREPARE
     name: Recover forgotten preparations
-  - id: FH-REVEAL
-    name: Reconstruct the old rite
+  - id: FH-INFER
+    name: Interpret the old rite
   - id: FH-FINAL
-    name: Complete the old rite
+    name: Attempt the old rite
 hard_gates:
   - wolf_tooth_weapon_complete
 advantages:
@@ -18,20 +18,21 @@ advantages:
   - bellkeeper_recruited
   - hart_source_known
   - traditional_tool_research
-truth_rule:
-  description: The party understands the Hart's proper passage after connecting any two independent clue categories.
+inference_model:
+  description: No clue-count threshold automatically reveals the solution. Independent clues should remain mutually consistent so players can form, test, and revise their own interpretation of the old rite.
   clue_categories:
-    - archaic_mercy_language
+    - maelin_stewardship_context
     - weapon_nature_known
     - ritual_hunt_record
-  required_categories: 2
+    - bell_behavior_known
+    - hart_source_known
 state_variables:
   outbreak_understood: false
   hart_source_known: false
   hart_trapped: true
   hart_freed_early: false
   wolf_tooth_relic_found: false
-  archaic_mercy_language: false
+  maelin_stewardship_context: false
   weapon_nature_known: false
   wolf_tooth_weapon_complete: false
   traditional_tool_research: false
@@ -39,4 +40,3 @@ state_variables:
   bell_behavior_known: false
   ritual_hunt_record: false
   bellkeeper_recruited: false
-  truth_known: false
