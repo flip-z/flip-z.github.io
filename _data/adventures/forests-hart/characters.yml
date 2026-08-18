@@ -8,6 +8,7 @@ party:
     rogue: Extracts information from people and handles direct social pressure.
     fighter: Commands the mission, manages risk, and keeps the team alive.
   design_rule: Each character should contribute to investigation through a distinct channel. Avoid mechanics that let one character automatically solve another character's domain or convert uncertain clues into categorical answers.
+  mock_rule: During mocks, deliberately surface situations where each character's highlighted mechanics can matter, but never force a feat to produce information the fiction has not earned.
 
 characters:
   - id: pc-twilight-druid
@@ -24,23 +25,55 @@ characters:
         - treats death, decomposition, predation, and renewal as ordinary parts of ecology
         - is comfortable communicating with animals, plants, spirits, and liminal phenomena
     strengths:
-      - identifies abnormal biological and spiritual states
-      - interprets animal behavior, vegetation, and environmental responses
-      - recognizes when natural processes are out of balance
-      - provides the party's specialized understanding of life, death, and transitions between them
+      narrative:
+        - identifies abnormal biological and spiritual states
+        - interprets animal behavior, vegetation, and environmental responses
+        - recognizes when natural processes are out of balance
+        - provides the party's specialized understanding of life, death, and transitions between them
+      mechanical:
+        - high Wisdom supports Nature, Perception, and primal spellcasting
+        - prepared primal casting gives broad field utility, healing, control, and environmental interaction
+        - Plant Empathy or equivalent communication can extract impressions directly from vegetation
+        - Order of Twilight feats can diagnose liminal or spiritually displaced states without revealing the adventure solution
     weaknesses:
-      - poor at reconstructing human history from records or artifacts
-      - should not automatically infer ritual procedure from natural or spiritual observations
-      - quiet demeanor can leave social initiative to others
+      narrative:
+        - poor at reconstructing human history from records or artifacts
+        - should not automatically infer ritual procedure from natural or spiritual observations
+        - quiet demeanor can leave social initiative to others
+      mechanical:
+        - prepared casting asks the player to choose the right tool before the situation is fully known
+        - many useful spells compete for the same actions used for movement, Recall Knowledge, or interacting with the environment
+        - Twilight senses identify presence or state, not precise causes or ritual answers
+        - does not replace the rogue in social scenes or the investigator in archival and forensic work
     role_boundary: Reveals states, sensations, and natural relationships; does not announce plot conclusions or the correct ritual solution.
     build_guidance:
-      suggested:
+      status: recommended_not_locked
+      highlighted_progression:
+        - level: 1
+          choice: Tapetum Lucidum
+          source: Order of Twilight
+          purpose: Establishes the order's visual identity and darkvision specialization.
+        - level: 4
+          choice: Read the Cycle
+          source: Order of Twilight
+          purpose: Signature investigative feat; diagnoses whether a creature's relationship to life and death appears natural, corrupted, artificially sustained, or displaced.
+        - level: 6
+          choice: Sever the Tether
+          source: Order of Twilight
+          purpose: Converts a successful diagnosis of an unnatural sustaining bond into a narrow team advantage without adding ordinary damage.
+        - level: 8
+          choice: Eyes Beyond Twilight
+          source: Order of Twilight
+          purpose: Gives broad imprecise awareness of spiritual essence while preserving the need to investigate identity and cause.
+        - level: 10
+          choice: Keeper of the Threshold
+          source: Order of Twilight
+          purpose: Makes the mission specialist an active defender against possession, soul displacement, forced undeath, and magical prevention of death.
+      highlighted_other:
         - name: Plant Empathy
           purpose: Makes direct plant communication a useful investigative tool without automatically revealing conclusions.
         - name: Natural Medicine
           purpose: Reinforces practical field knowledge and the connection between medicine and ecology.
-        - name: Twilight-order feats
-          purpose: Favor perception of liminal states, spirits, darkness, and transitions rather than generic druid breadth.
       avoid:
         - name: Order Explorer
           reason: Broadening into unrelated druid orders weakens the deliberately narrow Twilight specialist identity.
@@ -61,23 +94,67 @@ characters:
         - proposes material explanations and tests them against new evidence
         - keeps asking what physically happened before deciding what it means
     strengths:
-      - forensic medicine and examination of bodies
-      - reconstructing cause and sequence from physical evidence
-      - archival research and organizing fragmented clues
-      - distinguishing a locally mundane explanation from the larger unresolved problem
+      narrative:
+        - forensic medicine and examination of bodies
+        - reconstructing cause and sequence from physical evidence
+        - archival research and organizing fragmented clues
+        - distinguishing a locally mundane explanation from the larger unresolved problem
+      mechanical:
+        - Devise a Stratagem rewards deliberate target selection and lets Intelligence drive key attacks
+        - Forensic Medicine and Medicine feats provide strong nonmagical recovery and scene examination
+        - high Intelligence supports Society, Crafting-adjacent analysis, Lore, and broad Recall Knowledge coverage
+        - investigator feats can turn successful analysis into benefits for the whole party
     weaknesses:
-      - can become overconfident in material explanations
-      - may follow a plausible mundane theory farther than the rest of the group
-      - should not receive automatic confirmation that a lead is plot-relevant
+      narrative:
+        - can become overconfident in material explanations
+        - may follow a plausible mundane theory farther than the rest of the group
+        - should not receive automatic confirmation that a lead is plot-relevant
+      mechanical:
+        - Devise a Stratagem creates an action-economy cost when a target is not already tied to the investigation
+        - combat output is less straightforward when the strategic roll is poor
+        - broad knowledge coverage still does not replace the druid's natural or spiritual expertise
+        - weaker social authority than the rogue and less direct battlefield control than the fighter
     role_boundary: Determines what happened and how evidence fits together; the druid interprets natural or spiritual state, while the rogue owns social extraction.
     build_guidance:
-      suggested:
-        - name: Forensic Acumen
-          purpose: Strongly reinforces the methodology and makes physical examination a signature activity.
-        - name: Ongoing Investigation
-          purpose: Keeps him actively examining environments during exploration without consuming the whole group's pace.
-        - name: Known Weaknesses
-          purpose: Rewards knowledge use in encounters without converting investigation clues into automatic answers.
+      status: recommended_not_locked
+      recommended_class_progression:
+        - level: 1
+          choice: Known Weaknesses
+          purpose: Couples Devise a Stratagem with Recall Knowledge and lets combat analysis support the team.
+        - level: 2
+          choice: Shared Stratagem
+          purpose: Turns a successful calculated Strike into an opening an ally can exploit.
+        - level: 4
+          choice: Ongoing Investigation
+          purpose: Keeps investigation active during exploration without forcing constant repeated declarations.
+        - level: 6
+          choice: Thorough Research
+          purpose: Makes archives, records, and extended research a genuine specialty.
+        - level: 8
+          choice: Clue Them All In
+          purpose: Reinforces that the investigator organizes information for the whole team rather than privately solving the case.
+        - level: 10
+          choice: Suspect of Opportunity
+          purpose: Keeps the core class loop functional when unexpected threats appear during field investigation.
+      highlighted_skill_progression:
+        - level: 1
+          choice: Forensic Acumen
+          purpose: Signature forensic feat for examining bodies and following up on physical findings.
+        - level: 2
+          choice: Battle Medicine
+          purpose: Gives the forensic physician immediate field utility.
+        - level: 4
+          choice: Continual Recovery
+          purpose: Makes him the reliable between-encounter medical support.
+        - level: 6
+          choice: Ward Medic
+          purpose: Extends recovery support efficiently across a four-person field team.
+        - level: 8
+          choice: Robust Health
+          purpose: Fits regular exposure to carcasses, infection, biological hazards, and rough field conditions.
+        - level: 10
+          choice: Unmistakable Lore
+          purpose: Candidate for a focused professional Lore such as Forensic or Ministry Lore without granting generic mystery answers.
       avoid:
         - name: That's Odd
           reason: Automatically spotlighting unusual objects undermines deliberate clue placement such as the Wolf's Tooth hidden among Maelin's relics.
@@ -99,29 +176,68 @@ characters:
         - lies, flatters, teases, embarrasses, and redirects naturally
         - treats social boundaries as obstacles rather than fixed rules
     strengths:
-      - gets reluctant people talking
-      - controls the tone and tempo of social encounters
-      - strong Deception and Diplomacy coverage
-      - comfortable taking interpersonal risks the rest of the party will not
+      narrative:
+        - gets reluctant people talking
+        - controls the tone and tempo of social encounters
+        - strong Deception and Diplomacy coverage
+        - comfortable taking interpersonal risks the rest of the party will not
+      mechanical:
+        - Scoundrel Feint and high Charisma align the social and combat identities
+        - high mobility makes it easy to exploit openings created by the fighter
+        - Sneak Attack strongly rewards coordinated off-guard setup rather than isolated damage racing
+        - social skill feats give useful actions both in conversation and combat
     weaknesses:
-      - can push witnesses or locals too hard
-      - may create resistance another party member has to repair
-      - poor fit for solemn or delicate situations when restraint matters
+      narrative:
+        - can push witnesses or locals too hard
+        - may create resistance another party member has to repair
+        - poor fit for solemn or delicate situations when restraint matters
+      mechanical:
+        - less durable than the fighter and vulnerable when she overextends alone
+        - damage relies on creating or exploiting off-guard rather than simply standing in place and attacking
+        - Charisma investment competes with broader knowledge or physical skill coverage
+        - should not duplicate the investigator's clue-detection mechanics
     role_boundary: Extracts information from people; should not replace the investigator's evidence work or the fighter's authority over mission risk.
     build_guidance:
-      suggested:
-        - name: Distracting Feint
-          purpose: Gives the combat build the same attention-control identity as the social persona.
-        - name: Tumble Behind
-          purpose: Rewards bold positional play rather than passive damage optimization.
-        - name: Mobility
-          purpose: Supports a fearless, invasive combat style.
-        - name: Bon Mot
-          purpose: Fits verbal pressure and social aggression.
+      status: recommended_not_locked
+      recommended_class_progression:
+        - level: 1
+          choice: Tumble Behind
+          purpose: Gives an active mobile route to off-guard that matches her intrusive style.
+        - level: 2
+          choice: Distracting Feint
+          purpose: Core Scoundrel identity; turns Feint into broader disruption rather than only personal damage setup.
+        - level: 4
+          choice: Reactive Pursuit
+          purpose: Makes her difficult to disengage from and reinforces the predatory, forward persona.
+        - level: 6
+          choice: Gang Up
+          purpose: Creates very strong natural teamwork with the fighter without requiring elaborate flanking choreography.
+        - level: 8
+          choice: Opportune Backstab
+          purpose: Directly rewards staying near an ally who is successfully pressuring the same target.
+        - level: 10
+          choice: Tactical Debilitations
+          purpose: Gives the Scoundrel a control-oriented capstone at this level rather than simply increasing damage.
+      highlighted_skill_feats:
         - name: Charming Liar
-          purpose: Reinforces deception without making Intimidation the character's primary social tool.
+          purpose: Makes deception a practical social tool rather than only a combat prerequisite.
+        - name: Bon Mot
+          purpose: Gives her verbal pressure a useful mechanical expression.
         - name: Lie to Me
-          purpose: Supports social dueling and reading deceptive NPCs.
+          purpose: Supports social dueling and lets Deception carry more of the character's interpersonal game.
+        - name: Shameless Request
+          purpose: Fits a character willing to make socially unreasonable asks without hesitation.
+      ancestry_multiclass_option:
+        level: 9
+        choice: Multitalented
+        status: candidate_not_locked
+        candidates:
+          - dedication: Swashbuckler Dedication
+            style: Fencer
+            reason: Most direct extension of the existing Dex/Cha, Feint, mobility, and femme-fatale duelist identity.
+          - dedication: Bard Dedication
+            muse: Polymath
+            reason: Best option if occult magic and broad charismatic versatility are preferred over pure martial extension.
       avoid:
         - name: Predictive Purchase / Implausible Purchase
           reason: Retroactively producing needed equipment undercuts Coedmyr's isolation and the adventure's emphasis on discovering and reconstructing the correct tool.
@@ -130,9 +246,11 @@ characters:
 
   - id: pc-fighter
     name: TBD
+    ancestry: Human
+    background: Artisan
     class: Fighter
-    primary_attribute: Strength or Dexterity
-    role: mission commander, protector, practical field leader, and risk manager
+    primary_attribute: Strength
+    role: mission commander, defender, practical field leader, and risk manager
     persona:
       summary: The person the group looks to when incomplete information still requires a decision.
       behavior:
@@ -141,30 +259,98 @@ characters:
         - is decisive once enough information exists to act
         - treats unexplained hazards conservatively until the team understands the risk
     strengths:
-      - battlefield protection and control
-      - decisive mission leadership
-      - practical fieldcraft and physical problem solving
-      - evaluates whether the group should press forward, withdraw, or change approach
+      narrative:
+        - battlefield protection and control
+        - decisive mission leadership
+        - practical fieldcraft, Crafting, and physical problem solving
+        - evaluates whether the group should press forward, withdraw, or change approach
+      mechanical:
+        - fighter accuracy makes him the party's most reliable straightforward martial attacker
+        - shield feats and reaction economy let him actively protect adjacent allies instead of only having high personal defenses
+        - Athletics gives him useful control against large terrestrial threats
+        - Artisan and Crafting support repairs, equipment work, and the Wolf's Tooth reconstruction
+        - Combat Flexibility lets him prepare a situational fighter tool for the expected mission
     weaknesses:
-      - conservative risk tolerance can slow aggressive investigation
-      - may clash with the rogue's willingness to push ahead socially or physically
-      - relies on other characters for specialized interpretation rather than producing it himself
+      narrative:
+        - conservative risk tolerance can slow aggressive investigation
+        - may clash with the rogue's willingness to push ahead socially or physically
+        - relies on other characters for specialized interpretation rather than producing it himself
+      mechanical:
+        - defender abilities often require correct positioning and adjacency
+        - Raise a Shield and movement compete with offensive actions
+        - shield protection consumes reactions and can damage the shield itself
+        - limited knowledge and social specialization compared with the rest of the party
     role_boundary: Makes decisions with specialist input and protects the team; should not become another knowledge character or solve evidence through combat mechanics.
     build_guidance:
-      suggested:
-        - name: Quick Shield Block
-          purpose: Strong fit for a protection-first mission commander if using a shield.
-        - name: Reactive Shield
-          purpose: Reinforces immediate defensive response to threats.
-        - name: Slam Down
-          purpose: Gives useful battlefield control rather than only increasing damage.
-        - name: Cut from the Air
-          purpose: Extends the protector identity to threats aimed at the team.
-        - name: Guardian's Deflection
-          purpose: Supports direct intervention on behalf of allies if compatible with the final weapon setup.
+      status: recommended_not_locked
+      recommended_class_progression:
+        - level: 1
+          choice: Reactive Shield
+          purpose: Establishes immediate defensive response and supports a protection-first shield style.
+        - level: 2
+          choice: Aggressive Block
+          purpose: Turns Shield Block into positioning and battlefield control.
+        - level: 4
+          choice: Shielded Stride
+          purpose: Lets the commander advance through danger while maintaining protection.
+        - level: 6
+          choice: Shield Warden
+          purpose: Signature defender feat; lets his shield protect an adjacent ally rather than only himself.
+        - level: 8
+          choice: Quick Shield Block
+          purpose: Expands reaction economy so protection does not completely consume his ability to respond to enemies.
+        - level: 10
+          choice: Tactical Reflexes
+          purpose: Adds another reaction reserved for Reactive Strike and completes the high-reaction defender chassis.
+      combat_flexibility:
+        level: 9
+        default_choice: Slam Down
+        status: recommended_default_not_locked
+        purpose: Adds large-creature control for a mission dominated by malformed terrestrial wildlife while keeping the permanent feat chain focused on defense.
+      highlighted_skill_progression:
+        - level: 1
+          choice: Specialty Crafting
+          source: Artisan background
+          purpose: Establishes the practical craftsman identity; blacksmithing or armorsmithing are the preferred specialties.
+        - level: 2
+          choice: Quick Repair
+          purpose: Particularly useful for a shield user and field craftsman.
+        - level: 4
+          choice: Titan Wrestler
+          purpose: Supports Trips, Grapples, Shoves, and other Athletics control against oversized wildlife.
+        - level: 6
+          choice: Rapid Mantel
+          purpose: Reinforces expedition competence and physical rescue capability.
+        - level: 8
+          choice: Quick Climb
+          purpose: Strong fit for a steep forest and shrine exploration environment.
+        - level: 10
+          choice: Impeccable Crafting
+          purpose: Candidate if Crafting remains one of his defining master-level skills.
+      highlighted_general_feats:
+        - level: 3
+          choice: Toughness
+          purpose: Supports intentionally occupying dangerous positions for the team.
+        - level: 7
+          choice: Fleet
+          purpose: Positioning is essential to Shield Warden, Reactive Strike, and physically interposing himself.
+      highlighted_human_feats:
+        - level: 1
+          choice: Natural Ambition
+          purpose: Candidate for fitting one more low-level fighter tool into the build without weakening the defender core.
+        - level: 5
+          choice: General Training
+          purpose: Candidate route to Incredible Initiative or another broadly useful mission feat.
+        - level: 9
+          choice: Cooperative Soul
+          purpose: Candidate if the ancestry slot remains available; reinforces the commander helping specialists perform their jobs.
       avoid:
         - name: Combat Assessment
           reason: Learning creature information by attacking trespasses on the investigator's knowledge role.
+        - name: heavy Medicine investment
+          reason: The investigator should remain the team's medical specialist.
+        - name: heavy Survival investment
+          reason: Competence is appropriate, but the druid and local guides should retain stronger wilderness interpretation.
 
 party_design:
   replaced_class: Commander
