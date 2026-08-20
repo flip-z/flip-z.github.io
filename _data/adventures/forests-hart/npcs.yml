@@ -4,18 +4,39 @@ npcs:
     role: elderly keeper of old Coedmyr language, relics, and local tradition
     public_reputation: Knows more old Coedmyr material than anyone left, but speaks an archaic local dialect that modern villagers struggle to understand.
     communication: Maelin is not cryptic. He speaks plainly in an old dialect. Nessa translates incompletely and sometimes incorrectly; PCs with relevant Society, Lore, Occultism, or linguistic knowledge can catch words, context, or errors.
-    belief: Coedmyr abandoned the obligations that once accompanied its reverence for the forest. The village preserves fragments and souvenirs while neglecting the place, its history, and the practices that once kept people engaged with it.
+    belief: Coedmyr abandoned the obligations that once accompanied its reverence for the forest. The village preserves fragments and souvenirs while neglecting the place, its history, and the practical institutions that once maintained old rites and stewardship.
     knows:
       - old Coedmyr hunting and stewardship traditions
-      - Iron-Maw folklore as a figure of necessary predation, culling, harvest, and ecological limits
-      - the Hart appears in old local tradition
+      - the Wolf as a continent-wide figure of necessary predation, culling, selection, and limits
+      - the Hart as a continent-wide figure of renewal, succession, recovery, and replacement after loss
+      - the great River Turtle as a figure of persistence, circulation, water, soil, and long-duration systems
+      - the great Bird as a figure of movement, migration, dispersal, seasonal change, and passage between places
+      - regional stories disagree on names, relationships, and exact forms of these spirits
+      - Coedmyr once maintained a practical religious keeper or warden responsible for shrines, trails, hunts, harvest limits, and ritual continuity
+      - that office faded as pilgrimage became tourism and simplified ceremony
       - many inherited objects in his house belonged to pilgrimage and hunting practices
-      - the Wolf's Tooth is associated with Iron-Maw and the old hunt once its context is recognized
+      - the Wolf's Tooth is a human-forged ritual object associated with the Wolf and the old hunt once its context is recognized
     functions:
       - provides historical and cultural context rather than a procedural answer
       - can identify the Hart after hearing a sufficiently distinctive description
-      - can retrieve the Wolf's Tooth when the party mentions Iron-Maw, the old hunt, the shrine implements, or the bell
+      - can retrieve the Wolf's Tooth when the party mentions the Wolf, the old hunt, the shrine implements, or the bell
       - allows a careful search of his crowded house to discover the Wolf's Tooth early
+      - supplies unrelated spirit stories, obsolete customs, and disputed translations so his lore does not read as a concentrated quest solution
+    limits:
+      - does not know the complete current ritual procedure
+      - does not know why the present Hart manifestation has remained
+      - does not know that the Wolf's Tooth is the correct bell striker until the party demonstrates it
+
+  - id: npc-translator
+    name: Nessa Tor
+    role: Maelin's granddaughter, caretaker, and imperfect translator of archaic Coedmyr speech
+    belief: The old stories matter, but Maelin often treats distinctions as obvious that modern villagers no longer understand.
+    functions:
+      - keeps Maelin's conversations accessible without making translation exact
+      - simplifies, guesses, argues with Maelin, and occasionally mistranslates old ecological or ritual terms
+      - can recall fragments of Hart, Wolf, Turtle, and Bird stories that are culturally useful but not necessarily relevant to the case
+      - can serve as an optional bellkeeper if the party values linguistic and ritual familiarity over field experience
+    bellkeeper_profile: Understands more of the old words and cadence than most villagers but has little experience with dangerous forest work.
 
   - id: npc-blacksmith
     name: Taran Holt
@@ -26,30 +47,34 @@ npcs:
       - the Wolf's Tooth is cold iron
       - it was fashioned to mount on a haft
       - its shape corresponds to an obsolete ceremonial regional implement
+      - the object is human-made rather than a literal tooth or fragment of a spirit
     functions:
       - provides an early practical introduction to village conditions
       - shows the party a mundane completed analogue once shown the relic
       - helps reconstruct the traditional implement after the party earns his cooperation
+      - can serve as an optional bellkeeper if the party wants someone physically dependable
     cooperation_paths:
       - assist with ordinary shop work
       - gain his practical trust elsewhere
       - bring relevant overlook research
     research_synergy: Overlook library material about traditional Coedmyr tools makes reconstruction easier.
+    bellkeeper_profile: Strong and reliable under pressure, but culturally skeptical and less familiar with the old rite.
 
   - id: npc-hunter
     name: Ewan Rusk
     role: skeptical local hunter and default bellkeeper candidate
     public_reputation: Experienced woodsman frustrated by the collapse of local game populations.
     belief: The region's problems have mundane causes until direct evidence changes his mind.
-    situation: He has neglected parts of his trap line because game has become scarce. He does not know that the Hart reached one of those unattended traps or that this corresponds with the recent escalation.
+    situation: He has neglected parts of his trap line because game has become scarce. He does not know that a physical manifestation of the Hart reached one of those unattended traps or that this corresponds with the recent escalation.
     functions:
       - tells the party where his trap line runs
       - can guide the party toward the Hart's current source location
       - if not already encountered, can enter the first dusk incursion and help finish the final malformed animal
-      - is the most natural bellkeeper candidate after seeing enough evidence
+      - is a natural bellkeeper candidate after seeing enough evidence and confronting the consequences of his neglected line
     limits:
       - does not recognize the Hart by lore alone
       - does not interpret the old rite or supply supernatural explanations
+    bellkeeper_profile: Best forest experience and strong motivation after the trap-line discovery; knows little of the ritual beyond what the party explains.
 
   - id: npc-mayor
     name: Elara Venn
@@ -66,14 +91,18 @@ npcs:
     name: Sera Wynn
     role: caretaker of the old pilgrimage overlook and its surviving archive
     belief: Coedmyr's pilgrimage heritage deserves preservation, though the accessible retreat culture that kept the overlook alive also helped reduce older practices to tourism and symbolism.
-    site_context: The overlook survived as a pleasant spiritual destination for meditation, exercise, prayer, picnics, views, and simplified ceremonies after harder forest rites were already fading.
+    site_context: The overlook survived as a pleasant spiritual destination for meditation, exercise, prayer, picnics, views, and simplified ceremonies after harder forest rites and the practical religious keeper office were already fading.
     knows:
       - the route of the spirit trail
       - the existence of the old shrine
       - where relevant local records are kept in the overlook library
-      - Iron-Maw appears in old hunting and stewardship traditions
-      - old pilgrimage material treats care for the forest as involving limits and active management as well as reverence
+      - the Wolf and Hart appear together in some old hunting and stewardship traditions
+      - Turtle and Bird traditions also appear in Coedmyr records without bearing directly on the present hunt
+      - old pilgrimage material treats care for the forest as involving limits, movement, continuity, and active management as well as reverence
+      - old records distinguish a keeper or cantor who remained at ritual sites from hunters or other participants who departed
     functions:
       - provides one independent route to discovering the shrine
       - introduces the Hart in old records if the party has not already heard the name
       - directs research toward old hunt, stewardship, and tool traditions without revealing the present-day solution
+      - can serve as an optional bellkeeper when ritual familiarity matters more than field toughness
+    bellkeeper_profile: Familiar with surviving ritual material and cadence, but physically less capable than Ewan or Taran.
