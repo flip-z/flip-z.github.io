@@ -13,8 +13,11 @@ difficulty:
     - DC 32 represents a genuinely dangerous exposure or difficult early inference.
 
 investigation_style:
-  description_rule: Describe observable physical evidence before supplying interpretation. Avoid thematic phrases that state what life, death, or nature is doing.
+  description_rule: Describe observable physical evidence before supplying interpretation. Early scenes should remain plausibly readable as neglect, ecological decline, disease, or forest reclaiming a shrinking village.
   inference_rule: No number of successful clue checks automatically reveals the adventure's solution.
+  underlying_model: The Hart does not emit corruption or excess vitality. Its physical manifestation has remained anchored beyond its proper season, causing normally connected natural processes to stop resolving cleanly into one another nearby.
+  evidence_pattern: Growth, repair, decomposition, predation, migration, inflammation, and recovery may continue at contradictory rates or in the wrong sequence. The supernatural case becomes persuasive when these combinations become physically impossible rather than because the scenery looks overtly magical.
+  terminology: Use disturbance or disjunction in GM-facing text. Villagers may call grotesque manifestations corrupted, but corruption is not an invading substance.
   chicken_claim: No physical evidence is available from Elara. Treat reliability as unresolved unless play establishes otherwise.
   spring:
     basic_finding: A badly decomposed animal lodged at the source provides a mundane explanation for the local water contamination.
@@ -29,17 +32,25 @@ chase:
     awkward_but_plausible: 32
   failure_effect: Increase breach pressure rather than ending the chase.
 
+spirit_trail:
+  optional_forest_hooks:
+    - abnormal animal cries from deeper woods
+    - malformed tracks crossing the old route
+    - abandoned or damaged trapping infrastructure intersecting Ewan's line
+  rule: Use these only when the party has not already meaningfully entered the forest or discovered Ewan's neglected line. They redirect toward existing content rather than creating new nodes.
+
 hart_source:
   approach:
     warning_distance: Begin obvious environmental escalation one to two minutes before reaching the trap.
     signs:
-      - vegetation becomes excessively dense and produces fresh shoots from damaged or crowded growth
-      - fungi, insects, roots, and other biological activity become conspicuously abundant
+      - vegetation produces competing fresh shoots from damaged and crowded growth
+      - fungal activity, insects, decomposition, and fresh growth occur together at implausible intensity or timing
+      - roots, scars, breaks, and wounds show processes continuing without clean resolution
       - abnormalities intensify toward the Hart rather than beginning abruptly at the mechanical aura boundary
   presentation:
     - Do not rely on antlers to identify the Hart.
     - Its coat, eyes, proportions, movement, and presence should make it immediately clear that it is not ordinary wildlife.
-    - It should appear distressed and trapped rather than visually corrupted in the same manner as mundane malformed animals.
+    - It should appear distressed, exhausted, and trapped rather than visually corrupted in the same manner as mundane malformed animals.
   aura:
     radius_feet: 25
     save: Fortitude
@@ -50,7 +61,19 @@ hart_source:
       - minor cuts rapidly produce excessive tender tissue
       - nails or hair grow painfully at the roots
       - swelling develops around old injuries
-    guidance: Use concrete bodily effects. Stronger exposure can increase severity with proximity or repeated failed saves rather than introducing an unexplained second boundary.
+    guidance: Treat these as the creature's own biological processes becoming badly sequenced or disproportionate in the strongest part of the disturbance, not as exposure to a separate emitted substance.
+
+  doe:
+    forensic_findings:
+      - bone remodeling continues around the trap jaws without restoring useful alignment
+      - inflammation and infection remain active beside layers of new tissue
+      - skin or muscle repair incorporates debris or proceeds in incompatible directions
+      - the apparent amount of repair does not match the age of the injury
+    mundane_finding: The trap itself is ordinary and does not carry a poison, curse, unusual alloy, or mechanism that explains the condition.
+    spiritual_read:
+      dc: 27
+      skills: [Nature, Occultism, relevant Order of Twilight ability]
+      result: The animal's natural processes are not resolving into one another cleanly, and a broader spiritual disturbance is influencing the wound. This does not identify the Hart as the source or teach the ritual solution.
 
 npc_checks:
   elara_venn:
@@ -72,30 +95,33 @@ npc_checks:
     volunteers:
       - criticism of modern Coedmyr's neglect of the forest, history, and old obligations
       - old stewardship context when the party asks about pilgrimage or hunting traditions
+      - stories involving the Hart, Wolf, River Turtle, and Bird, including material unrelated to the current case
+      - fragments about the old practical religious keeper or warden whose duties included shrines, trails, hunts, harvest limits, and ritual continuity
     comprehension_checks:
       dc_25:
         skills: [Society, Lore, Occultism]
         result: Catch useful old words, correct part of Nessa's translation, or recognize the ecological meaning of a custom without gaining procedural ritual knowledge.
       dc_29:
         skills: [Society, Lore, Occultism]
-        result: Recover a more precise connection among Iron-Maw, hunting, limits, and stewardship from Maelin's dialect.
+        result: Recover a more precise connection between the Wolf, hunting, limits, and the Hart's place in old seasonal or stewardship stories.
     wolf_tooth:
       early_discovery:
         dc: 27
         skills: [Perception, Society, relevant Lore]
         result: Notice the unusual dark-metal tooth among the house's many relics before its importance is understood.
-      contextual_trigger: Mentioning Iron-Maw, the old hunt, the shrine's long implements, or the bell prompts Maelin to identify and retrieve the object from his collection without a check.
+      contextual_trigger: Mentioning the Wolf, the old hunt, the shrine's long implements, or the bell prompts Maelin to identify and retrieve the object from his collection without a check.
       safeguard: Failure to find it early never removes it from the adventure.
     does_not_know:
       - the complete ritual procedure
       - that the Tooth is the correct bell striker
-      - the exact modern cause of the outbreak
+      - why the current Hart manifestation has remained past its season
 
   taran_holt:
     volunteers_when_shown_relic:
       - cold iron identification
       - mounting points
       - resemblance to an obsolete ceremonial implement
+      - confirmation that the Tooth is a human-forged object rather than an actual tooth or spirit fragment
     cooperation:
       automatic_if:
         - party assists with practical shop work
@@ -134,12 +160,17 @@ npc_checks:
       - shrine existence
       - access to overlook library
       - history of the overlook as a surviving spiritual retreat and tourist attraction
+      - the old distinction between a keeper or cantor who maintained ritual sites and participants who departed
     research:
       basic_history: automatic
       useful_hunt_reference:
         dc: 25
         skills: [Society, Lore]
-        result: Learn that Iron-Maw belongs to traditions of hunting, culling, harvest, and active stewardship rather than stories about retrieving something that wandered away.
+        result: Learn that the Wolf belongs to traditions of hunting, culling, harvest, selection, and limits rather than stories about retrieving something that wandered away.
+      broader_spirit_lore:
+        dc: 25
+        skills: [Society, Lore, Religion, Occultism]
+        result: Find Hart, Wolf, River Turtle, and Bird traditions that establish a wider spiritual ecology without implying all four are needed for this rite.
       bellkeeper_hunter_distinction:
         dc: 27
         skills: [Society, Lore]
@@ -147,14 +178,23 @@ npc_checks:
         dc: 29
         skills: [Society, Lore]
         effect: Grants an advantage on reconstruction.
-    guidance: If the party has not already heard of the Hart, archive material can introduce it naturally as part of the old local tradition.
+    guidance: If the party has not already heard of the Hart, archive material can introduce it naturally as part of old local tradition.
+
+bellkeeper:
+  fiction_rule: By the time the party has identified the correct bell response, the old keeper role should already be visible in carvings or records and sustained ringing should make the practical requirement explicit.
+  candidates:
+    ewan: forest experience and responsibility for the neglected trap line
+    sera: surviving ritual familiarity
+    nessa: archaic-language access and cultural knowledge
+    taran: physical reliability and composure
+  no_helper: One PC maintains the bell. Recruitment changes party availability and risk rather than unlocking the finale.
 
 creature_candidates:
-  corrupted_fauna:
-    - Tar Zombie Predator chassis for malformed elk, deer, or wolves; remove undead assumptions and reflavor tar as biological or spiritual corruption.
+  malformed_fauna:
+    - Tar Zombie Predator chassis for malformed elk, deer, or wolves; remove undead assumptions and reflavor tar as badly organized tissue or spiritual disturbance.
     - Giant Anaconda chassis for the tainted-water branch.
-    - Mastodon chassis for an enormous corrupted stag or moose brute.
-  corruption_or_vegetation:
+    - Mastodon chassis for an enormous malformed stag or moose brute.
+  vegetation:
     - Snapdrake chassis for predatory malformed vegetation.
   liminal_taster:
     - Feathered Bear or Strong Guide chassis for a large beast whose spiritual state can be forced toward corporeality; use as a mechanical preview of the Hart.
