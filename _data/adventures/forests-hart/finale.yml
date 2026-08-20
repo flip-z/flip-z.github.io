@@ -6,23 +6,30 @@ finale:
     required:
       - wolf_tooth_weapon_complete
       - shrine_found
-      - truth_known
     advantages:
       - hart_source_known
       - bellkeeper_recruited
       - traditional_tool_research
+      - maelin_stewardship_context
+    interpretation_rule: The party may begin the rite with an incomplete or mistaken theory. No truth-known state is required.
 
   trigger:
     action: strike_shrine_bell_with_wolf_tooth
     required_item: wolf_tooth_weapon_complete
-    effect: The bell produces a sustained aura and calls the Hart toward the old shrine without fully compelling its route.
+    effect: Repeated ringing produces a sustained aura and calls the Hart toward the old shrine without fully compelling its route.
 
   bell:
-    suppresses_corruption: true
+    suppresses_disturbance: true
     maintenance_required: true
-    helper_effect: A recruited bellkeeper allows all four PCs to join the pursuit.
+    keeper_context: Old carvings and records establish a recognizable keeper or cantor role before the finale. Once the correct response is discovered, sustained ringing makes the practical requirement obvious.
+    helper_effect: A recruited keeper allows all four PCs to join the pursuit.
     no_helper_effect: One PC remains at the shrine for the duration of the pursuit.
     interruption_effect: Each interruption increases breach pressure at the shrine.
+    candidate_notes:
+      ewan: forest experience and personal responsibility
+      sera: ritual familiarity
+      nessa: language and cultural familiarity
+      taran: physical dependability
 
   starting_state:
     hart_trapped: The party can begin from the known trap-line source and release the Hart when the bell begins.
@@ -31,7 +38,7 @@ finale:
   pursuit:
     structure: modified_pf2e_chase
     destination: shrine
-    objective: Keep contact with the Hart and drive it toward the shrine while preventing its corrupted wake from reaching the bellkeeper first.
+    objective: Keep contact with the Hart and drive it toward the shrine while preventing problems from its disordered wake from reaching the keeper first.
     skip_prevention: Waiting at the shrine does not complete the rite; the Hart is called in that direction but must be actively driven along the old hunt route.
     success_measure: breach_pressure
     initial_breach_pressure: 0
@@ -39,18 +46,34 @@ finale:
     obstacle_types:
       - relocate_hart_if_freed_early
       - maintain_contact
-      - corrupted_terrain
+      - disordered_terrain
       - malformed_fauna
       - broken_spirit_trail
     shrine_consequences:
-      low_pressure: bellkeeper is secure and the aura is intact
-      medium_pressure: bellkeeper has been interrupted and one complication begins inside the aura
+      low_pressure: keeper is secure and the aura is intact
+      medium_pressure: keeper has been interrupted and one complication begins inside the aura
       high_pressure: multiple complications have crossed the boundary and the party arrives to an unstable shrine phase
 
   shrine_phase:
-    purpose: Protect the active bell, clear accumulated breach pressure, and strip the Hart's remaining liminal corruption within the shrine aura.
+    purpose: Protect the active bell, clear accumulated breach pressure, and separate the Hart manifestation from the accumulated spiritual disjunction surrounding it.
+    metaphysics: The shrine does not pull an emitted corruption substance out of the Hart. It temporarily restores enough order around the manifestation that the Hart can become lucid, coherent, and mortal again while the wider disturbance is held away.
+    presentation:
+      - contradictory growth and repair around the Hart settle or peel away as ordinary tissue and form reassert themselves
+      - the boundary visibly holds back the surrounding disordered manifestations and malformed wake
+      - interruption allows those effects to press back inward and malformed creatures to breach
     exact_rules: TBD
-    final_state: The Hart is exposed within the active shrine and the Wolf's Tooth can complete the rite.
+    lucid_hart:
+      availability: Once sufficiently separated from the disturbance, before the final action.
+      communication: The Hart may speak or communicate briefly and clearly.
+      allowed_truths:
+        - this physical shape has endured beyond its proper season
+        - something that should have followed did not
+        - the Wolf traditionally follows or takes the Hart at the end of such a passage
+      forbidden_exposition:
+        - do not explicitly command the PCs to kill the Hart
+        - do not say that the Wolf's Tooth is the required killing implement unless the players have independently established that
+        - do not explain the entire four-spirit cosmology as a finale monologue
+    final_state: The Hart is lucid, exposed, and mortal within the active shrine, and the Wolf's Tooth can complete the rite.
 
   final_action:
     name: Complete the Passage
@@ -61,12 +84,16 @@ finale:
       - shrine_aura_active
       - hart_exposed
     check: none
-    effect: The player deliberately uses the Wolf's Tooth to complete the old rite and the Hart's natural passage.
-    design_note: The encounter challenge is creating this state; the adventure does not hinge on one final d20 roll.
+    effect: The player deliberately uses the Wolf's Tooth to complete the mortal passage of this Hart manifestation. The greater Hart is not permanently destroyed.
+    design_note: The encounter challenge is creating this state and deciding what it means; the adventure does not hinge on one final d20 roll.
+
+  resolution:
+    success: The trapped manifestation dies normally. With the interrupted passage completed, the acute local disjunction begins to collapse and Coedmyr's ecology can gradually resume ordinary relationships rather than becoming instantly healthy.
+    refusal: If the party keeps the Hart alive after the separation fails, the manifestation again becomes the anchor for the unresolved disturbance and the crisis resumes.
 
   failure:
     primary: The party is defeated or abandons the active rite.
-    consequence: The Coedmyr corruption continues to worsen and may damage the old shrine, creating a larger regional problem for later adventures.
+    consequence: The Coedmyr disturbance continues to worsen and may damage the old shrine, creating a larger regional problem for later adventures.
 
   unresolved:
     - number and exact content of normal pursuit obstacles
