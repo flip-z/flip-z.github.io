@@ -18,9 +18,33 @@ case:
   ministry_context: Coedmyr is a remote former pilgrimage destination whose long decline has not justified scarce Ministry resources. Elara's latest chicken story is strange enough that the Ministry finally sends a team to determine whether the situation warrants attention or her future reports can be disregarded.
   chicken_claim: Elara claims that a slaughtered and dressed chicken got off her kitchen counter and killed a neighbor's cat. She has no physical evidence. The claim may be true, exaggerated, or fabricated to force a response.
   party_initial_knowledge: The Ministry knows Coedmyr has been deteriorating for years but does not initially know whether the current symptoms share a cause, whether Elara is reliable, or anything about the Hart or forgotten rite.
-  slow_cause: Coedmyr's old pilgrimage traditions once joined reverence with practical stewardship of the forest. As the forest declined, the rites faded into memory and tourism, leaving generations increasingly detached from the practices that maintained ecological balance.
-  sudden_trigger: The Hart reached an unattended trap on Ewan Rusk's neglected trap line, causing the recent escalation. Ewan does not initially know this happened.
-  druid_read: Investigation can reveal abnormal, disorganized biological growth across plants and animals. Do not state the adventure's underlying meaning unless the player earns or articulates that inference.
+  slow_cause: Coedmyr's old pilgrimage traditions once joined reverence with practical stewardship and maintained knowledge of a broader spiritual ecology. As pilgrimage became tourism, the practical religious office and working rites faded. This did not itself create the current crisis, but it left nobody able to recognize or respond when an old natural-spiritual process failed.
+  sudden_trigger: A physical manifestation of the Hart reached an unattended trap on Ewan Rusk's neglected trap line and remained trapped beyond the point when its manifestation should naturally have passed. This anchors one part of the local spiritual ecology in place and begins the recent escalation. Ewan does not initially know this happened.
+  underlying_disturbance: The Hart does not emit corruption or excess vitality. Its interrupted passage causes normally related natural processes to stop resolving cleanly into one another. Growth, repair, decomposition, predation, migration, and recovery still occur, but increasingly at the wrong time, in the wrong proportions, or without completing the normal transition to the next process.
+  ambiguity_goal: Early evidence should remain plausibly readable as ordinary ecological decline, neglect, invasive growth, disease, or a dying village being reclaimed by forest. The supernatural case becomes persuasive through impossible combinations and timing rather than overt magical scenery.
+  druid_read: Investigation can reveal that natural processes are behaving out of sequence or failing to resolve, and that a spiritual disturbance is present. Do not state the source, cosmology, or ritual solution unless the fiction has earned it.
+
+spiritual_ecology:
+  scope: The Hart, Wolf, Turtle, and Bird are continent-wide figures with regional names, stories, and practices rather than a closed Coedmyr pantheon.
+  hart:
+    domain: renewal, succession, recovery, replacement after loss
+    manifestation: The Hart can take physical form. A manifestation is mortal by design and is not the totality of the greater spirit.
+    current_problem: This manifestation has endured beyond its proper season because it was physically prevented from completing its passage.
+  wolf:
+    title: the Wolf
+    domain: removal, predation, selection, limits, endings
+    relationship_to_hart: Old stories often place the Wolf after the Hart. Mythically the Wolf takes the Hart when its season ends; Coedmyr's ritual hunt lets human participants enact that role.
+  turtle:
+    form: great river turtle
+    domain: persistence, circulation, water, soil, and long-duration natural systems
+    adventure_role: Background lore only unless players pursue it; not a hidden solution component.
+  bird:
+    form: great bird spirit
+    domain: movement, migration, dispersal, seasonal change, and passage between places
+    adventure_role: Background lore only unless players pursue it; not a hidden solution component.
+  terminology:
+    gm_term: disturbance or disjunction
+    corruption_usage: May be used by villagers or as shorthand for visibly grotesque manifestations, but should not imply an invading substance emitted by the Hart.
 
 investigation:
   spring_branch:
@@ -32,6 +56,7 @@ investigation:
     ewan_entry: If the party has not already sought out Ewan, he may enter during the encounter and help finish the last malformed animal, creating a natural introduction.
   hart_source:
     primary_route: Learn about Ewan Rusk's neglected trap line and follow it to the source.
+    alternate_route: If the party reaches the spirit trail first, abnormal animal cries, malformed tracks, or neglected trapping infrastructure can pull them deeper into the forest and intersect Ewan's trap line without creating a separate node.
     early_release: Allowed; later requires the party to locate the Hart again before the final pursuit.
   shrine_discovery:
     - Sera Wynn at the overlook
@@ -39,16 +64,21 @@ investigation:
     - direct discovery while exploring the spirit trail
     - Maelin can help contextualize old hunt material after the party brings him relevant details
   shrine_restoration: Clear growth and debris only; expose the bell, make the site traversable, and reveal the carvings.
-  weak_bell_response: Any ordinary strike produces only a sub-round pale aura that briefly suppresses nearby corruption. Greater force changes volume, not ritual effectiveness.
+  weak_bell_response: Any ordinary strike produces only a sub-round pale aura that briefly suppresses the local disturbance. Greater force changes volume, not ritual effectiveness.
   inference_model: Clues from Maelin, Sera, Taran, the shrine, the trap line, and the Hart should remain compatible without automatically revealing a solution. The players must decide what the old rite means and what to attempt.
+
+religious_history:
+  old_office: Coedmyr once maintained a practical religious keeper or warden responsible for shrines, trails, hunts, harvest limits, stewardship work, and preservation of ritual knowledge.
+  decline: As pilgrimage became more accessible, scenic, and tourist-oriented, the office disappeared while pleasant ceremonies and the overlook survived. Sera preserves sincere remnants of the tradition but not the complete working institution.
+  maelin_use: Maelin remembers fragments of the older worldview and unrelated stories about all four spirits. His knowledge should feel broader than the current mystery.
 
 relic:
   name: Wolf's Tooth
-  folklore: A cold-iron object associated with Iron-Maw, the great wolf in Coedmyr's old hunting and stewardship traditions.
+  folklore: A human-forged cold-iron ritual object associated with the Wolf and Coedmyr's old hunting traditions. It represents or invokes the Wolf's role; it is not a literal piece or incarnation of the spirit.
   location: Hidden in plain sight among the many inherited relics in Maelin Tor's house.
   discovery:
     early: A careful search can notice the unusual dark-metal tooth before its significance is understood.
-    prompted: Mentioning Iron-Maw, the old hunt, the shrine's long implements, or the bell can prompt Maelin to recognize the object as belonging to that tradition and retrieve it.
+    prompted: Mentioning the Wolf, the old hunt, the shrine's long implements, or the bell can prompt Maelin to recognize the object as belonging to that tradition and retrieve it.
     gate_rule: The relic cannot be permanently missed. Later clues should naturally create a reason to return to Maelin rather than causing the relic to appear automatically.
   maelin_read: Maelin knows its provenance and association with the old hunt, not its mechanical role in the rite.
   blacksmith_read:
@@ -58,17 +88,29 @@ relic:
   reconstruction: Taran Holt can show a mundane analogue and assist after the party earns his cooperation. Overlook research provides an advantage.
 
 folklore:
-  core_theme: Healthy stewardship requires limits, endings, predation, harvest, fire, rest, and making room as well as growth.
-  iron_maw: Represents the necessary destructive and selective side of caring for the forest, not a tracker that returns things that wandered away.
-  hart: A nature spirit within the old body of Coedmyr tradition. It is not normally astray; the present crisis is an abnormal condition rather than the ordinary premise of Hart stories.
-  spiritual_hunt: Old hunt material encodes active stewardship and maintenance of balance. Records should not directly state the present-day solution.
+  core_theme: Healthy stewardship is a relationship among processes rather than a preference for growth or preservation. Renewal must be followed by limits, removal, movement, persistence, decay, and replacement in workable sequence.
+  wolf_and_hart: The Wolf and Hart are complementary figures. Old stories describe the Wolf taking the Hart when a manifestation's season ends. The Wolf's Tooth lets human hunters ritually occupy the Wolf's role without implying that the spirit itself is trapped in the relic.
+  spiritual_hunt: Old hunt material encodes active stewardship and a recurring passage of a mortal Hart manifestation. Records should not directly state the present-day solution.
+  unrelated_lore: Maelin, Nessa, and the overlook should contain Turtle and Bird stories, obsolete customs, disagreements, and other material that does not point toward the current rite.
+
+bellkeeper:
+  historical_role: Old carvings and records establish a recognizable keeper or cantor role whose job was to maintain the bell while hunters departed.
+  practical_reveal: Once the correct bell response is discovered, sustained ringing makes the need for a dedicated keeper obvious without the GM instructing the party to recruit a specific NPC.
+  candidates:
+    ewan: Forest experience, physical capability, and personal responsibility for the neglected trap line.
+    sera: Familiarity with surviving ritual material and the shrine tradition.
+    nessa: Better access to Maelin's archaic language and old instructions, but little dangerous field experience.
+    taran: Physically dependable and practical, but culturally skeptical.
+  no_recruitment: One PC can remain at the bell. Recruitment is an advantage, not a plot gate.
 
 finale:
   chase_logic: The bell calls the Hart toward the shrine but does not compel its route; the party must stay with it and drive it along the old hunt path.
   chase_measure: breach pressure
-  chase_failure_effect: Problems from the Hart's wake reach the bellkeeper before the party, making the shrine phase less stable.
+  chase_failure_effect: Problems from the Hart's disordered wake reach the bellkeeper before the party, making the shrine phase less stable.
+  purification_logic: The shrine temporarily separates the Hart from the accumulated disturbance around its manifestation, allowing the Hart to become lucid and mortal rather than stripping an emitted corruption substance.
+  hart_speech: Once sufficiently separated from the disturbance, the Hart may communicate briefly. It can establish that this shape has endured beyond its season and that the next part of the old order never followed, but it should not directly instruct the party to kill it or name the exact required action.
   no_bellkeeper: One PC remains at the shrine during the pursuit.
-  final_action: Once the active shrine has exposed the Hart and the character is in position with the Wolf's Tooth, completing the rite costs one action and requires no final check.
+  final_action: Once the active shrine has exposed the mortal Hart manifestation and the character is in position with the Wolf's Tooth, completing the rite costs one action and requires no final check.
 
 party:
   - class: Druid
