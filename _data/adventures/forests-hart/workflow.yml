@@ -20,12 +20,25 @@ advantages:
   - traditional_tool_research
 inference_model:
   description: No clue-count threshold automatically reveals the solution. Independent clues should remain mutually consistent so players can form, test, and revise their own interpretation of the old rite.
+  underlying_truth: A physical manifestation of the Hart has remained anchored beyond its proper season. The Hart is not emitting corruption or excess vitality; normally connected natural processes around it increasingly fail to resolve cleanly into one another.
+  ambiguity_goal: Early evidence should remain plausibly natural. The supernatural case emerges from impossible combinations, timing, and spiritual readings rather than overt magical labeling.
   clue_categories:
     - maelin_stewardship_context
+    - broader_spirit_lore
     - weapon_nature_known
     - ritual_hunt_record
     - bell_behavior_known
     - hart_source_known
+  no_truth_gate: The party may enter the finale with an incomplete or mistaken theory.
+mock_testing:
+  vary_branch_order: true
+  include_failures: true
+  include_missed_clues: true
+  include_wrong_hypotheses: true
+  include_early_hart_release: true
+  include_skipped_npcs: true
+  include_no_bellkeeper_path: true
+  rule: Do not repeatedly simulate the optimal breadcrumb path. Let personality, uncertainty, and failed checks change route and preparation while preserving the hard gate and existing connective paths.
 state_variables:
   outbreak_understood: false
   hart_source_known: false
@@ -33,6 +46,7 @@ state_variables:
   hart_freed_early: false
   wolf_tooth_relic_found: false
   maelin_stewardship_context: false
+  broader_spirit_lore: false
   weapon_nature_known: false
   wolf_tooth_weapon_complete: false
   traditional_tool_research: false
