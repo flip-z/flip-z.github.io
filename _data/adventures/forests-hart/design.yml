@@ -20,7 +20,7 @@ case:
   party_initial_knowledge: The Ministry knows Coedmyr has been deteriorating for years but does not initially know whether the current symptoms share a cause, whether Elara is reliable, or anything about the Hart or forgotten rite.
   chronic_decline: Coedmyr's old pilgrimage culture joined reverence with practical stewardship. Hunters maintained and checked trap lines, routes and water sources were watched, harvest and culling practices were coordinated, shrines were tended, and unusual changes in the forest were noticed because people were routinely present in it. Those obligations weakened over generations as the pilgrimage economy contracted and residents disengaged from the harder work of caring for the place.
   stewardship_failure: The supernatural crisis is not a punishment for forgetting one ceremony. Coedmyr lost the distributed habits and institutions that would once have noticed an abnormal condition early, identified it, and mobilized a response. The forgotten rite is the emergency procedure at the end of that larger system, not the system itself.
-  sudden_trigger: A physical manifestation of the Hart reached an unattended trap on Ewan Rusk's neglected trap line and remained trapped beyond the point when its manifestation should naturally have passed. This anchors one part of the local spiritual ecology in place and begins the recent escalation. Ewan does not initially know this happened, and his neglected line is one example of a broader decline in local hunting responsibility rather than the sole cause of Coedmyr's condition.
+  sudden_trigger: A physical manifestation of the Hart reached an unattended trap on Ewan Rusk's neglected trap line and remained trapped beyond the point when its manifestation should naturally have passed. This anchors one part of the local spiritual ecology in place and begins the recent escalation. Ewan does not initially know this happened. His neglected trap is an incidental accelerant within a wider decline in hunting coverage and stewardship, not the cause of Coedmyr's long deterioration.
   underlying_disturbance: The Hart does not emit corruption or excess vitality. Its interrupted passage causes normally related natural processes to stop resolving cleanly into one another. Growth, repair, decomposition, predation, migration, and recovery still occur, but increasingly at the wrong time, in the wrong proportions, or without completing the normal transition to the next process.
   ambiguity_goal: Early evidence should remain plausibly readable as ordinary ecological decline, neglect, invasive growth, disease, or a dying village being reclaimed by forest. The supernatural case becomes persuasive through impossible combinations and timing rather than overt magical scenery.
   druid_read: Investigation can reveal that natural processes are behaving out of sequence or failing to resolve, and that a spiritual disturbance is present. Do not state the source, cosmology, or ritual solution unless the fiction has earned it.
@@ -50,7 +50,7 @@ spiritual_ecology:
 
 investigation:
   evidence_of_stewardship_decline:
-    purpose: Each major branch should show a different piece of the practical relationship Coedmyr once maintained with the forest. Do not turn these into morality exhibits; let the physical condition and villagers' explanations carry the point.
+    purpose: Use the physical condition of Coedmyr and its surroundings as quiet background texture. Do not make stewardship decline the explicit lesson or plot function of each investigation branch.
     examples:
       - routes and shrines that survive only where someone still uses them
       - water and woodland problems that go unnoticed until they become obvious
@@ -60,7 +60,7 @@ investigation:
   spring_branch:
     premise: Elara reports foul or avoided water north of the village.
     finding: A badly decomposed animal is lodged at the spring source, providing a mundane explanation for the local contamination.
-    value: The surrounding forest remains abnormal, separating the water problem from the larger regional problem. The neglected source also quietly shows how problems that once would have been noticed during routine stewardship can persist until somebody complains.
+    value: The surrounding forest remains abnormal, separating the water problem from the larger regional problem.
   dusk_incursion:
     timing: Around dusk, preferably as the party returns toward town or settles in for the night.
     ewan_entry: If the party has not already sought out Ewan, he may enter during the encounter and help finish the last malformed animal, creating a natural introduction.
@@ -78,15 +78,15 @@ investigation:
   inference_model: Clues from Maelin, Sera, Taran, the shrine, the trap line, and the Hart should remain compatible without automatically revealing a solution. The players must decide what the old rite means and what to attempt.
 
 religious_history:
-  old_office: The family line based at the pilgrimage overlook historically held Coedmyr's keeper office. The overlook functioned as both spiritual center and practical watchtower for the forest. The keeper watched conditions, preserved working knowledge, and coordinated duties distributed among hunters, farmers, craftspeople, shrine tenders, and other residents rather than personally performing every task.
-  decline: As the pilgrimage economy shifted toward accessible retreats and then contracted, the keeper office narrowed with it. The overlook, archive, and pleasant ceremonies survived longer than the wider network of obligations they once coordinated.
-  sera_position: Sera inherited the overlook tradition and takes it seriously. In her younger years she also benefited from the meditation, tea, exercise, and retreat visitors who kept the site economically viable. That history does not make her cynical or fraudulent. To skeptical investigators she can initially look like an earnest tree-hugger preserving romantic traditions, but her concern for the forest is genuine.
+  old_office: The pilgrimage overlook historically served as Coedmyr's spiritual center and practical watchtower. A keeper based there watched conditions, preserved working knowledge, and coordinated duties distributed among hunters, farmers, craftspeople, shrine tenders, and other residents rather than personally performing every task.
+  decline: As the pilgrimage economy shifted toward accessible retreats and then contracted, the keeper office and its deeper working knowledge disappeared. The overlook, archive, and pleasant ceremonies survived longer than the wider network of obligations they once coordinated.
+  sera_position: Sera apprenticed under the last caretaker of the overlook and later inherited responsibility for the site. She learned the surviving ceremonies, stories, habits, and moral concern for the forest, but not the deeper institutional history or the complete working requirements of the old keeper office. To skeptical investigators she can initially look like an earnest romantic preservationist, but her concern for the forest is genuine.
   maelin_use: Maelin remembers fragments of the older worldview and unrelated stories about all four spirits. He is more openly critical than Sera and should not be treated as the adventure's single authoritative moral voice.
 
 village_viewpoints:
   principle: No villager owns the thematic answer. Their explanations should conflict while remaining grounded in their lives.
   maelin: The village kept symbols and abandoned obligations.
-  sera: The traditions were worth preserving, and keeping the overlook alive mattered even when the form of pilgrimage changed. She recognizes that preservation alone did not sustain the wider stewardship network.
+  sera: The traditions were worth preserving, and keeping the overlook alive mattered even when the form of pilgrimage changed. She does not know the full older institution that once connected the overlook to the rest of the village.
   ewan: Game collapsed and hunters adapted to scarcity. His neglected traps are irresponsible, but he sees them as one consequence of a forest already failing rather than the origin of that failure.
   taran: People cannot maintain every old custom when the economy and population that supported them disappear. He respects useful practices more readily than inherited ceremony.
   elara: The village has been asking for help while losing people, money, and capacity. She is more interested in keeping Coedmyr alive than assigning blame.
@@ -114,23 +114,17 @@ folklore:
   unrelated_lore: Maelin, Nessa, and the overlook should contain Turtle and Bird stories, obsolete customs, disagreements, and other material that does not point toward the current rite.
 
 communal_response:
-  historical_model: The keeper coordinated a response, but the work belonged to the village. The finale should briefly recreate that pattern through several people contributing different kinds of competence.
-  design_rule: Villager participation should reward relationships and investigation without becoming a checklist of mandatory NPCs. Missing help changes pressure, options, or difficulty rather than causing automatic failure.
-  possible_roles:
-    sera: Organizes the rite from the overlook tradition, interprets surviving procedure, and is the strongest natural candidate to maintain or supervise the bell cadence.
-    ewan: Tracks, drives, and reads the Hart's movement through the forest.
-    taran: Prepares equipment, reinforces the shrine, and handles practical failures under pressure.
-    nessa: Resolves archaic instructions, calls, or cadence details that become relevant during preparation or the rite.
-    elara: Mobilizes people, supplies, routes, and civic cooperation once convinced of the emergency.
-    other_hunters: Provide route coverage, drive animals, watch approaches, or contain ordinary wildlife according to how much trust the party has built.
-  no_recruitment: The Ministry can still attempt containment alone, but doing so should cost actions, positions, or encounter resources that villagers could otherwise cover.
+  historical_model: The keeper coordinated a response, but the work belonged to the village.
+  design_rule: Villager participation should reward relationships and investigation without becoming a checklist of mandatory NPCs. A few named villagers and interested locals are enough to show that Coedmyr is willing to recover pieces of the old tradition.
+  finale_roles: Exact NPC jobs and mechanical benefits remain intentionally undefined until the final encounter mechanics are designed.
+  no_recruitment: The Ministry can still attempt containment alone. No particular villager is a plot gate or required bellkeeper.
 
 finale:
   status: Core narrative structure exists, but exact encounter mechanics remain intentionally open for design.
   chase_logic: The bell calls the Hart toward the shrine but does not compel its route; the party must stay with it and drive it along the old hunt path.
   chase_measure: breach pressure
   chase_failure_effect: Problems from the Hart's disordered wake reach the shrine response before the party, making the final containment less stable.
-  communal_payoff: Earlier relationships determine which villagers are willing and able to take meaningful roles. The scene should feel like Coedmyr temporarily remembering how to coordinate around the forest rather than outsiders operating a forgotten machine for them.
+  communal_payoff: Earlier relationships can determine which villagers are willing to participate. The scene should show renewed local interest in the old traditions without assigning fixed jobs before the encounter mechanics exist.
   purification_logic: The shrine temporarily separates the Hart from the accumulated disturbance around its manifestation, allowing the Hart to become lucid and mortal rather than stripping an emitted corruption substance.
   hart_speech: Once sufficiently separated from the disturbance, the Hart may communicate briefly. It can establish that this shape has endured beyond its season and that the next part of the old order never followed, but it should not directly instruct the party to kill it or name the exact required action.
   final_action: Once the active shrine has exposed the mortal Hart manifestation and the character is in position with the Wolf's Tooth, completing the rite costs one action and requires no final check.
