@@ -20,6 +20,10 @@ Clues should remain mutually consistent without converting into an automatic GM 
 
 Early evidence should remain plausibly natural. Coedmyr is a shrinking settlement inside a sick, neglected forest; players should be able to wonder whether the apparent mystery is simply ecological collapse, disease, abandonment, or the forest reclaiming the town. The supernatural case becomes persuasive through physically impossible combinations, abnormal timing, and earned spiritual observations.
 
+The adventure's human problem is broader than a forgotten ritual. Coedmyr once cared for the forest through distributed habits, labor, observation, and shared responsibility. The old rite was one emergency procedure inside that system. The supernatural crisis became catastrophic because the community no longer had enough people watching the forest, maintaining its routes, coordinating its hunters, or preserving the working knowledge needed to recognize what had happened.
+
+The Ministry can contain the immediate supernatural emergency. It cannot repair the ordinary damage, depopulation, or lost institutions that allowed the emergency to grow unnoticed.
+
 ## GM Background — The Disturbance
 
 The present crisis is not an invading corruption substance and not a simple excess of life or vitality.
@@ -35,9 +39,13 @@ These are not a closed Coedmyr pantheon. Maelin, Nessa, and old records should c
 
 The Hart can take physical form. A manifestation is mortal by design and is not the totality of the greater spirit. In Coedmyr's old tradition, a Hart manifestation eventually reached the end of its season and was taken in a ritual hunt associated with the Wolf. Human hunters enacted the Wolf's role through the Wolf's Tooth.
 
-The present Hart manifestation reached one of Ewan Rusk's neglected traps and remained physically anchored beyond the point when its passage should have completed. That interruption does not cause the Hart to emit magical corruption. Instead, normally connected natural processes around the manifestation increasingly fail to resolve cleanly into one another.
+The present Hart manifestation reached one of Ewan Rusk's neglected traps and remained physically anchored beyond the point when its passage should have completed. Ewan is not the only hunter who has let distant responsibilities lapse; shorter routes, abandoned sets, and weaker coordination have become normal as game and population declined. His trap happens to be where the supernatural failure became acute.
+
+That interruption does not cause the Hart to emit magical corruption. Instead, normally connected natural processes around the manifestation increasingly fail to resolve cleanly into one another.
 
 Growth, repair, inflammation, decomposition, predation, migration, crowding, and recovery still occur, but at contradictory rates, in the wrong order, or without clean transition into whatever should follow. This is the underlying **disturbance** or **disjunction**.
+
+The old Coedmyr stewardship system would probably have found the trapped Hart early. Hunters covered more ground. Routes and water sources were watched. Unusual animal behavior was reported. The keeper at the overlook connected those observations to the village's working spiritual knowledge. The present crisis is therefore not punishment for forgetting a ritual date. It is the kind of emergency that becomes unmanageable when a community stops paying sustained attention to place.
 
 Villagers may describe malformed creatures or places as corrupted. GM-facing material should not imply that corruption is a separate substance radiated by the Hart.
 
@@ -67,11 +75,15 @@ Elara can supply three concrete branches without knowing their shared cause:
 
 She can also explain Coedmyr's history. It was never a crossroads. People came here deliberately for spiritual pilgrimage. The decline was gradual enough that residents adapted year by year while those with money or reason to leave did so.
 
+Her records can show that the village's loss of practical capacity predates the supernatural escalation. Fewer hunters cover less forest. Repairs and route clearing are deferred. Complaints about water and wildlife sit longer. That does not prove Maelin's later moral argument, but it gives the party concrete evidence that Coedmyr no longer watches itself as closely as it once did.
+
 ### North spring
 
 The spring is a useful red herring rather than a major clue node.
 
 The water appears clear, but investigation finds a badly decomposed animal lodged at or immediately beside the source. Its advanced decay provides a mundane and satisfying explanation for the local contamination.
+
+The mundane answer should also carry quiet thematic weight. Nothing supernatural was required to foul this spring. It remained fouled because nobody was checking the source often enough to catch the problem early.
 
 That does not explain the broader condition of the forest. Vegetation around the spring can still show the same regional abnormalities visible elsewhere: overcrowded shoots, distorted growth around damage, fungal activity appearing at unusual times, or other biological processes occurring without healthy organization.
 
@@ -101,9 +113,11 @@ PCs with appropriate Society, Lore, Occultism, linguistic knowledge, or another 
 
 Maelin's central argument is cultural and practical. Coedmyr once treated the forest as something people were obligated to care for, not simply admire. Pilgrimage involved work, restraint, hunting, harvest, maintenance, and knowledge of place as well as prayer and ceremony.
 
-Coedmyr also once maintained a practical religious keeper or warden whose duties included shrines, trails, hunts, harvest limits, stewardship work, and continuity of ritual knowledge. As pilgrimage became more scenic, accessible, and tourist-oriented, that office disappeared while simplified ceremonies and souvenirs remained.
+The old keeper line was based at the pilgrimage overlook. The keeper watched conditions, preserved working knowledge, and coordinated duties distributed across hunters, farmers, craftspeople, shrine tenders, and other residents. The keeper was not a lone priest performing magical maintenance on the forest.
 
-Modern Coedmyr has kept fragments while losing much of the institution that connected them. Maelin can be bitter about this without possessing a complete supernatural explanation for the current outbreak.
+Modern Coedmyr has kept fragments while losing much of the network that connected them. Maelin can be bitter about this without possessing a complete supernatural explanation for the current outbreak.
+
+His view is not the adventure's official verdict. Taran can reasonably argue that a shrinking village could not keep every old obligation alive. Elara can point out that Coedmyr spent years asking for help while losing people and money. Sera can defend the real value of preserving the overlook even while admitting that preservation did not keep the wider system functioning. Let those disagreements stand.
 
 His stories should range broadly. The Hart, Wolf, River Turtle, and Bird all appear in old traditions. Regional accounts disagree about names, relationships, and exact forms. Turtle and Bird stories should include details that are culturally useful but irrelevant to this case.
 
@@ -135,6 +149,8 @@ Taran is a practical skeptic. He recognizes that the Wolf's Tooth is forged cold
 
 He knows ordinary Wolf folklore but not the lost ritual. His useful contribution is material interpretation.
 
+Taran also provides a useful counterargument to Maelin. Old customs required people, labor, and money. As Coedmyr contracted, residents stopped doing things they could no longer justify or sustain. He can acknowledge that useful practices were lost without agreeing that the answer is simple cultural repentance.
+
 Once the party has reason to believe the Tooth matters, Taran can help reconstruct the full implement. The PCs participate rather than handing the problem to him.
 
 ### Reconstruction challenge
@@ -154,11 +170,15 @@ The weapon is never lost to failed rolls. Results determine time and finish:
 
 ## FH-03 — Overlook, Spirit Trail, and Shrine
 
-Sera Wynn tends the old pilgrimage overlook and its poorly catalogued archive.
+Sera Wynn tends the old pilgrimage overlook and its poorly catalogued archive. Her family line historically held Coedmyr's keeper office.
 
-The overlook survived longer than the harder forest traditions because it remained the pleasant, accessible part of pilgrimage culture. Visitors could meditate, exercise, pray, picnic, admire the view, and participate in simplified ceremonies without learning the older routes and obligations deeper in the forest.
+The overlook was the spiritual center of Coedmyr and almost literally a watchtower over the forest. The keeper watched conditions, maintained records, and coordinated work distributed across the community: hunters covering routes and game, residents tending shrines and water sources, craftspeople maintaining tools, and others reporting unusual changes.
 
-Sera genuinely values and preserves Coedmyr's heritage. That preservation is also part of the problem: the overlook's success as a spiritual retreat and tourist attraction helped separate visible pilgrimage symbolism from the older working traditions and practical keeper office.
+The overlook survived longer than the harder forest traditions because it remained the pleasant, accessible part of pilgrimage culture. Visitors could meditate, exercise, drink tea, pray, picnic, admire the view, and participate in simplified ceremonies without learning the older routes and obligations deeper in the forest.
+
+Sera genuinely values and preserves Coedmyr's heritage. In her younger years she also benefited financially from the retreat economy that kept the site alive. Those facts are compatible. She took the traditions seriously, and skeptical PCs may initially read her as sentimental or tree-hugger-ish before they understand how central the overlook once was.
+
+The failure here is not that Sera commercialized a sacred site. It is that preserving the visible center could not preserve the wider network after hunters, routes, maintenance work, and shared obligations disappeared around it.
 
 ### Overlook research
 
@@ -168,14 +188,17 @@ The archive can introduce several ideas without giving the solution:
 - **The Hart** appears in the same broad body of tradition. If the party has not already heard the name, this is a natural place to introduce it.
 - **The River Turtle** and **Bird** appear in unrelated records, prayers, seasonal customs, travel traditions, or stewardship practices, making clear that the Hart and Wolf are part of a broader spiritual ecology rather than a two-part puzzle.
 - Old **spiritual hunts** were ceremonial expressions of active stewardship and ecological balance, not ordinary subsistence hunts.
-- Records distinguish a keeper or cantor who remained at a ritual site from hunters or other participants who departed.
+- Keeper records include practical route checks, water observations, harvest limits, game notes, shrine maintenance, and reports of unusual conditions.
+- Records show the keeper coordinating responsibilities rather than personally performing all of them.
 - Old tool diagrams and hunting accounts can support later reconstruction of the Wolf's Tooth implement.
 
-Records should deepen the party's understanding of what Coedmyr once valued without directly stating what must happen to the present Hart.
+Records should deepen the party's understanding of what Coedmyr once did, not simply what it believed. They should still stop short of directly stating what must happen to the present Hart.
 
 Old records or exploration reveal the **spirit trail**, marked by weathered wolf carvings, leading from the overlook to a ruined hunting shrine.
 
 ### Spirit-trail forest hook
+
+The trail itself should show uneven abandonment. Sections near the overlook may remain passable because Sera still walks or clears them occasionally. Deeper sections disappear under deadfall, erosion, and growth. The physical transition makes visible the difference between preserving a center and maintaining an entire system.
 
 If the party has not yet meaningfully entered the forest or uncovered Ewan's neglected trap line, the spirit trail can offer one additional hook without creating a new investigation node.
 
@@ -195,15 +218,17 @@ Any ordinary strike produces a weak note and a sub-round pale aura that briefly 
 
 Striking the bell with the Wolf's Tooth produces a qualitatively different response: a dramatically cleaner resonance and a larger, stronger aura. Without continued ringing the effect still fades quickly. This reveals that the Tooth is the correct striker without explaining the entire rite.
 
-Carvings show distinct roles: a recognizable keeper or cantor remains at the bell while several hunters leave the shrine carrying long implements. The implement heads are broad at the root with a pronounced point, enough to support later recognition without functioning as an instruction diagram.
+Carvings show distinct roles. A recognizable keeper or cantor remains at the bell while hunters depart carrying long implements. Secondary figures prepare the site, carry equipment, watch approaches, or support the hunt. The image should suggest coordinated communal work without functioning as an instruction diagram.
 
-The party can reasonably infer that the bell was maintained while the others hunted. Once they discover that the correct response requires sustained ringing, the practical need for someone to remain at the bell should be obvious.
+The party can reasonably infer that the bell was maintained while the hunters operated elsewhere. Once they discover that the correct response requires sustained ringing, the practical need for someone to remain at the bell should be obvious.
 
 The shrine does **not** tell them what is hunted, that the bell calls the Hart, why the hunt was necessary, or that the Hart must die.
 
 ## FH-04 — Ewan Rusk's Trap Line
 
 Ewan Rusk is an experienced hunter who has stopped checking distant portions of his trap line because local game has dwindled. He does not know the Hart reached one of those unattended traps or that this corresponds with the recent escalation.
+
+Ewan is not uniquely negligent. Other hunters have shortened routes, abandoned distant sets, or stopped coordinating who is responsible for what as Coedmyr and its game populations declined. That wider pattern does not excuse his unattended traps. It makes his failure representative rather than singular.
 
 Ewan supplies practical forest knowledge. He does not recognize the Hart through old lore and should not explain the supernatural meaning of the rite.
 
@@ -260,28 +285,32 @@ Ordinary attacks can wound the Hart, but the same disordered processes interfere
 
 The party may experiment with the Wolf's Tooth, attack the Hart, leave it trapped, or free it. None of these ordinary interventions resolves its condition.
 
+The important thematic conclusion is not "Ewan forgot the ritual." The party should be able to look backward through the investigation and recognize that a functioning older Coedmyr would likely have found this extraordinary trapped animal much earlier, understood that it required attention, and had people accustomed to coordinating a response.
+
 ### Freeing the Hart early
 
 Freeing the Hart is a valid player choice and should not be blocked. Once freed, the strongest focus of the disturbance becomes mobile. Outbreaks around Coedmyr intensify and the Hart must later be reacquired during the ritual hunt.
 
 A second, more severe wildlife attack near town can demonstrate this escalation and create urgency without forcing the party directly into the finale.
 
-## FH-05 — Establish a Bellkeeper
+## FH-05 — Assemble a Response
 
-The bellkeeper should not function as a hidden optimization puzzle.
+Once the party understands that the shrine requires sustained operation while the Hart is pursued, the problem should expand from "find a bellkeeper" into "who in Coedmyr can still do the pieces of this work?"
 
-Old carvings and records should already establish a recognizable keeper or cantor role. Once the party sees that the Wolf's Tooth produces the correct response only while the bell continues ringing, the practical requirement is clear: someone must remain at the shrine while the hunters leave.
+Do not turn this into a mandatory recruitment checklist. The Ministry can attempt the rite alone. Villager participation buys capability, coverage, resilience, and knowledge that the PCs would otherwise have to supply themselves.
 
-The party can recruit any competent villager willing to participate. Different candidates carry different strengths:
+Earlier interactions determine who is willing to help and what they contribute.
 
-- **Ewan** has forest experience, physical capability, and personal responsibility for the neglected trap line.
-- **Sera** understands surviving ritual material and shrine tradition.
-- **Nessa** understands more of Maelin's archaic language and old instructions but has little dangerous field experience.
-- **Taran** is physically dependable and practical but culturally skeptical.
+- **Sera** is the clearest living connection to the keeper lineage. She can organize the village side of the response, interpret surviving procedure, and maintain or supervise the bell cadence. She does not know the complete solution before the party's investigation earns it.
+- **Ewan** can track, drive, and predict the Hart's movement through the forest. His value is practical field experience, not ritual knowledge.
+- **Taran** can prepare equipment, reinforce the shrine, solve mechanical failures, or keep critical gear functioning under pressure.
+- **Nessa** can resolve archaic terms, calls, cadence, or procedural details that remain ambiguous in old records.
+- **Elara** can mobilize residents, supplies, routes, and civic cooperation once the Ministry convinces her that an immediate coordinated response is necessary.
+- **Other hunters and residents** can watch approaches, drive ordinary animals, carry equipment, clear routes, or cover secondary duties according to what the party has learned and whom it has persuaded.
 
-Ewan should require persuasion before he has seen convincing evidence. Guilt and firsthand exposure make him much more receptive afterward. Other candidates can be handled according to their established beliefs and relationship with the party.
+Missing help should alter the finale rather than invalidate it. If Sera refuses or is unavailable, a PC can maintain the bell. If Ewan is absent, the chase is harder. If Taran is absent, equipment failures cost the party directly. If Elara has not been brought onside, fewer anonymous villagers show up and logistical pressure rises.
 
-Failure to recruit anyone never blocks the rite. Without a helper, one PC remains at the shrine and maintains the bell while the others pursue the Hart.
+The point is not that the Ministry needs locals because outsiders are magically forbidden from performing the rite. The point is that an effective response naturally recreates the distributed pattern of responsibility Coedmyr once relied on.
 
 ## What the Party May Know Before the Finale
 
@@ -297,17 +326,24 @@ A well-prepared party can reasonably have assembled some or all of the following
 - the Tooth was built as part of a hunting implement;
 - the Tooth correctly activates the shrine bell;
 - the old rite involved a keeper remaining behind while hunters departed;
-- Coedmyr once maintained a practical religious office that preserved this kind of working knowledge and later lost it.
+- the overlook keeper historically coordinated observation, maintenance, hunting, and ritual work distributed across the village;
+- several present-day problems persisted simply because fewer people were watching, maintaining, or coordinating the forest;
+- Ewan's unattended trap is one instance of that wider breakdown, not the sole moral cause of the crisis;
+- a functioning older stewardship network would probably have found the Hart before its entrapment became a regional supernatural emergency.
 
 These facts support theories. They do not automatically produce the correct one. The party can enter the finale uncertain about why the hunt exists, exactly what the bell does, or what final action will be required.
 
 ## FH-FINAL — Ritual Hunt
 
+The final encounter mechanics remain intentionally unfinished. Preserve the following narrative structure and communal payoff when building them.
+
 ### Beginning the rite
 
 Repeatedly striking the shrine bell with the reconstructed Wolf's Tooth creates a sustained pale aura. After the bell rings for a short time, the party notices disturbances moving through the forest and eventually hears or glimpses the Hart responding.
 
-The bell **calls** the Hart but does not compel it to approach. This is the moment the old carvings become legible as procedure: the keeper maintains the shrine while the hunters go after the Hart.
+The bell **calls** the Hart but does not compel it to approach. This is the moment the old carvings become legible as procedure: the shrine must remain active while hunters go after the Hart.
+
+If the party recruited villagers, show them taking positions based on the relationships established earlier. The shrine should feel briefly inhabited as a working place again rather than as an abandoned puzzle room operated by outsiders.
 
 ### Phase 1 — Pursuit
 
@@ -315,9 +351,11 @@ Use a modified PF2e Chase structure. The party tracks, pressures, and drives the
 
 Attack rolls, skills, spells, and appropriate equipment can all overcome obstacles.
 
-Failures do not end the hunt. They increase **breach pressure**. Each failure represents the party falling farther behind the Hart and gives problems in its wake more opportunity to reach and interfere with the keeper.
+Failures do not end the hunt. They increase **breach pressure**. Each failure represents the party falling farther behind the Hart and gives problems in its wake more opportunity to reach and interfere with the shrine response.
 
 If the Hart was freed earlier, reacquiring it adds an additional obstacle.
+
+Village participation can modify the chase without replacing the PCs. Ewan or other hunters can cover routes, prevent one escape vector, provide a read on tracks, or absorb a consequence the party would otherwise face. Elara's preparation can mean cleared access and staged supplies. These should feel like earned advantages from earlier relationships.
 
 ### Phase 2 — Shrine and containment
 
@@ -327,17 +365,19 @@ Inside the active aura, the shrine temporarily restores enough order around the 
 
 Represent the remaining disturbance as targetable manifestations, lesions, growths, environmental objectives, or other encounter components attached to the Hart and shrine. The exact shrine-phase rules remain TBD.
 
-The Hart remains an active threat while distressed. It can charge, kick, reposition, attempt to escape the shrine, and disrupt the keeper. A disruption can knock the keeper away, stagger them, or otherwise interrupt the ringing.
+The Hart remains an active threat while distressed. It can charge, kick, reposition, attempt to escape the shrine, and disrupt whoever is maintaining the rite.
 
 When the bell stops, the boundary flickers. The surrounding disjunction presses back inward and malformed creatures outside can breach the perimeter. Restoring the bell pushes the effect outward again, but anything that crossed remains inside and must be dealt with.
 
-Breach pressure from the chase determines the opening state. A party that arrives behind the Hart may find the keeper already knocked away and one or more malformed creatures inside the boundary.
+Breach pressure from the chase determines the opening state. A party that arrives behind the Hart may find the shrine response already under pressure or one or more malformed creatures inside the boundary.
 
 The core combat loop remains:
 
-**Maintain bell → stabilize/expose Hart → Hart disrupts bell → boundary breaches → restore bell → contain the breach → continue.**
+**Maintain bell → stabilize/expose Hart → Hart disrupts response → boundary breaches → restore response → contain the breach → continue.**
 
-Recruiting a keeper gives the full party freedom to pursue and fight until the bell is disrupted. Without one, a PC begins the encounter committed to maintaining the bell.
+The communal layer should distribute secondary problems according to who came. Sera can maintain or recover the cadence. Taran can prevent or repair equipment failures. Nessa can resolve an archaic procedural uncertainty when the rite behaves unexpectedly. Hunters can contain wildlife at the perimeter. Elara can keep frightened residents organized. If those people are absent, the PCs must spend their own actions, positions, or resources covering those jobs.
+
+Do not let villagers solve the primary encounter. The party still has to pursue the Hart, survive its disturbance, interpret what the rite is doing, and make the final decision.
 
 ### Phase 3 — The Lucid Hart
 
@@ -367,8 +407,14 @@ If the party refuses to kill the exposed Hart, the bell can maintain the ordered
 
 ## Resolution
 
-With the Hart manifestation dead, Coedmyr does not become instantly lush. The active disturbance ends. Water, wildlife, vegetation, predation, recovery, and other ecological processes can gradually return to ordinary relationships over time.
+With the Hart manifestation dead, Coedmyr does not become instantly lush. The acute supernatural disturbance ends. Impossible growth, malformed healing, and escalating wildlife behavior subside as ordinary ecological relationships become possible again.
 
-The keeper is at genuine risk during the finale. Ewan, Sera, Nessa, Taran, or another helper can survive or die based on play; no death should be scripted.
+The ordinary damage remains. Depleted game does not immediately return. Diseased or damaged trees remain damaged. Neglected routes and water sources are still neglected. The population and economy are still diminished. The Ministry has contained the extraordinary emergency; it has not restored Coedmyr.
+
+If villagers participated in the finale, the scene should provide evidence that the old pattern of stewardship is still possible without pretending it has already been rebuilt. Sera may again occupy the overlook as a genuine coordinating center. Hunters may agree to cover routes together. Taran may repair something meant to remain in use rather than become another relic. Elara may have a concrete institution to rebuild instead of another report to send away. None of this should be guaranteed or sentimentalized.
+
+The final local question is whether Coedmyr chooses to become a community that watches and cares for the forest again. That decision belongs to Coedmyr, not the Ministry.
+
+Participants in the finale are at genuine risk. Sera, Ewan, Nessa, Taran, Elara, other helpers, or nobody at all can survive or die based on play; no death should be scripted.
 
 If the party is defeated, abandons the rite, or repeatedly leaves the Hart alive after understanding the consequence, the disturbance continues to worsen and can become a larger regional threat.
