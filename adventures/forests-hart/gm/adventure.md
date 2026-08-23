@@ -195,11 +195,11 @@ Any ordinary strike produces a weak note and a sub-round pale aura that briefly 
 
 Striking the bell with the Wolf's Tooth produces a qualitatively different response: a dramatically cleaner resonance and a larger, stronger aura. Without continued ringing the effect still fades quickly. This reveals that the Tooth is the correct striker without explaining the entire rite.
 
-Carvings show distinct roles. A recognizable keeper or cantor remains at the bell while hunters depart carrying long implements. Secondary figures prepare the site, carry equipment, watch approaches, or support the hunt. The image should suggest coordinated communal work without functioning as an instruction diagram.
+Carvings show a recognizable keeper or cantor at the bell while hunters depart carrying long implements. Other villagers are present around the rite, but their exact tasks are not legible. The image suggests a communal ceremony without functioning as an instruction diagram.
 
 The party can reasonably infer that the bell was maintained while the hunters operated elsewhere. Once they discover that the correct response requires sustained ringing, the practical need for continued shrine operation should be obvious.
 
-No particular villager is established as the canonical bellkeeper. The Tooth can move between characters during structured play, and the exact action-economy solution belongs to the final encounter design.
+No particular villager is established as the canonical bellkeeper. The rite establishes only that the shrine must keep operating while the hunt proceeds; exactly how the party maintains that operation remains part of the unfinished final encounter design.
 
 The shrine does **not** tell them what is hunted, that the bell calls the Hart, why the hunt was necessary, or that the Hart must die.
 
@@ -303,7 +303,7 @@ Repeatedly striking the shrine bell with the reconstructed Wolf's Tooth creates 
 
 The bell **calls** the Hart but does not compel it to approach. This is the moment the old carvings become legible as procedure: the shrine must remain active while hunters go after the Hart.
 
-The Wolf's Tooth does not have to remain permanently in one character's possession. Pathfinder's action economy can support passing or moving the implement between characters as the encounter develops. Do not build the scene around Sera or any other NPC being required to ring the bell continuously.
+The rite does not require Sera or any other specific NPC to operate the bell. Exactly how the party keeps the shrine active while pursuing the Hart remains part of the unfinished encounter design; villager help may make that easier, but the narrative does not assume a dedicated bellkeeper.
 
 If villagers agreed to participate, show them taking part according to whatever mechanical structure is eventually designed. The shrine should feel briefly inhabited as a working place again rather than as an abandoned puzzle room operated only by outsiders.
 
