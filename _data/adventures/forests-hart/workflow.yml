@@ -1,56 +1,23 @@
-adventure: forests-hart
-status: pre-playtest
-core_arc:
-  - id: FH-00
-    name: Investigate the Coedmyr outbreak
-  - id: FH-INVESTIGATE
-    name: Explore Coedmyr and trace the source
-  - id: FH-PREPARE
-    name: Recover forgotten preparations
-  - id: FH-INFER
-    name: Interpret the old rite
-  - id: FH-FINAL
-    name: Attempt the old rite
-hard_gates:
-  - wolf_tooth_weapon_complete
-advantages:
-  - shrine_found
-  - bellkeeper_recruited
-  - hart_source_known
-  - traditional_tool_research
-inference_model:
-  description: No clue-count threshold automatically reveals the solution. Independent clues should remain mutually consistent so players can form, test, and revise their own interpretation of the old rite.
-  underlying_truth: A physical manifestation of the Hart has remained anchored beyond its proper season. The Hart is not emitting corruption or excess vitality; normally connected natural processes around it increasingly fail to resolve cleanly into one another.
-  ambiguity_goal: Early evidence should remain plausibly natural. The supernatural case emerges from impossible combinations, timing, and spiritual readings rather than overt magical labeling.
-  clue_categories:
-    - maelin_stewardship_context
-    - broader_spirit_lore
-    - weapon_nature_known
-    - ritual_hunt_record
-    - bell_behavior_known
-    - hart_source_known
-  no_truth_gate: The party may enter the finale with an incomplete or mistaken theory.
-mock_testing:
-  vary_branch_order: true
-  include_failures: true
-  include_missed_clues: true
-  include_wrong_hypotheses: true
-  include_early_hart_release: true
-  include_skipped_npcs: true
-  include_no_bellkeeper_path: true
-  rule: Do not repeatedly simulate the optimal breadcrumb path. Let personality, uncertainty, and failed checks change route and preparation while preserving the hard gate and existing connective paths.
-state_variables:
-  outbreak_understood: false
-  hart_source_known: false
-  hart_trapped: true
-  hart_freed_early: false
-  wolf_tooth_relic_found: false
-  maelin_stewardship_context: false
-  broader_spirit_lore: false
-  weapon_nature_known: false
-  wolf_tooth_weapon_complete: false
-  traditional_tool_research: false
-  shrine_found: false
-  bell_behavior_known: false
-  ritual_hunt_record: false
-  bellkeeper_recruited: false
+workflow:
+  canonical_source: _data/adventures/forests-hart/
+  current_arc:
+    - Ministry arrives after Elara's impossible chicken report finally pushes Coedmyr above the threshold for investigation.
+    - Early branches separate mundane neglect from impossible biological excess and establish that the forest's decline has both ordinary and supernatural components.
+    - Maelin, Nessa, Sera, Taran, old records, and surviving relics reveal a spiritual ecology organized around life, death, change, and tradition rather than one lost killing rite.
+    - The party finds the Hart trapped on Ewan's neglected line and discovers that its vitalizing nature has become a corrupting force in a broken stewardship system.
+    - The party prepares a restoration using whatever fragments of the old system it has recovered and enters the finale intending to save the Hart.
+    - The rescue initially works, then breaks down and turns into an improvised pursuit as the corrupted Hart flees or containment collapses.
+    - Final containment reveals that the corruption is inseparable from this manifestation. The party must choose whether to use the Wolf's Tooth to kill it, continue searching for another solution, or abandon Coedmyr.
+
+  cosmology:
+    hart: life, vitality, renewal, recovery
+    wolf: death, limits, predation, restraint
+    bird: change, movement, adaptation, transition
+    turtle: tradition, continuity, memory, persistence
+    rule: The spirits are overlapping cultural figures, not a rigid four-part puzzle. Their themes become mechanically relevant through surviving stewardship tools and practices.
+
+  investigation_rule: Clues should support a plausible rescue theory without automatically revealing that the Hart cannot be saved.
+  finale_rule: The finale begins as restoration, not a ritual hunt. Any hunt emerges only after the rescue breaks down.
+  choice_rule: No historical source tells the party to kill the Hart. The lethal use of the Wolf's Tooth must be inferred from its established function as a tool of limits.
+  communal_rule: Villager participation reflects relationships and renewed responsibility. Earlier interactions should matter most when the village fractures over whether to keep trying to save the Hart.
+  alternative_solution_rule: A player-devised rescue that is genuinely supported by established fiction and carries an appropriate cost should remain possible; do not protect the planned tragedy by fiat.
