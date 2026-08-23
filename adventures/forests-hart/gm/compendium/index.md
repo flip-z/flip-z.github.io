@@ -16,43 +16,55 @@ Adventure-specific creatures, hazards, relics, and encounter systems live here.
 
 Coedmyr's surviving stories belong to a wider continent-spanning body of folklore rather than a closed local pantheon. Regional names and details vary.
 
-- **The Hart** is associated with renewal, succession, recovery, and replacement after loss. It can take physical form; a manifestation is mortal and is not the whole of the greater spirit.
-- **The Wolf** is associated with removal, predation, selection, limits, and endings. Old stories often place the Wolf after the Hart, taking a Hart manifestation when its season is complete.
-- **The River Turtle** is associated with persistence, circulation, water, soil, and long-duration natural systems.
-- **The Bird** is associated with movement, migration, dispersal, seasonal change, and passage between places.
+- **The Hart — life:** vitality, renewal, recovery, succession, and replacement after loss.
+- **The Wolf — death:** predation, limits, restraint, culling, and endings.
+- **The Bird — change:** movement, migration, adaptation, dispersal, and seasonal transition.
+- **The River Turtle — tradition:** continuity, memory, persistence, and accumulated knowledge.
 
-The Turtle and Bird are primarily background lore in this adventure. Their presence keeps Maelin's knowledge and Coedmyr's religion from functioning as a two-spirit puzzle built only to explain the finale.
+These figures are not a rigid four-part cosmology and not four mandatory keys. In Coedmyr they survive as ways of describing forces that must remain connected. Life without limits becomes destructive. Tradition without change becomes empty form. Change without continuity loses accumulated knowledge. Death without renewal becomes sterility.
 
-## The disturbance
+## Runaway vitality
 
-The Hart is not emitting corruption or excess vitality. Its current physical manifestation was caught in Ewan's neglected trap line and remained anchored beyond the point when its passage should have completed.
+The Hart is not possessed by an invading substance. Its current physical manifestation was injured and trapped on Ewan's neglected trap line inside a spiritual ecology already weakened by generations of lost stewardship.
 
-The result is a local spiritual disjunction: natural processes that normally constrain, follow, and resolve into one another increasingly fail to do so. Growth, repair, decomposition, predation, migration, inflammation, and recovery may all continue, but at contradictory rates, in the wrong order, or without clean resolution.
+Its own vitalizing nature has become distorted. Growth, healing, repair, reproduction, inflammation, fungal activity, and recovery continue past healthy limits or develop in destructive forms. That emergent condition is genuine corruption even though no external entity is infecting the Hart.
 
-Use **disturbance** or **disjunction** in GM-facing explanation. Villagers may call grotesque animals or growths corrupted, but there is no separate invading substance called corruption.
+Use **corruption** or **runaway vitality** in GM-facing explanation.
 
 ## Wolf's Tooth
 
-A human-forged cold-iron ritual object associated with the Wolf and Coedmyr's old spiritual hunts. It is not a literal tooth, spirit fragment, or physical remnant of the Wolf.
+A human-forged cold-iron ritual object associated with the Wolf's principles of restraint, culling, and limits. It is not a literal tooth, spirit fragment, or physical remnant of the Wolf.
 
-The broad root can strike the shrine bell; the pointed end is intended to be mounted on a haft. Taran can identify its construction, but the PCs must help reconstruct the ceremonial tool.
+The broad root can strike the shrine bell; the pointed or edged portion is intended to mount on a haft or ritual handle. Taran can identify its construction, but the PCs must help reconstruct the usable tool.
 
-In the old rite, human hunters use the Tooth to occupy the mythic role of the Wolf: the force that follows renewal with removal and completes the mortal passage of a Hart manifestation.
+Its first demonstrated purpose is to suppress or interrupt runaway spiritual and biological growth. Nothing in its history identifies it as a weapon designed to kill the Hart.
+
+At the climax, that same established function creates the terrible inference that the Tooth may be capable of imposing a permanent final limit on the corrupted Hart manifestation.
 
 ## Shrine Bell
 
-An old ritual bell at the hunting shrine. An incorrect strike produces a brief aura that momentarily settles nearby manifestations of the disturbance before fading. Repeated strikes with the reconstructed Wolf's Tooth produce the sustained resonance used for the ritual hunt.
+An old stewardship bell at the forest shrine. An ordinary strike produces a brief aura that momentarily suppresses excessive growth and spiritual instability before fading. Repeated use with the Wolf's Tooth produces a stronger sustained boundary effect.
 
-Old carvings and records distinguish a keeper or cantor who maintains the bell from hunters who leave the shrine. This should make the bellkeeper role recognizable before the finale rather than a hidden recruitment puzzle.
+Old carvings and records show the shrine as one node in a wider communal stewardship system. They do not depict a prescribed ritual hunt or teach that the Hart must die.
+
+## Turtle-associated practice
+
+Exact form remains open for design. A surviving Turtle object or practice should stabilize, anchor, or preserve an active containment effect. It is an optional advantage rather than a required collectible.
+
+## Bird-associated practice
+
+Exact form remains open for design. A surviving Bird object or practice should guide movement, redirect unstable force, or improve pursuit and positioning. It is an optional advantage rather than a required collectible.
 
 ## Hart manifestation
 
-Stat block and precise liminal-state rules are not yet defined.
+Stat block and precise corruption rules are not yet defined.
 
-The Hart found in Coedmyr is a physical manifestation that has endured beyond its proper season. Inside the active shrine, the rite can temporarily restore enough order around it for the Hart to become lucid, coherent, and mortal again.
+The Hart found in Coedmyr is a physical manifestation that has become corrupted by its own runaway vitalizing nature. It should remain visibly sacred and sympathetic beneath the malformed growth so that rescue feels like the obvious initial objective.
 
-At that point it may communicate briefly. It can convey that this shape has remained too long and that what should have followed did not. It should not directly command the party to kill it or explain the entire ritual solution.
+During final containment the old practices can make the Hart briefly coherent and lucid. That state reveals that the corruption has become inseparable from this manifestation rather than proving that the Hart was always meant to die.
+
+The Hart may communicate briefly through fear, pain, confusion, or attachment to the forest. It should not explain the final solution or endorse its own death.
 
 ## Malformed creatures and hazards
 
-Malformed wildlife, disordered vegetation, and chase obstacles are not yet fully defined. Their presentation should combine recognizable natural processes in impossible timing or sequence rather than defaulting to overt magical corruption.
+Malformed wildlife, overgrown vegetation, and pursuit obstacles are not yet fully defined. Their presentation should emphasize natural life processes continuing beyond healthy limits: wounds buried under new tissue, useless bone remodeling, infection beneath healing, excessive fungal or vegetative growth, and regeneration that preserves damage instead of repairing it.
