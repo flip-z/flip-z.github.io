@@ -146,13 +146,11 @@ At first these signs should still permit mundane explanations. The supernatural 
 
 ## Ruined hunting shrine
 
-The final ritual destination. Clearing growth and debris exposes the bell and carvings showing distinct keeper and hunter roles. Hunter figures carry unusual long implements with broad striking roots and pronounced points.
-
-The carvings can imply a coordinated communal response rather than a single magic-user and a hunting party. The keeper remains at the shrine while hunters depart, and secondary figures may carry gear, tend the approach, or prepare the site. These details need not translate into explicit instructions.
+The final ritual destination. Clearing growth and debris exposes the bell and carvings showing a keeper at the shrine while hunters depart carrying long implements. Other villagers are present around the rite, but the carvings do not assign them distinct jobs.
 
 An ordinary strike produces only a momentary pale aura regardless of how hard the bell is hit. Greater force makes a louder sound, not a stronger ritual effect. The Wolf's Tooth produces a qualitatively cleaner and stronger resonance. Sustaining that effect requires repeated ringing, making the need for continued shrine operation apparent.
 
-Do not identify Sera or any other NPC as the required operator. The Wolf's Tooth can move between characters during structured play, and the exact action-economy solution remains part of the unfinished finale mechanics.
+Do not identify Sera or any other NPC as the required operator. The rite establishes that the shrine must remain active while the hunt proceeds; exactly how that is maintained belongs to the unfinished final encounter design.
 
 During the final rite, the active boundary excludes ordinary malformed wildlife while allowing the called Hart to enter. Inside the aura, the rite temporarily restores enough order around the Hart manifestation for its disordered state to separate and settle. The Hart can become lucid, coherent, and mortal while the surrounding disturbance is held at the boundary.
 
