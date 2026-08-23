@@ -4,29 +4,30 @@ npcs:
     role: elderly keeper of old Coedmyr language, relics, and local tradition
     public_reputation: Knows more old Coedmyr material than anyone left, but speaks an archaic local dialect that modern villagers struggle to understand.
     communication: Maelin is not cryptic. He speaks plainly in an old dialect. Nessa translates incompletely and sometimes incorrectly; PCs with relevant Society, Lore, Occultism, or linguistic knowledge can catch words, context, or errors.
-    belief: Coedmyr abandoned obligations that once accompanied its reverence for the forest. He thinks the village preserved symbols more successfully than the habits, labor, and coordination that made the old traditions useful.
+    belief: Coedmyr abandoned obligations that once accompanied its reverence for the forest. He thinks the village preserved symbols more successfully than the habits, labor, adaptation, restraint, and coordination that made the old traditions useful.
     knows:
-      - old Coedmyr hunting and stewardship traditions
-      - the Wolf as a continent-wide figure of necessary predation, culling, selection, and limits
-      - the Hart as a continent-wide figure of renewal, succession, recovery, and replacement after loss
-      - the great River Turtle as a figure of persistence, circulation, water, soil, and long-duration systems
-      - the great Bird as a figure of movement, migration, dispersal, seasonal change, and passage between places
+      - old Coedmyr stewardship traditions
+      - the Hart as a continent-wide figure of life, vitality, renewal, succession, and recovery
+      - the Wolf as a figure of death, predation, limits, restraint, and necessary removal
+      - the Bird as a figure of change, movement, migration, adaptation, and seasonal transition
+      - the River Turtle as a figure of tradition, continuity, memory, persistence, and accumulated knowledge
       - regional stories disagree on names, relationships, and exact forms of these spirits
       - the pilgrimage overlook once housed a keeper who watched forest conditions and coordinated practical obligations distributed across the village
       - hunters, farmers, shrine tenders, craftspeople, and others once shared responsibilities that no single keeper performed alone
-      - many inherited objects in his house belonged to pilgrimage and hunting practices
-      - the Wolf's Tooth is a human-forged ritual object associated with the Wolf and the old hunt once its context is recognized
+      - many inherited objects in his house belonged to pilgrimage and stewardship practices
+      - the Wolf's Tooth is a human-forged ritual object associated with restraint, culling, and the Wolf's principle of limits once its context is recognized
     functions:
       - provides historical and cultural context rather than a procedural answer
       - can identify the Hart after hearing a sufficiently distinctive description
-      - can retrieve the Wolf's Tooth when the party mentions the Wolf, the old hunt, the shrine implements, or the bell
+      - can retrieve the Wolf's Tooth when the party mentions the Wolf, unusual stewardship implements, the shrine, or bell
       - allows a careful search of his crowded house to discover the Wolf's Tooth early
       - supplies unrelated spirit stories, obsolete customs, and disputed translations so his lore does not read as a concentrated quest solution
       - gives one sharp interpretation of Coedmyr's decline without being treated as the adventure's authoritative moral voice
+      - can recognize during the climax that the Wolf's Tooth may impose a permanent limit without claiming tradition commands the Hart's death
     limits:
-      - does not know the complete current ritual procedure
-      - does not know why the present Hart manifestation has remained
-      - does not know that the Wolf's Tooth is the correct bell striker until the party demonstrates it
+      - does not know a complete restoration procedure
+      - does not know whether the current Hart can ultimately be saved
+      - does not teach a Hart-and-Wolf ritual killing cycle
 
   - id: npc-translator
     name: Nessa Tor
@@ -35,8 +36,9 @@ npcs:
     functions:
       - keeps Maelin's conversations accessible without making translation exact
       - simplifies, guesses, argues with Maelin, and occasionally mistranslates old ecological or ritual terms
-      - can recall fragments of Hart, Wolf, Turtle, and Bird stories that are culturally useful but not necessarily relevant to the case
-      - can participate in final preparations if the party has involved her and earned her confidence
+      - can recall fragments of Hart, Wolf, Turtle, and Bird stories that are culturally useful but not necessarily mechanically relevant
+      - can participate in restoration preparations if the party has involved her and earned her confidence
+      - can challenge anyone in the finale who pretends fragmentary old material contains an authoritative command to kill or spare the Hart
 
   - id: npc-blacksmith
     name: Taran Holt
@@ -45,14 +47,15 @@ npcs:
     belief: Most surviving folklore is unreliable, and people cannot maintain every old custom after the population and economy that supported them disappear. Useful practices can still be understood by what they accomplished.
     knows:
       - the Wolf's Tooth is cold iron
-      - it was fashioned to mount on a haft
-      - its shape corresponds to an obsolete ceremonial regional implement
+      - it was fashioned to mount on a haft or ritual handle
+      - its shape corresponds to an obsolete ceremonial working implement
       - the object is human-made rather than a literal tooth or fragment of a spirit
     functions:
       - provides an early practical introduction to village conditions
-      - shows the party a mundane completed analogue once shown the relic
-      - helps reconstruct the traditional implement after the party earns his cooperation
-      - can participate in final preparations if the party has involved him and earned his cooperation
+      - shows the party mundane analogues once shown the relic
+      - helps reconstruct the Wolf's Tooth as a usable tool of restraint or boundary work after the party earns his cooperation
+      - can participate in restoration preparations if the party has involved him and earned his cooperation
+      - focuses on the material evidence that containment is failing during the finale rather than claiming a spiritual answer
     cooperation_paths:
       - assist with ordinary shop work
       - gain his practical trust elsewhere
@@ -64,16 +67,18 @@ npcs:
     role: skeptical local hunter
     public_reputation: Experienced woodsman frustrated by the collapse of local game populations.
     belief: The region's problems have mundane causes until direct evidence changes his mind. He sees declining hunting effort as a response to scarcity even when he recognizes that abandoned traps and neglected lines are irresponsible.
-    situation: He has neglected parts of his trap line because game has become scarce. Other local hunters have also shortened routes or stopped coordinating responsibilities as the forest and village declined. Ewan went further by leaving traps unattended. He does not know that a physical manifestation of the Hart reached one of those traps or that this incidental failure became the accelerant for the recent supernatural escalation.
+    situation: He has neglected parts of his trap line because game has become scarce. Other local hunters have also shortened routes or stopped coordinating responsibilities as the forest and village declined. Ewan went further by leaving traps unattended. He does not know that a physical manifestation of the Hart reached one of those traps or that this failure became the acute breach point for the supernatural escalation.
     functions:
       - tells the party where his trap line runs
       - can guide the party toward the Hart's current source location
       - if not already encountered, can enter the first dusk incursion and help finish the final malformed animal
-      - can participate in final preparations after seeing the consequences of his neglected line
-      - provides one concrete example of a wider breakdown in hunting stewardship without becoming uniquely responsible for Coedmyr's long decline
+      - seeing the injured Hart gives him a strong personal reason to help save it
+      - can participate in restoration preparations after seeing the consequences of his neglected line
+      - provides one concrete example of a wider breakdown in stewardship without becoming uniquely responsible for Coedmyr's long decline
+      - may resist killing the Hart during the climax because doing so makes the consequence of his negligence irreversible
     limits:
       - does not recognize the Hart by lore alone
-      - does not interpret the old rite or supply supernatural explanations
+      - does not supply supernatural explanations or a final solution
 
   - id: npc-mayor
     name: Elara Venn
@@ -84,7 +89,8 @@ npcs:
       - briefs the party on tainted water, failed crops, and aggressive malformed wildlife
       - explains Coedmyr's long decline from remote pilgrimage destination to isolated village
       - provides civic context and access to local records
-      - can help draw interested residents into final preparations once convinced of the immediate emergency
+      - can help draw interested residents into restoration preparations once convinced of the immediate emergency
+      - supports saving the Hart while that remains credible but prioritizes survival of Coedmyr once containment clearly cannot hold
     chicken_claim: Claims a slaughtered and dressed chicken got off her kitchen counter and killed a neighbor's cat. She retained no physical evidence. The GM need not establish whether the story is fully true, exaggerated, or fabricated to force Ministry attention.
 
   - id: npc-overlook-attendant
@@ -97,14 +103,17 @@ npcs:
       - the route of the spirit trail
       - the existence of the old shrine
       - where relevant local records are kept in the overlook library
-      - the Wolf and Hart appear together in some old hunting and stewardship traditions
-      - Turtle and Bird traditions also appear in Coedmyr records without bearing directly on the present hunt
-      - old pilgrimage material treats care for the forest as involving observation, limits, movement, maintenance, harvest, and active management as well as reverence
+      - the Hart appears in traditions of life, renewal, husbandry, recovery, and restoration
+      - the Wolf appears in traditions of death, culling, predation, restraint, and limits
+      - the Bird appears in traditions of change, adaptation, migration, and movement
+      - the River Turtle appears in traditions of continuity, memory, persistence, and inherited practice
+      - old pilgrimage material treats care for the forest as involving observation, limits, movement, maintenance, adaptation, harvest, and active management as well as reverence
     functions:
       - provides one independent route to discovering the shrine
       - introduces the Hart in old records if the party has not already heard the name
-      - directs research toward old hunt, stewardship, and tool traditions without revealing the present-day solution
-      - can participate in final preparations if the party trusts and involves her
+      - directs research toward stewardship and tool traditions without revealing a present-day solution
+      - can participate in restoration preparations if the party trusts and involves her
+      - strongly favors continued attempts to save the Hart during the climax until the danger becomes undeniable
     limits:
       - does not know that the overlook once coordinated a wider village stewardship institution unless the party uncovers that history with her
-      - does not know the complete rite or possess hidden procedural knowledge needed to solve the finale
+      - does not know a complete ritual procedure or possess hidden knowledge needed to solve the finale
