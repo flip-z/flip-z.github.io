@@ -1,104 +1,162 @@
 finale:
   id: FH-FINAL
-  name: Ritual Hunt
+  name: The Breaking Point
 
   prerequisites:
     required:
-      - wolf_tooth_weapon_complete
+      - wolf_tooth_implement_complete
       - shrine_found
     advantages:
       - hart_source_known
-      - bellkeeper_recruited
+      - restoration_support_assembled
+      - turtle_stabilization_if_found
+      - bird_guidance_if_found
       - traditional_tool_research
       - maelin_stewardship_context
-    interpretation_rule: The party may begin the rite with an incomplete or mistaken theory. No truth-known state is required.
+    interpretation_rule: The party begins with a rescue theory, not a known killing rite. No truth-known state is required.
 
-  trigger:
-    action: strike_shrine_bell_with_wolf_tooth
-    required_item: wolf_tooth_weapon_complete
-    effect: Repeated ringing produces a sustained aura and calls the Hart toward the old shrine without fully compelling its route.
+  objective:
+    stated: Suppress the runaway vitality, stabilize the Hart, and restore enough spiritual balance to save the manifestation without destroying it.
+    hidden_truth: The corruption has become inseparable from this Hart manifestation. The old practices can constrain and clarify the condition but cannot reverse it.
+    reveal_rule: Do not expose the hidden truth before the party earns it through the climax.
 
-  bell:
-    suppresses_disturbance: true
+  restoration_site:
+    trigger: Use the reconstructed Wolf's Tooth with the shrine bell or boundary fixtures to impose a sustained limit on runaway vitality.
+    effect: Excessive growth, malformed healing, and nearby spiritual instability subside within the active area.
     maintenance_required: true
-    keeper_context: Old carvings and records establish a recognizable keeper or cantor role before the finale. Once the correct response is discovered, sustained ringing makes the practical requirement obvious.
-    helper_effect: A recruited keeper allows all four PCs to join the pursuit.
-    no_helper_effect: One PC remains at the shrine for the duration of the pursuit.
-    interruption_effect: Each interruption increases breach pressure at the shrine.
-    candidate_notes:
-      ewan: forest experience and personal responsibility
-      sera: ritual familiarity
-      nessa: language and cultural familiarity
-      taran: physical dependability
+    communal_context: Old records establish that the shrine functioned as one node in a coordinated stewardship system, not as the starting point of a ritual hunt.
+    helper_effect: Villager participation can maintain secondary functions, watch boundaries, move tools, protect the site, or reinforce containment according to final mechanics.
+    no_helper_effect: PCs must spend more actions and coverage maintaining the restoration themselves.
+    interruption_effect: Each interruption increases breach pressure and allows runaway vitality to reassert itself.
+
+  spirit_tools:
+    wolf:
+      item: wolf_tooth_implement_complete
+      function: Suppress, cut back, or impose limits on runaway spiritual and biological growth.
+      final_implication: Because it can impose a true limit, it is also the one known tool capable of permanently stopping the corrupted Hart manifestation.
+    turtle:
+      status: optional
+      function: Stabilize a boundary, hold a suppressed condition in place, or keep a restoration effect from collapsing immediately.
+      thematic_role: tradition and continuity
+    bird:
+      status: optional
+      function: Guide movement, redirect unstable energy, or help steer the Hart without simply forcing it.
+      thematic_role: change and adaptation
+    hart:
+      item: none
+      function: Acts of tending, healing, husbandry, restoration, and communal care represent the Hart principle.
+      thematic_role: life and renewal
 
   starting_state:
-    hart_trapped: The party can begin from the known trap-line source and release the Hart when the bell begins.
-    hart_freed_early: The party must first relocate the Hart, adding one pursuit obstacle before the normal route.
+    hart_trapped: The party can approach the known trap-line source with the restoration plan and release the Hart under controlled conditions.
+    hart_freed_early: The party must first relocate the Hart, adding one pursuit obstacle before containment can begin.
+
+  phase_1_attempted_rescue:
+    purpose: Let the party see that their preparation genuinely helps before it ultimately proves insufficient.
+    presentation:
+      - the Wolf's Tooth suppresses grotesque overgrowth and slows maladaptive regeneration
+      - Turtle-associated stabilization, if recovered, holds the effect longer or reduces collapse
+      - Bird-associated guidance, if recovered, helps move the Hart or redirect dangerous spillover
+      - ordinary care and Hart-associated stewardship can calm or temporarily improve the manifestation
+    hart_state: The Hart remains frightened, injured, increasingly corrupted, and visibly worth saving.
+    success_signal: For a short period the party should reasonably believe restoration is working.
+    break: A surge of runaway vitality, pain, panic, or failed stabilization causes the Hart to bolt or forces the containment to move. This creates the pursuit organically rather than revealing an ancient hunt procedure.
 
   pursuit:
     structure: modified_pf2e_chase
-    destination: shrine
-    objective: Keep contact with the Hart and drive it toward the shrine while preventing problems from its disordered wake from reaching the keeper first.
-    skip_prevention: Waiting at the shrine does not complete the rite; the Hart is called in that direction but must be actively driven along the old hunt route.
+    objective: Stay with the Hart, protect Coedmyr from its wake, and guide it back toward a viable containment area.
+    framing: This is an improvised pursuit created by a failed rescue, not a ritual reenactment.
     success_measure: breach_pressure
     initial_breach_pressure: 0
     on_obstacle_failure: increase breach_pressure by 1
     obstacle_types:
       - relocate_hart_if_freed_early
       - maintain_contact
-      - disordered_terrain
+      - runaway_growth
       - malformed_fauna
-      - broken_spirit_trail
+      - broken_routes
+      - protect_villagers_or_infrastructure
     shrine_consequences:
-      low_pressure: keeper is secure and the aura is intact
-      medium_pressure: keeper has been interrupted and one complication begins inside the aura
-      high_pressure: multiple complications have crossed the boundary and the party arrives to an unstable shrine phase
+      low_pressure: restoration site remains stable and villagers retain confidence
+      medium_pressure: one containment function is compromised and local disagreement sharpens
+      high_pressure: multiple breaches threaten the village and pressure to kill the Hart becomes immediate
 
-  shrine_phase:
-    purpose: Protect the active bell, clear accumulated breach pressure, and separate the Hart manifestation from the accumulated spiritual disjunction surrounding it.
-    metaphysics: The shrine does not pull an emitted corruption substance out of the Hart. It temporarily restores enough order around the manifestation that the Hart can become lucid, coherent, and mortal again while the wider disturbance is held away.
+  phase_2_containment:
+    purpose: Reestablish enough control to test whether the Hart can actually be restored.
     presentation:
-      - contradictory growth and repair around the Hart settle or peel away as ordinary tissue and form reassert themselves
-      - the boundary visibly holds back the surrounding disordered manifestations and malformed wake
-      - interruption allows those effects to press back inward and malformed creatures to breach
+      - boundaries suppress the surrounding overgrowth
+      - repeated attempts to heal or stabilize the Hart trigger new malformed regeneration
+      - tissue, antler, rootlike growth, or other corruption recedes under restraint but returns when restraint eases
+      - the Hart becomes temporarily coherent when all available principles are brought into balance
     exact_rules: TBD
-    lucid_hart:
-      availability: Once sufficiently separated from the disturbance, before the final action.
-      communication: The Hart may speak or communicate briefly and clearly.
-      allowed_truths:
-        - this physical shape has endured beyond its proper season
-        - something that should have followed did not
-        - the Wolf traditionally follows or takes the Hart at the end of such a passage
-      forbidden_exposition:
-        - do not explicitly command the PCs to kill the Hart
-        - do not say that the Wolf's Tooth is the required killing implement unless the players have independently established that
-        - do not explain the entire four-spirit cosmology as a finale monologue
-    final_state: The Hart is lucid, exposed, and mortal within the active shrine, and the Wolf's Tooth can complete the rite.
+    failure_of_restoration:
+      evidence:
+        - corruption returns from within the manifestation rather than only from the surrounding forest
+        - successful healing produces fresh malformed growth instead of durable recovery
+        - stabilization can hold the Hart but cannot leave it healthy and free
+        - maintaining the state indefinitely is impossible without sacrificing Coedmyr to the spreading crisis
+      conclusion: The party earns the knowledge that this manifestation cannot be saved by the reconstructed stewardship practices available to them.
+      caution: This is not proof that every Hart manifestation must die or that old tradition prescribed this outcome.
 
-  final_action:
-    name: Complete the Passage
-    actions: 1
-    required_item: wolf_tooth_weapon_complete
-    requirements:
-      - adjacent_to_hart
-      - shrine_aura_active
-      - hart_exposed
-    check: none
-    effect: The player deliberately uses the Wolf's Tooth to complete the mortal passage of this Hart manifestation. The greater Hart is not permanently destroyed.
-    design_note: The encounter challenge is creating this state and deciding what it means; the adventure does not hinge on one final d20 roll.
+  lucid_hart:
+    availability: Once sufficiently stabilized, before any final lethal action.
+    presentation: The Hart is frightened, exhausted, and briefly recognizably itself rather than a cosmic lecturer.
+    allowed_truths:
+      - pain and confusion
+      - recognition that the surrounding life is answering it wrongly or uncontrollably
+      - attachment to the forest or village if expressed nonverbally or simply
+      - evidence that a healthy being still exists inside the corrupted manifestation
+    forbidden_exposition:
+      - do not command the PCs to kill the Hart
+      - do not say that its season has ended
+      - do not claim the Wolf traditionally kills or follows the Hart
+      - do not explain the four-spirit framework as a finale monologue
+
+  village_conflict:
+    trigger: The restoration fails while the Hart remains lucid enough to make killing it emotionally difficult.
+    principle: Earlier relationships determine who trusts the party, who resists killing the Hart, and who prioritizes immediate survival.
+    likely_positions:
+      sera: Strongly favors continued rescue until the danger becomes undeniable; killing the Hart feels like destroying something Coedmyr was meant to protect.
+      elara: Prioritizes survival of the village once containment cannot hold indefinitely.
+      ewan: Carries personal responsibility for the trap and may resist killing the creature because doing so makes his negligence feel irreversible.
+      maelin: Understands the Wolf as the principle of limits and death but does not claim tradition supplies a command. He can recognize what the Tooth might do without resolving the moral choice.
+      taran: Focuses on the material fact that the containment is failing and continued attempts have costs.
+      nessa: Can articulate uncertainty in the old material and resist anyone pretending the surviving fragments contain an authoritative answer.
+    mechanical_rule: No NPC opinion decides the outcome. Strong relationships can affect cooperation, obstruction, morale, or secondary encounter pressure.
+
+  final_choice:
+    options:
+      kill:
+        method: A character uses the Wolf's Tooth directly against the sufficiently restrained Hart, turning a tool of limits into a lethal implement.
+        framing: This is an improvised necessity inferred from the tool's function, not completion of a foretold ritual.
+        check: none once the encounter state has been earned
+        effect: The corrupted physical manifestation dies and the acute source of runaway vitality collapses.
+      continue_rescue:
+        method: Maintain containment and attempt another plausible player-devised intervention.
+        framing: Allow experimentation rather than treating refusal to kill as failure by fiat.
+        consequence: Unless the players create a genuinely new solution supported by established fiction, the corruption reasserts itself and breach pressure continues to rise.
+      withdraw:
+        consequence: The Hart remains a mobile or anchored regional catastrophe and Coedmyr may have to be evacuated or abandoned.
+    uncertainty: Killing the manifestation stops the immediate catastrophe, but no one knows what removing a local manifestation of the Hart will do to the longer spiritual balance.
 
   resolution:
-    success: The trapped manifestation dies normally. With the interrupted passage completed, the acute local disjunction begins to collapse and Coedmyr's ecology can gradually resume ordinary relationships rather than becoming instantly healthy.
-    refusal: If the party keeps the Hart alive after the separation fails, the manifestation again becomes the anchor for the unresolved disturbance and the crisis resumes.
+    kill_hart:
+      immediate: Runaway growth, malformed healing, and aggressive wildlife escalation rapidly subside around Coedmyr.
+      ecological: Existing ordinary damage remains. Depleted game, damaged trees, neglected water, and abandoned routes do not repair themselves.
+      spiritual: The long-term effect of losing the manifestation is unknown. The village may have removed a vitalizing force it depended on even though leaving this corrupted manifestation alive was untenable.
+      communal: Villagers interpret the decision through their prior relationships with the party and their own views of tradition, survival, responsibility, and change.
+    alternative_solution: If players establish a coherent new method from earned clues and mechanics that truly separates the Hart from the corruption, permit it rather than protecting the planned tragedy. Such a solution must cost or require something proportionate to the climax and cannot emerge from an unearned single roll.
 
   failure:
-    primary: The party is defeated or abandons the active rite.
-    consequence: The Coedmyr disturbance continues to worsen and may damage the old shrine, creating a larger regional problem for later adventures.
+    primary: The party is defeated, abandons containment, or cannot prevent the corrupted Hart from overwhelming the response.
+    consequence: Coedmyr becomes increasingly uninhabitable and the runaway vitality threatens to spread beyond the local forest.
 
   unresolved:
-    - number and exact content of normal pursuit obstacles
+    - exact normal pursuit obstacles
     - breach pressure thresholds
-    - exact bellkeeper interruption procedure
-    - exact aura radius and suppression rules
+    - exact shrine maintenance action economy
+    - exact Turtle tool form and mechanics
+    - exact Bird tool form and mechanics
     - shrine-phase stat block and difficulty
-    - exact long-term failure consequence
+    - exact mechanical expressions of villager support or resistance
+    - exact long-term regional consequence of killing the Hart
