@@ -15,10 +15,11 @@ difficulty:
 investigation_style:
   description_rule: Describe observable physical evidence before supplying interpretation. Early scenes should remain plausibly readable as neglect, ecological decline, disease, or forest reclaiming a shrinking village.
   inference_rule: No number of successful clue checks automatically reveals the adventure's final choice.
+  npc_rule: GM notes define what an NPC can know, not what they automatically say. Start with immediate lived experience. Broader beliefs and interpretations surface only when the party asks relevant questions, presents evidence, or earns trust.
   underlying_model: The Hart's vitalizing nature has become distorted after it was injured and trapped inside a spiritual ecology already weakened by lost stewardship. Growth, healing, repair, reproduction, inflammation, and recovery continue past healthy limits or develop in destructive forms.
   evidence_pattern: Emphasize excessive life rather than failed transition: wounds overgrow, bone remodels uselessly, infection survives under fresh tissue, fungi and shoots proliferate, and regeneration continues beyond function.
   terminology: Use corruption or runaway vitality in GM-facing text. The corruption is emergent from the Hart's distorted life-giving nature rather than an external possessing substance.
-  chicken_claim: No physical evidence is available from Elara. Treat reliability as unresolved unless play establishes otherwise.
+  hare_reports: No clean physical evidence is available before the party's dusk encounter. Accounts conflict enough that exaggeration, misidentification, or multiple ordinary predators remain plausible at arrival.
   spring:
     basic_finding: A badly decomposed animal lodged at the source provides a mundane explanation for the local water contamination.
     useful_result: The larger forest abnormalities remain, ruling out the spring itself as a sufficient explanation for the regional problem.
@@ -97,10 +98,12 @@ spirit_tools:
 npc_checks:
   elara_venn:
     volunteers:
-      - three outbreak symptoms
+      - the reported hare attacks and two other outbreak symptoms
       - timeline of recent escalation
       - useful local contacts and basic town access
+    context_if_asked:
       - Coedmyr's history as a remote pilgrimage destination whose visitors disappeared as the forest and rites declined
+      - the village's long loss of people, money, and practical capacity
     dc_25:
       skills: [Diplomacy, Society]
       result: Learn politically sensitive context about village morale, disputes, and who trusts whom.
@@ -109,14 +112,13 @@ npc_checks:
       - the Hart's identity at arrival
       - a hidden ritual solution
       - whether the spring contamination shares the larger cause
+      - whether every reported hare attack involved the same animal
 
   maelin_tor:
     communication: Speaks an archaic local dialect rather than cryptic fragments. Nessa provides imperfect translation.
     volunteers:
-      - criticism of modern Coedmyr's neglect of the forest, history, and old obligations
-      - old stewardship context when the party asks about pilgrimage or hunting traditions
-      - stories linking the Hart with life, Wolf with death, Bird with change, and Turtle with tradition
-      - fragments about the old practical keeper or warden whose duties included shrines, trails, culling, harvest limits, adaptation, recordkeeping, and continuity
+      - direct answers about old stories or practices when asked
+      - criticism of modern Coedmyr's neglect when the party specifically discusses pilgrimage, hunting traditions, or old obligations
     comprehension_checks:
       dc_25:
         skills: [Society, Lore, Occultism]
@@ -137,11 +139,18 @@ npc_checks:
       - whether the current Hart can ultimately be restored
 
   taran_holt:
+    arrival_volunteers:
+      - brief answers based on immediate experience
+      - people have left and work has dried up if asked what happened to Coedmyr
+      - directions to Elara if the party is looking for the Ministry contact
     volunteers_when_shown_relic:
       - cold iron identification
       - mounting points
       - resemblance to an obsolete ceremonial working implement
       - confirmation that the Tooth is human-forged rather than an actual tooth or spirit fragment
+    context_if_pressed:
+      - old customs required time, labor, money, and enough people to maintain them
+      - useful practices can be lost without the people abandoning them out of contempt
     cooperation:
       automatic_if:
         - party assists with practical shop work
@@ -155,6 +164,9 @@ npc_checks:
       skill: Crafting
       effect: Earn trust faster or improve reconstruction position; failure never blocks reconstruction or damages the relic.
     finale_position: Focuses on the practical evidence that containment is failing rather than asserting a spiritual answer.
+    does_not_know:
+      - the supernatural cause of the outbreak
+      - a lost killing rite
 
   ewan_rusk:
     volunteers:
@@ -175,12 +187,12 @@ npc_checks:
     limits:
       - does not identify the Hart from folklore before others establish it
       - does not explain the spiritual solution
+      - does not know the Hart is trapped on his line until discovered
 
   sera_wynn:
     volunteers:
-      - spirit trail location
-      - shrine existence
-      - access to overlook library
+      - access to the overlook and archive
+      - spirit trail location and shrine existence when the party's questions make them relevant
       - history of the overlook as a surviving spiritual retreat and tourist attraction
     research:
       basic_history: automatic
@@ -196,7 +208,7 @@ npc_checks:
         dc: 29
         skills: [Society, Lore]
         effect: Grants an advantage on Wolf's Tooth reconstruction or identifies optional Turtle/Bird practices.
-    guidance: If the party has not already heard of the Hart, archive material can introduce it naturally as part of old local tradition.
+    guidance: If the party has not already heard of the Hart, archive material can introduce it naturally as part of old local tradition. Sera should not narrate discoveries the archive is meant to reveal.
     finale_position: Strongly favors continued rescue until the danger becomes undeniable because she sees the Hart as something Coedmyr was responsible for protecting.
 
 restoration_support:
@@ -211,7 +223,8 @@ restoration_support:
 
 creature_candidates:
   malformed_fauna:
-    - Tar Zombie Predator chassis for malformed elk, deer, or wolves; remove undead assumptions and reflavor tar as badly organized tissue or runaway regeneration.
+    - For the dusk hare, use an appropriately challenging fast terrestrial creature chassis and replace its presentation with runaway growth, malformed healing, violent kicks, and prey-animal panic. Do not import unrelated supernatural abilities.
+    - Tar Zombie Predator chassis for later malformed elk, deer, or wolves; remove undead assumptions and reflavor tar as badly organized tissue or runaway regeneration.
     - Giant Anaconda chassis for the tainted-water branch.
     - Mastodon chassis for an enormous malformed stag or moose brute.
   vegetation:
