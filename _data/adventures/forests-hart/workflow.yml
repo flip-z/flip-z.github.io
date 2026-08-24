@@ -1,7 +1,7 @@
 workflow:
   canonical_source: _data/adventures/forests-hart/
   current_arc:
-    - Ministry arrives after Elara's impossible chicken report finally pushes Coedmyr above the threshold for investigation.
+    - Ministry arrives after Elara's reports of a large malformed hare killing pets and poultry finally push Coedmyr above the threshold for investigation.
     - Early branches separate mundane neglect from impossible biological excess and establish that the forest's decline has both ordinary and supernatural components.
     - Maelin, Nessa, Sera, Taran, old records, and surviving relics reveal a spiritual ecology organized around life, death, change, and tradition rather than one lost killing rite.
     - The party finds the Hart trapped on Ewan's neglected line and discovers that its vitalizing nature has become a corrupting force in a broken stewardship system.
@@ -17,6 +17,7 @@ workflow:
     rule: The spirits are overlapping cultural figures, not a rigid four-part puzzle. Their themes become mechanically relevant through surviving stewardship tools and practices.
 
   investigation_rule: Clues should support a plausible rescue theory without automatically revealing that the Hart cannot be saved.
+  npc_rule: Named villagers are partial witnesses, not exposition channels. Distinguish what each NPC knows from what they believe and what they volunteer. Begin with immediate lived experience; broader interpretation should emerge only when the party asks relevant questions, presents evidence, or earns trust.
   finale_rule: The finale begins as restoration, not a ritual hunt. Any hunt emerges only after the rescue breaks down.
   choice_rule: No historical source tells the party to kill the Hart. The lethal use of the Wolf's Tooth must be inferred from its established function as a tool of limits.
   communal_rule: Villager participation reflects relationships and renewed responsibility. Earlier interactions should matter most when the village fractures over whether to keep trying to save the Hart.
