@@ -16,6 +16,9 @@ npcs:
       - hunters, farmers, shrine tenders, craftspeople, and others once shared responsibilities that no single keeper performed alone
       - many inherited objects in his house belonged to pilgrimage and stewardship practices
       - the Wolf's Tooth is a human-forged ritual object associated with restraint, culling, and the Wolf's principle of limits once its context is recognized
+    volunteers:
+      - plain answers about old stories or practices when directly asked
+      - criticism of modern Coedmyr's neglect when the conversation turns to traditions or stewardship
     functions:
       - provides historical and cultural context rather than a procedural answer
       - can identify the Hart after hearing a sufficiently distinctive description
@@ -28,11 +31,15 @@ npcs:
       - does not know a complete restoration procedure
       - does not know whether the current Hart can ultimately be saved
       - does not teach a Hart-and-Wolf ritual killing cycle
+      - does not volunteer the adventure's thematic interpretation merely because the party asks broad questions about the village
 
   - id: npc-translator
     name: Nessa Tor
     role: Maelin's granddaughter, caretaker, and imperfect translator of archaic Coedmyr speech
     belief: The old stories matter, but inherited words and objects are not the same thing as a functioning tradition. She is less willing than Maelin to blame people who inherited a village already in decline.
+    knows:
+      - modern Coedmyr and its residents better than archaic ritual terminology
+      - enough of Maelin's dialect to make conversation possible, but not enough to make every translation reliable
     functions:
       - keeps Maelin's conversations accessible without making translation exact
       - simplifies, guesses, argues with Maelin, and occasionally mistranslates old ecological or ritual terms
@@ -46,16 +53,26 @@ npcs:
     public_reputation: Busy, capable, and uninterested in village mysticism unless it produces a practical problem.
     belief: Most surviving folklore is unreliable, and people cannot maintain every old custom after the population and economy that supported them disappear. Useful practices can still be understood by what they accomplished.
     knows:
-      - the Wolf's Tooth is cold iron
+      - Coedmyr has been losing people and work for years
+      - Elara has been sending reports to the Ministry
+      - the Wolf's Tooth is cold iron once he examines it
       - it was fashioned to mount on a haft or ritual handle
       - its shape corresponds to an obsolete ceremonial working implement
       - the object is human-made rather than a literal tooth or fragment of a spirit
+    volunteers:
+      - brief answers from immediate experience
+      - that people left and work dried up if asked what happened to Coedmyr
+      - directions to Elara if the party is looking for the person who summoned the Ministry
     functions:
       - provides an early practical introduction to village conditions
       - shows the party mundane analogues once shown the relic
       - helps reconstruct the Wolf's Tooth as a usable tool of restraint or boundary work after the party earns his cooperation
       - can participate in restoration preparations if the party has involved him and earned his cooperation
       - focuses on the material evidence that containment is failing during the finale rather than claiming a spiritual answer
+    limits:
+      - does not volunteer a full social history or thematic explanation of Coedmyr's decline to newly arrived strangers
+      - does not know the supernatural cause of the outbreak
+      - does not know a lost killing rite
     cooperation_paths:
       - assist with ordinary shop work
       - gain his practical trust elsewhere
@@ -68,6 +85,11 @@ npcs:
     public_reputation: Experienced woodsman frustrated by the collapse of local game populations.
     belief: The region's problems have mundane causes until direct evidence changes his mind. He sees declining hunting effort as a response to scarcity even when he recognizes that abandoned traps and neglected lines are irresponsible.
     situation: He has neglected parts of his trap line because game has become scarce. Other local hunters have also shortened routes or stopped coordinating responsibilities as the forest and village declined. Ewan went further by leaving traps unattended. He does not know that a physical manifestation of the Hart reached one of those traps or that this failure became the acute breach point for the supernatural escalation.
+    knows:
+      - local game has become scarce
+      - where his trap line runs
+      - which portions he has failed to check
+      - recent reports of the malformed hare and other wildlife trouble near town
     functions:
       - tells the party where his trap line runs
       - can guide the party toward the Hart's current source location
@@ -79,19 +101,33 @@ npcs:
     limits:
       - does not recognize the Hart by lore alone
       - does not supply supernatural explanations or a final solution
+      - does not know the Hart is trapped on his line until it is discovered
 
   - id: npc-mayor
     name: Elara Venn
     role: mayor of Coedmyr and Ministry contact
     belief: The village is facing a serious environmental or supernatural problem and repeated ordinary explanations no longer account for everything she has seen. She resists simple blame because Coedmyr has spent years losing people, money, and capacity while asking for help.
+    knows:
+      - several years of local complaints and reports
+      - recent accounts of a large malformed hare killing cats, small dogs, and poultry around dusk
+      - the north spring problem, crop and livestock failures, and reports of aggressive malformed wildlife
+      - Coedmyr's civic history and declining local capacity
+    volunteers:
+      - why she contacted the Ministry
+      - the three main current problem branches
+      - useful local contacts and access to records
     functions:
       - requested Ministry assistance for several years
-      - briefs the party on tainted water, failed crops, and aggressive malformed wildlife
-      - explains Coedmyr's long decline from remote pilgrimage destination to isolated village
+      - briefs the party on tainted water, failed crops, the reported hare, and aggressive malformed wildlife
       - provides civic context and access to local records
+      - can explain Coedmyr's long decline when asked rather than front-loading it as a speech
       - can help draw interested residents into restoration preparations once convinced of the immediate emergency
       - supports saving the Hart while that remains credible but prioritizes survival of Coedmyr once containment clearly cannot hold
-    chicken_claim: Claims a slaughtered and dressed chicken got off her kitchen counter and killed a neighbor's cat. She retained no physical evidence. The GM need not establish whether the story is fully true, exaggerated, or fabricated to force Ministry attention.
+    hare_reports: Multiple residents report a large, malformed hare entering the village around dusk and killing household animals. Accounts conflict on size and appearance, no clean specimen has been preserved, and Elara cannot establish whether every attack involved the same animal.
+    limits:
+      - does not know the supernatural cause of the outbreak
+      - does not know whether every current problem shares one cause
+      - does not possess the adventure's thematic explanation of Coedmyr's decline
 
   - id: npc-overlook-attendant
     name: Sera Wynn
@@ -108,6 +144,10 @@ npcs:
       - the Bird appears in traditions of change, adaptation, migration, and movement
       - the River Turtle appears in traditions of continuity, memory, persistence, and inherited practice
       - old pilgrimage material treats care for the forest as involving observation, limits, movement, maintenance, adaptation, harvest, and active management as well as reverence
+    volunteers:
+      - access to the overlook and archive
+      - the spirit trail and shrine when the conversation makes them relevant
+      - her sincere concern for preserving the forest and surviving traditions
     functions:
       - provides one independent route to discovering the shrine
       - introduces the Hart in old records if the party has not already heard the name
@@ -117,3 +157,6 @@ npcs:
     limits:
       - does not know that the overlook once coordinated a wider village stewardship institution unless the party uncovers that history with her
       - does not know a complete ritual procedure or possess hidden knowledge needed to solve the finale
+      - does not narrate discoveries the archive is meant to reveal
+
+npc_play_rule: Treat named villagers as partial witnesses with distinct knowledge, beliefs, and conversational boundaries. GM notes define what an NPC can know, not what they automatically say. Start from immediate lived experience and reveal broader interpretation only when the party asks relevant questions, presents evidence, or earns trust.
