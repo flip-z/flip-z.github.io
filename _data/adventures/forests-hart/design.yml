@@ -15,8 +15,8 @@ case:
     - malformed aggressive wildlife
     - crop failure
     - tainted water supply
-  ministry_context: Coedmyr is a remote former pilgrimage destination whose long decline has not justified scarce Ministry resources. Elara's latest chicken story is strange enough that the Ministry finally sends a team to determine whether the situation warrants attention or her future reports can be disregarded.
-  chicken_claim: Elara claims that a slaughtered and dressed chicken got off her kitchen counter and killed a neighbor's cat. She has no physical evidence. The claim may be true, exaggerated, or fabricated to force a response.
+  ministry_context: Coedmyr is a remote former pilgrimage destination whose long decline has not justified scarce Ministry resources. Elara's latest reports describe a large malformed hare entering the village around dusk and killing cats, small dogs, and poultry. The pattern is strange enough that the Ministry finally sends a team to determine whether the situation warrants attention or her future reports can be disregarded.
+  hare_reports: Accounts conflict on the animal's size and appearance, no clean specimen has been preserved, and Elara cannot establish whether every attack involved the same animal. Exaggeration, misidentification, or multiple ordinary predators remain plausible until the party encounters the creature itself.
   party_initial_knowledge: The Ministry knows Coedmyr has been deteriorating for years but does not initially know whether the current symptoms share a cause, whether Elara is reliable, or anything about the Hart or forgotten stewardship practices.
   chronic_decline: Coedmyr's old pilgrimage culture joined reverence with practical stewardship. Hunters maintained and checked trap lines, routes and water sources were watched, harvest and culling practices were coordinated, shrines were tended, and unusual changes in the forest were noticed because people were routinely present in it. Those obligations weakened over generations as the pilgrimage economy contracted and residents disengaged from the harder work of caring for the place.
   stewardship_failure: The supernatural crisis is not punishment for forgetting one ceremony. Coedmyr lost the distributed habits and institutions that once kept life, death, change, and continuity in relationship with one another. The surviving rites and objects are fragments of that system, not a hidden ritual solution.
@@ -53,6 +53,7 @@ spiritual_ecology:
     corruption_usage: The Hart is not possessed by an invading substance. Its own life-giving nature has become distorted within a broken spiritual ecology, producing corruption as an emergent condition rather than an external infection.
 
 investigation:
+  npc_play_rule: Named villagers are partial witnesses, not exposition channels. Distinguish what each NPC knows from what they believe and what they volunteer. GM notes define possible knowledge, not automatic dialogue. Begin with immediate lived experience and reveal broader interpretation only when the party asks relevant questions, presents evidence, or earns trust.
   evidence_of_stewardship_decline:
     purpose: Use the physical condition of Coedmyr and its surroundings as quiet background texture. Do not make stewardship decline the explicit lesson or plot function of each investigation branch.
     examples:
@@ -67,6 +68,11 @@ investigation:
     value: The surrounding forest remains abnormal, separating the water problem from the larger regional problem.
   dusk_incursion:
     timing: Around dusk, preferably as the party returns toward town or settles in for the night.
+    primary_creature: The reported malformed hare.
+    presentation: Keep it recognizably a hare. Its horror comes from excessive and maladaptive life processes rather than wholly new anatomy: overgrown incisors, excessive bone or muscle development, badly organized healing, persistent inflammation or infection, and raw tissue already trying to repair itself.
+    behavior: Preserve prey-animal movement made catastrophically wrong: sudden speed, violent kicking, frantic direction changes, and panicked aggression rather than deliberate predatory intelligence.
+    proof_value: This is the first hard confirmation that the recent wildlife reports describe something genuinely abnormal.
+    support_rule: If encounter balance requires additional bodies, use similarly corrupted small local wildlife rather than unrelated monsters.
     ewan_entry: If the party has not already sought out Ewan, he may enter during the encounter and help finish the last malformed animal, creating a natural introduction.
   hart_source:
     primary_route: Learn about Ewan Rusk's neglected trap line and follow it to the source.
@@ -88,11 +94,11 @@ religious_history:
   maelin_use: Maelin remembers fragments of the older worldview and stories about all four spirits. He understands that the traditions described relationships among life, death, change, and continuity, but he does not know whether the present Hart can be restored.
 
 village_viewpoints:
-  principle: No villager owns the thematic answer. Their explanations should conflict while remaining grounded in their lives.
+  principle: No villager owns the thematic answer. Their explanations should conflict while remaining grounded in their lives. These viewpoints are not opening monologues; surface them only when the party's questions or evidence make them relevant.
   maelin: The village preserved symbols while allowing the relationships and obligations between them to fragment.
   sera: The traditions were worth preserving, and the Hart is something sacred that should be restored if restoration remains possible.
   ewan: Game collapsed and hunters adapted to scarcity. His neglected traps are irresponsible, and once the Hart is discovered he must confront that his specific negligence helped turn a wider failure into catastrophe.
-  taran: People cannot maintain every old custom when the economy and population that supported them disappear. He respects useful practices more readily than inherited ceremony and judges the rescue by what materially works.
+  taran: People cannot maintain every old custom when the economy and population that supported them disappear. He respects useful practices more readily than inherited ceremony and judges the rescue by what materially works. Asked broadly what happened to Coedmyr, he should answer from immediate experience rather than delivering this whole analysis.
   elara: The village has been asking for help while losing people, money, and capacity. She wants the Hart saved if possible, but survival of Coedmyr takes priority once the restoration begins to fail.
   nessa: The old system contained knowledge the present village has lost, but inherited language and ritual fragments are not enough by themselves to recreate a functioning community.
 
