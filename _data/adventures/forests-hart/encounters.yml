@@ -2,14 +2,15 @@ encounters:
   - id: FH-00
     name: Ministry Arrival
     type: introduction-investigation
-    premise: The Ministry finally sends a team after years of low-priority reports from remote Coedmyr culminate in Elara's claim that a slaughtered chicken got up and killed a neighbor's cat.
+    premise: The Ministry finally sends a team after years of low-priority reports from remote Coedmyr culminate in repeated claims that a large malformed hare has begun entering the village around dusk and killing cats, small dogs, and poultry.
     symptoms:
       - malformed aggressive wildlife
       - crop failure
       - tainted water supply
     uncertainty:
-      - Elara has no physical evidence of the chicken incident
-      - the party may reasonably suspect exaggeration or fabrication
+      - accounts of the hare conflict on size and appearance
+      - no clean specimen has been preserved before the party arrives
+      - the party may reasonably suspect exaggeration, misidentification, or multiple ordinary predators
       - the initial symptoms do not need a single obvious cause
       - early conditions should remain plausibly explainable as neglect, disease, ecological decline, or forest reclaiming a shrinking village
     spring_branch:
@@ -17,8 +18,17 @@ encounters:
       remaining_problem: Abnormal regional vegetation and malformed wildlife remain unexplained.
     dusk_incursion:
       timing: Around dusk, preferably on the party's return toward town or as they consider lodging.
-      fauna: Use ordinary local animals whose life processes have become excessive, persistent, or malformed rather than creatures visibly radiating supernatural corruption.
+      primary_creature: The reported malformed hare. Keep it recognizably a hare whose anatomy and behavior have been distorted by runaway growth and repair.
+      pathology:
+        - overgrown incisors
+        - excessive bone or muscle development beyond useful anatomy
+        - old wounds buried under badly organized new tissue
+        - infection or inflammation persisting beneath fresh healing
+        - raw tissue visibly attempting to repair itself
+      behavior: Preserve prey-animal movement made catastrophically wrong: sudden speed, violent kicking, frantic direction changes, and panicked aggression rather than deliberate predatory intelligence.
+      support_creatures: If encounter balance requires more bodies, use similarly corrupted small local wildlife rather than unrelated monsters.
       ewan_entry: If the party has not already sought out Ewan, he may enter during the encounter and help finish the final creature.
+      proof_value: This is the first hard confirmation that the recent wildlife reports describe something genuinely abnormal.
     description_rule: Present observable pathology before interpretation. Growth, repair, inflammation, infection, reproduction, and behavior can continue beyond healthy limits in combinations that eventually become impossible to explain naturally, but do not announce the cosmology.
 
   - id: FH-01
