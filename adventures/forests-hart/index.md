@@ -17,7 +17,7 @@ Long before the pilgrims, there was real magic here. The forest was not scenery.
 
 Now the rites have faded with the elders. The shrines go untended. The old hunting customs have become half-remembered stories. The young leave when they can. The forest that once drew pilgrims up the mountain has grown thin, quiet, and mean.
 
-For several years, Elara Venn of Coedmyr has written to the Ministry of Obscure Affairs about worsening harvests, sick livestock, and increasingly strange wildlife. The reports never justified sending investigators into an isolated dying forest. Her latest letter is harder to dismiss: she claims that a chicken she had already slaughtered and dressed got off her kitchen counter and killed a neighbor's cat. The Ministry sends a small field team to determine whether Coedmyr actually has an Obscure Affair—or whether Venn's future correspondence can safely be disregarded.
+For several years, Elara Venn of Coedmyr has written to the Ministry of Obscure Affairs about worsening harvests, sick livestock, and increasingly strange wildlife. The reports never justified sending investigators into an isolated dying forest. Her latest letters describe something harder to dismiss: a large, malformed hare has begun entering the village around dusk and killing cats, small dogs, and poultry. The accounts conflict, nobody has preserved clean physical evidence, and rural panic can turn ordinary nuisance wildlife into monsters quickly enough. The Ministry sends a small field team to determine whether Coedmyr actually has an Obscure Affair—or whether Venn's reports can be explained by a failing village and a frightened population.
 
 <ul class="adventure-meta">
   <li><strong>System</strong> Pathfinder Second Edition</li>
