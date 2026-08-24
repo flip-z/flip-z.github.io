@@ -14,13 +14,23 @@ _Status: working playtest design. Canonical state lives in `_data/adventures/for
 
 ## Core arc
 
-1. The Ministry arrives after years of low-priority reports from remote Coedmyr finally culminate in Elara Venn's absurd claim that a slaughtered chicken got up and killed a neighbor's cat.
-2. Investigation separates mundane local problems from the broader outbreak and gradually shows life processes continuing with impossible intensity: healing becomes overgrowth, repair becomes deformity, and renewal persists beyond healthy limits.
+1. The Ministry arrives after years of low-priority reports from remote Coedmyr culminate in repeated accounts of a large malformed hare entering the village around dusk and killing cats, small dogs, and poultry.
+2. Investigation separates mundane local problems from the broader outbreak and gradually shows life processes continuing with impossible intensity: healing becomes overgrowth, repair becomes deformity, and renewal persists beyond healthy limits. The dusk hare encounter is the first hard confirmation that the recent wildlife reports describe something genuinely abnormal.
 3. The party reconstructs Coedmyr's old stewardship culture through Maelin, Nessa, Sera, Taran, surviving relics, the overlook, and the shrine. The four recurring spirits represent life, death, change, and tradition rather than a rigid ritual sequence.
 4. Ewan's neglected trap line leads to the Hart, which is both the source of the runaway vitality and its victim. The party should naturally conclude that the Hart needs to be saved.
 5. The party assembles a restoration from surviving practices. Wolf-associated tools impose limits, Turtle-associated practices stabilize, Bird-associated practices guide or redirect, and Hart-aligned stewardship consists of actual tending and restoration.
 6. The restoration initially works, then breaks. The Hart flees or containment moves, turning the rescue into an improvised pursuit rather than a reenacted ritual hunt.
 7. Final containment reveals that the corruption is inseparable from this physical Hart manifestation. The party must choose whether to kill it with the Wolf's Tooth, continue searching for another solution, or abandon Coedmyr to the consequences.
+
+## NPC play rule
+
+Named villagers are partial witnesses, not exposition channels. Their GM notes distinguish what they know, what they believe, and what they volunteer.
+
+Start from immediate lived experience. An NPC should not summarize information simply because it appears in their notes. Broader interpretation should emerge only when the party asks relevant questions, presents evidence, or earns enough trust for the subject to arise naturally.
+
+Taran is the clearest example. Asked broadly what happened to Coedmyr, he is likely to say that people left and work dried up. His deeper argument that old customs required labor, money, and enough people to sustain them belongs in a later conversation about those customs, responsibility, or why traditions disappeared.
+
+Sera should not narrate discoveries the archive is meant to reveal. Maelin is knowledgeable but not prophetic. Elara can provide the current problem branches readily, while deeper civic history should come through questions and records. Ewan knows his hunting routes and failures, not their supernatural significance.
 
 ## Spiritual ecology
 
@@ -49,7 +59,7 @@ Sera sincerely preserves what she inherited, but she did not inherit the complet
 
 ## Preparation model
 
-- **FH-00 — Arrival:** establish ordinary decline, uncertain evidence, the spring red herring, and a dusk wildlife incursion.
+- **FH-00 — Arrival:** establish ordinary decline, uncertain reports of the malformed hare, the spring red herring, and the dusk hare encounter as the first hard supernatural proof.
 - **FH-01 — Maelin and Nessa:** recover four-spirit context, fragmented stewardship history, and the Wolf's Tooth without teaching a Hart-killing cycle.
 - **FH-02 — Taran:** reconstruct the Tooth as a usable tool of restraint and limitation, not a purpose-built execution weapon.
 - **FH-03 — Overlook and shrine:** reveal the old distributed stewardship system, the bell's suppressive effect, and optional Turtle- or Bird-associated practices that can strengthen a restoration attempt.
@@ -129,4 +139,4 @@ flowchart TD
 
 Do not repeatedly simulate the optimal breadcrumb path. Vary branch order and allow failed checks, missed clues, incorrect hypotheses, early Hart release, skipped NPCs, and weak local relationships.
 
-Track whether players plausibly believe the Hart can be saved before the finale, whether the failed restoration feels earned rather than predetermined, and whether their earlier relationships materially change the social pressure of the final choice.
+Track whether players plausibly believe the Hart can be saved before the finale, whether the failed restoration feels earned rather than predetermined, whether the first dusk hare encounter establishes the supernatural without explaining it, and whether earlier relationships materially change the social pressure of the final choice.
