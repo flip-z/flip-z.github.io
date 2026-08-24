@@ -10,6 +10,21 @@ permalink: /adventures/forests-hart/gm/locations/
 # Locations
 {: tabindex="-1" }
 
+## Named NPC guidance
+
+Named villagers should behave as residents with partial perspectives, not as delivery mechanisms for the adventure's full thesis.
+
+For each NPC, distinguish between what they know, what they believe, and what they volunteer. Do not have an NPC summarize information simply because it appears in their GM notes. Their broader views should emerge only when the party asks relevant questions, presents evidence, or has earned enough trust for the subject to come up naturally.
+
+- **Elara Venn:** practical, persistent, and worried about keeping Coedmyr alive. She knows the history contained in her own reports and the current complaints brought to her. She does not know the supernatural cause. She readily explains why she contacted the Ministry and can point toward current problems, but deeper conclusions about Coedmyr's institutional decline should come from records and investigation rather than a speech.
+- **Taran Holt:** terse, skeptical, and practical. He knows the village has declined, work has disappeared, people have left, and old practices became harder to sustain. He does not begin by offering a social history of Coedmyr. With strangers he answers the question asked, briefly. His deeper view that old customs required labor, money, and people should emerge only when the party asks about those customs, blames residents for abandoning them, or otherwise gives him reason to argue the point.
+- **Maelin Tor:** direct, opinionated, and rooted in inherited practice. He knows old stories, language, objects, and fragments of the older stewardship culture. He is not an oracle and does not possess the complete supernatural explanation. He will explain traditions when asked, but his interpretation should remain cultural and practical rather than prophetic.
+- **Nessa:** attentive, conversational, and less certain than she sounds when translating Maelin. She knows modern Coedmyr better than old terminology. She simplifies and occasionally guesses rather than providing perfect exposition.
+- **Sera Wynn:** sincere, observant, and protective of the traditions she inherited. She knows the surviving ceremonies, habits, archive, and overlook practices, but not the full older keeper institution. She should not explain discoveries that the archive itself is meant to reveal.
+- **Ewan Rusk:** experienced, defensive about neglect, and increasingly remorseful once the consequences become concrete. He knows hunting conditions, his own trap line, and the contraction of local hunting effort. He does not know the Hart is trapped on his line until the party discovers it.
+
+NPCs can disagree without one of them serving as the GM's authoritative voice. When an NPC has relevant knowledge, answer from that person's immediate experience first. Broader interpretation comes later, if the party pursues it.
+
 ## Coedmyr village
 
 The investigation hub. Coedmyr was once a remote spiritual pilgrimage destination reached deliberately rather than a place travelers passed through. Pilgrims came for the forest, shrines, vigils, seasonal practices, and local rites. Those traditions were tied to practical obligations: hunters watched game and maintained lines, routes and water sources were checked, shrines were tended, harvest and culling practices were coordinated, and the community adapted its work to changing conditions.
@@ -18,7 +33,9 @@ The pilgrimage overlook was the spiritual center of that older system and almost
 
 As the pilgrimage economy changed and then contracted, the network weakened unevenly. Pleasant and accessible traditions survived longer than remote routes, difficult maintenance, practical restraint, and shared obligations. Coedmyr's present condition should show that decline in small physical details without turning every location into an explicit lesson.
 
-Malformed wildlife can attack near town at dusk early in the investigation. If the party later frees the Hart before stabilizing it, a second and more severe outbreak can demonstrate that the mobile manifestation is worsening the corruption.
+Residents have recently reported a large, malformed hare entering the village around dusk and killing cats, small dogs, and poultry. Most accounts are inconsistent and secondhand enough to sound like exaggeration, misidentification, or panic. The first hard proof should come when the party encounters the animal itself near town at dusk.
+
+If the party later frees the Hart before stabilizing it, a second and more severe outbreak can demonstrate that the mobile manifestation is worsening the corruption.
 
 ## Pilgrim's Rest
 
@@ -30,7 +47,9 @@ The inn is also a natural place for locals to volunteer later if the party asks 
 
 ## Elara Venn's office and home
 
-Elara keeps several years of reports documenting failed crops, sick livestock, unusual wildlife, and local complaints. Her latest chicken story is what finally prompted the Ministry to send a team, but she has no carcass or other physical evidence to prove it happened.
+Elara keeps several years of reports documenting failed crops, sick livestock, unusual wildlife, and local complaints. Her latest report emphasizes repeated accounts of a large, malformed hare entering the village at dusk and killing household animals. She has no carcass or clean physical evidence and cannot establish whether all of the reported attacks involved the same animal.
+
+The Ministry dispatches a field team because the pattern has escalated beyond ordinary nuisance wildlife and because it sits alongside years of worsening reports, not because the Ministry accepts every detail as supernatural fact.
 
 Her records establish that Coedmyr's ordinary decline predates the current supernatural escalation. They can show the village losing capacity year by year: fewer hunters covering less ground, maintenance deferred, complaints taking longer to address, and more residents leaving.
 
@@ -62,7 +81,9 @@ The Wolf's Tooth is a human-forged cold-iron object associated with restraint, c
 
 Provides the material recognition and reconstruction path for the Wolf's Tooth. Taran is skeptical and practical. He can identify the relic as human-forged cold iron designed to mount on a handle or haft and compare it to obsolete working and ceremonial implements.
 
-Taran's view of Coedmyr's decline is useful counterweight to Maelin. Old practices required time, labor, and people. When population and income collapsed, residents chose what they could still maintain.
+Taran's view of Coedmyr's decline is useful counterweight to Maelin. Old practices required time, labor, and people. When population and income collapsed, residents chose what they could still maintain. Do not front-load this perspective. Taran should reveal it only when the conversation gives him reason to discuss old practices, village responsibility, or what residents stopped doing.
+
+With newly arrived Ministry agents, Taran is more likely to say that people left, work dried up, and Elara can explain why she called them than to summarize the village's history.
 
 The reconstruction should produce a usable ritual tool capable of striking, cutting back, bracing, marking, or imposing limits. It should not read as a purpose-built Hart-killing weapon. Its lethal potential remains available for the players to infer later.
 
