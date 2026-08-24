@@ -10,7 +10,7 @@ permalink: /adventures/forests-hart/gm/adventure/
 # Forest's Hart
 {: tabindex="-1" }
 
-Forest's Hart is an investigative folklore adventure for four 10th-level Pathfinder Second Edition characters. The Ministry sends the party to the remote village of Coedmyr after years of increasingly strange reports finally culminate in an absurd claim: a slaughtered chicken got up from a kitchen counter and killed a neighbor's cat.
+Forest's Hart is an investigative folklore adventure for four 10th-level Pathfinder Second Edition characters. The Ministry sends the party to the remote village of Coedmyr after years of increasingly strange reports culminate in repeated claims that a large, malformed hare has begun entering the village around dusk and killing cats, small dogs, and poultry.
 
 The case should initially permit mundane explanations. Coedmyr is declining, the forest is unhealthy, local institutions are failing, and several individual problems have ordinary causes. The supernatural explanation becomes persuasive only as the party accumulates combinations that should not physically coexist or uses appropriate spiritual investigation.
 
@@ -40,21 +40,21 @@ An older Coedmyr with broader forest coverage, intact working knowledge, and str
 
 The Ministry has received increasingly worried annual reports from Mayor Elara Venn for years. Coedmyr is remote, economically marginal, and already known to be deteriorating, so those reports never justified committing a field team.
 
-Elara's latest report contains one detail strange enough to change that calculation: she claims that a slaughtered and dressed chicken got off her kitchen counter and killed a neighbor's cat.
+Elara's latest reports describe a large, malformed hare entering the village around dusk and killing cats, small dogs, and poultry. Accounts disagree about its size and appearance, nobody has preserved clean physical evidence, and several attacks could plausibly be ordinary predation inflated by frightened witnesses.
 
-There is no carcass, no preserved evidence, and no independent proof. The Ministry does not dispatch because it accepts the story. The team is being sent to determine whether something extraordinary is happening or whether Elara's future reports can be safely deprioritized.
+The Ministry does not dispatch because it accepts the story as supernatural. The team is being sent because the pattern has escalated beyond ordinary nuisance wildlife and sits alongside years of worsening reports. Their job is to determine whether something extraordinary is happening or whether Elara's future reports can be safely deprioritized.
 
 The approach into Coedmyr should establish a visibly unhealthy montane forest before the party reaches town. Do not make it overtly magical. Dead and crowded growth, damaged trees, poor understory, fungal activity, washed-out paths, weak animal sign, and abandoned maintenance should support several mundane explanations.
 
-The first villager encounter should usually be Taran Holt at his forge. He is skeptical of the Ministry's necessity but not obstructive. He knows Elara has been sending letters for years and can point the team toward her.
+The first villager encounter should usually be Taran Holt at his forge. He is skeptical of the Ministry's necessity but not obstructive. He knows Elara has been sending letters for years and can point the team toward her. He should answer strangers from his immediate experience rather than volunteering the village's full social history.
 
 Elara can supply three concrete branches without knowing their shared cause:
 
 - the north spring has gone foul or is being avoided by animals;
 - crops and livestock have been failing in inconsistent ways;
-- aggressive or malformed wildlife has been seen close to town.
+- the reported hare and other aggressive or malformed wildlife have been seen close to town.
 
-She can also explain Coedmyr's history. It was never a crossroads. People came here deliberately for spiritual pilgrimage. The decline was gradual enough that residents adapted year by year while those with money or reason to leave did so.
+She can explain Coedmyr's history when asked. It was never a crossroads. People came here deliberately for spiritual pilgrimage. The decline was gradual enough that residents adapted year by year while those with money or reason to leave did so.
 
 Her records can show the village losing practical capacity over time: fewer hunters covering less ground, deferred repairs, unresolved complaints, and more residents leaving. Present these as history and local circumstance rather than as an explicit clue to the supernatural case.
 
@@ -70,9 +70,13 @@ That does not explain the broader condition of the forest. Vegetation around the
 
 ### Dusk incursion
 
-Around dusk, preferably as the party returns toward town or settles in for the night, malformed wildlife attacks near Coedmyr.
+Around dusk, preferably as the party returns toward town or settles in for the night, the reported hare attacks near Coedmyr. This is the first hard confirmation that the village's recent wildlife reports describe something genuinely abnormal.
 
-The creatures should be recognizably natural animals made dangerous by excessive or maladaptive life processes rather than fantasy mutants with wholly new anatomy. Wounds may be buried under new tissue that never restored function. Infection may persist beneath healing. Bone growth may stabilize an injury in the wrong position. Hair, horn, nail, fungus, scar tissue, or inflammation may continue long after they should have stopped.
+The hare should remain recognizably a hare rather than becoming a generic fantasy monster. It is large enough to be dangerous, but the disturbing features come from excessive or maladaptive life processes: overgrown incisors, bone or muscle development that has continued past useful anatomy, old wounds buried under new tissue that never restored proper function, infection persisting beneath healing, and patches of raw tissue already attempting to repair themselves.
+
+Its behavior should preserve something of an ordinary prey animal made catastrophically wrong: sudden bursts of speed, violent kicking, frantic changes of direction, and panicked aggression rather than deliberate predatory intelligence.
+
+If additional creatures are needed for encounter balance, use similarly corrupted small wildlife rather than introducing unrelated monsters. The hare should remain the recognizable creature behind the reports.
 
 If the party has not already sought Ewan Rusk out, he can enter late in the fight and help finish the last creature. This creates a natural introduction without turning him into a quest-giver.
 
@@ -110,7 +114,7 @@ Taran is a practical skeptic. He recognizes that the Wolf's Tooth is forged cold
 
 He knows ordinary Wolf folklore but not a lost killing rite. His useful contribution is material interpretation.
 
-Taran also provides a useful counterargument to Maelin. Old customs required people, labor, and money. As Coedmyr contracted, residents stopped doing things they could no longer justify or sustain. He can acknowledge that useful practices were lost without agreeing that the answer is simple cultural repentance.
+Taran also provides a useful counterargument to Maelin. Old customs required people, labor, and money. As Coedmyr contracted, residents stopped doing things they could no longer justify or sustain. He can acknowledge that useful practices were lost without agreeing that the answer is simple cultural repentance. Do not have him volunteer this argument merely because the party asks what happened to Coedmyr; it should emerge when the conversation turns specifically to old practices, responsibility, or why traditions were abandoned.
 
 Once the party has reason to believe the Tooth matters, Taran can help reconstruct a usable implement. The PCs participate rather than handing the problem to him.
 
