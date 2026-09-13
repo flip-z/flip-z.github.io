@@ -14,80 +14,107 @@ The entity should remain lightly defined. He does not know its true name or exac
 
 - **Ancestry:** Human
 - **Background:** Guard is the simplest existing chassis; reflavor the exact employment as municipal fire service. A custom firefighter background could instead emphasize Athletics, Medicine, and Fire Lore if desired later.
-- **Class:** Fighter
+- **Class:** Guardian
 - **Archetype:** Living Vessel
-- **Primary role:** durable front-line responder, forced-entry / physical-control specialist, civilian protector
+- **Starting level:** 15
+- **Adventure advancement:** reaches level 16 during the adventure
+- **Primary role:** protector, damage interceptor, forced-entry / physical-control specialist, civilian rescuer
 - **Key abilities:** Strength first, then Constitution and Wisdom. Dexterity is useful but secondary. Intelligence and Charisma are not priorities.
 - **Core skills:** Athletics, Medicine, Intimidation, Society, Fire Lore if available through a custom background, and enough Occultism to represent Ministry training acquired after the incident.
 
-Fighter is intentionally mundane. His professional competence comes from training, strength, positioning, and nerve. Living Vessel is the supernatural layer that was forced onto him later.
+Guardian is the better base class because Living Vessel reinforces the class's existing loop instead of replacing it. He deliberately puts himself between danger and other people, takes damage on their behalf, keeps himself standing by drawing on the entity, and becomes most frightening when that containment finally slips.
 
-## Weapon and fighting style
+## Equipment and presentation
 
-Use a one-handed axe or similar practical chopping tool in one hand and keep the other hand free whenever possible. The free hand supports climbing, hauling people, opening doors, Grapple, Shove, Trip where available, and the Living Vessel's Entity's Strike.
+Use a one-handed axe or similar practical chopping tool with a shield or free hand depending on the final feat package. The axe should read as a firefighter's working tool first and a weapon second.
 
-The visual should be closer to a firefighter carrying an axe than a fantasy duelist. Heavy or medium armor can be styled as reinforced Ministry field gear rather than knightly plate.
+Heavy armor should be styled as reinforced Ministry field gear rather than knightly plate. The character should visually read as a responder who has adapted his old equipment and habits to occult field work.
 
-## Recommended feat progression through level 8
+Do not take **Entity's Strike**. The vessel should not become his routine attack routine or compete with the axe for mechanical identity. The fiend should surface through resilience, heat, retaliation, altered behavior, and eventually full manifestation rather than a permanent claw attack.
 
-### Level 1 — Fighter
+## Recommended class-feat progression
 
-**Snagging Strike**
+### Level 1 — Guardian
 
-Fits the one-handed weapon plus free-hand style and makes him feel like someone who physically controls a dangerous scene rather than simply maximizing damage.
-
-If Human ancestry is retained, **Natural Ambition** can add another 1st-level Fighter feat. **Sudden Charge** is the best thematic addition: when something goes wrong, he gets there immediately.
+Use a core Guardian feat that reinforces protection and positioning rather than offense. Final choice can wait until the rest of the party stat blocks are locked.
 
 ### Level 2 — Living Vessel Dedication
 
-This is the defining supernatural feat.
-
-**Entity's Resurgence** is especially important to the character concept: when he should go down, the thing inside him can take control instead. Treat this as a rare, alarming failure of containment rather than a routine transformation. The GM controlling him during the resurgence is a feature for this character, not a drawback.
-
-### Level 4 — Entity's Strike
-
 Take it.
 
-The manifestation should not turn him into an obvious monster all the time. Use something restrained and ugly: a hand blackening and lengthening into a charred claw, ember-lit talons pushing through the fingers, or another brief physical deformation when he lets the entity close to the surface.
+**Entity's Resurgence** is the central supernatural mechanic. When he should go down, the thing inside him can take control instead. This maps directly onto the Guardian's normal behavior because he is intentionally absorbing danger for other people.
 
-The attack is secondary to his ordinary axe. Its main value is making the possession mechanically visible.
+Treat a resurgence as a serious containment failure, not a routine combat stance. The value is that the class itself naturally pushes him toward the threshold where the vessel can emerge.
+
+### Level 4 — Energy Interceptor
+
+Take **Energy Interceptor** instead of Entity's Strike.
+
+This is too specific to the firefighter identity to give up. It lets his core protective reaction extend into energy damage, including fire, and keeps the mundane rescue/protection side of the character mechanically visible even while the Living Vessel archetype develops.
 
 ### Level 6 — Tap Vitality
 
 Take it.
 
-This is probably the best Living Vessel feat for the character. He draws directly on the entity's vitality to keep going, but doing so causes its personality and instincts to bleed into his own until he has time to reassert control.
+This is the strongest Living Vessel feat for the Guardian chassis. He spends his own durability protecting other people, then draws on the entity to restore himself and keep doing it.
 
-For this vessel, repeated use can present as rising body temperature, smoke on the breath, increasingly destructive instincts, fixation on fuel or open flame, or an unnaturally calm willingness to solve problems by burning through them. Keep these effects behavioral and sensory rather than introducing new plot information about the entity.
+For this vessel, use of Tap Vitality can present as rising body temperature, smoke on the breath, ember-light under the skin, increasing fixation on fuel or open flame, or an unnaturally calm willingness to solve problems destructively. Keep these effects behavioral and sensory rather than turning them into a separate subplot.
 
-### Level 8 — return to Fighter
+### Level 8 — Exude Demonic Corruption, reflavored to fire
 
-Do **not** automatically take Exude Demonic Corruption just because the entity is fiendish. RAW, that feat expresses the demon through poison and toxic corruption. That is a poor match for the current fire-vessel concept unless the entity is later defined in a way that makes the effect appropriate.
+Take it, but reflavor the demon expression away from poison/corruption and into heat and flame while preserving the mechanical role as closely as practical.
 
-Recommended Fighter feat: **Disorienting Opening**. It reinforces his battlefield-control role and works naturally with the Fighter's Reactive Strike.
+The point is not that he becomes a fire caster. The entity leaks outward when he consciously gives it room. His melee attacks carry supernatural heat and creatures that close with or strike him are burned by the same presence.
 
-This also keeps the supernatural portion from swallowing the base character. Levels 2–6 establish the vessel strongly enough; level 8 can remind the player that he is still an exceptionally capable martial responder.
+This works especially well with Guardian because Taunt encourages enemies to attack him. The Living Vessel effect therefore punishes creatures for doing exactly what his base class asks them to do.
+
+### Level 10 or 12 — Group Taunt
+
+Take **Group Taunt** one feat slot later than normal rather than dropping it entirely.
+
+This restores an important Guardian expansion after the archetype-heavy early progression. The exact slot can be chosen around the final level-10 and level-12 Guardian options, but the intent is that by level 15 he already has Group Taunt online.
+
+### Levels 10–14 — Guardian catch-up
+
+Use the remaining class-feat slots primarily to strengthen the Guardian chassis rather than adding unrelated archetypes.
+
+Priority is to recover the best protection, reaction, positioning, and Taunt support missed by spending levels 2, 6, and 8 on Living Vessel. Final feat order should be tuned once the full level-15 stat block is built.
+
+Do not force additional Living Vessel feats simply because they are available. The possession should remain a concentrated secondary layer rather than consuming the character's entire build.
+
+### Level 16 — Vessel's Form
+
+Take **Vessel's Form** when the party reaches level 16 during the adventure.
+
+This should be the first time the character can deliberately allow a major manifestation while retaining control. Mechanically, the form's size, reach, temporary HP, mobility, and combat bonuses all reinforce the Guardian's job as a physical barrier and protector rather than merely increasing damage.
+
+Narratively, this level-up should matter. Before level 16, he contains the entity and occasionally lets pressure bleed through. At level 16, he can finally open the door substantially without surrendering himself.
 
 ## Skill and general feat direction
 
-Prioritize practical feats over occult tricks.
+Prioritize practical responder feats over occult tricks.
 
 - **Battle Medicine:** immediate emergency treatment fits him cleanly.
 - **Assurance — Athletics:** represents reliable professional physical competence.
-- **Titan Wrestler:** useful if the adventure includes physically controlling transformed creatures larger than him.
-- **Quick Jump / Quick Climb:** good secondary options for the rescue-worker identity.
-- **Toughness:** straightforward and appropriate.
+- **Titan Wrestler:** useful for physically controlling transformed creatures larger than him.
+- **Quick Jump / Quick Climb:** good secondary options for rescue movement.
+- **Toughness:** directly supports the Guardian's damage-interception role.
 - **Incredible Initiative:** fits an experienced emergency responder reacting quickly when a scene goes bad.
 
-Exact skill-feat order can wait until the adventure level and final stat block are locked.
+Exact skill-feat order can wait until the final level-15 sheet is built.
 
-## Later Living Vessel direction
+## Build logic
 
-Living Vessel has no generic level-8 feat that fits every entity. Its three level-8 options are keyed to demon, fey, or aberration expressions, and the demon option specifically manifests as poison/corruption.
+The Living Vessel feats are not replacing the Guardian's identity; they augment its core loop.
 
-**Vessel's Form at level 16** is the eventual capstone if this character ever advances that far. It is the moment where he can deliberately combine with the entity while retaining control. That should look dramatically different from ordinary use of the archetype and should remain rare in the fiction.
+1. **Guardian protects someone else.**
+2. **Guardian takes the danger onto himself.**
+3. **Tap Vitality lets him keep doing it by borrowing from the entity.**
+4. **Reflavored Exude Demonic Corruption makes close contact with him increasingly dangerous as containment loosens.**
+5. **Entity's Resurgence is what happens when he finally absorbs too much.**
+6. **Vessel's Form at 16 turns that same loss-of-control threat into something he can intentionally manage.**
 
-Between Tap Vitality and Vessel's Form, there is no need to force every class-feat slot into Living Vessel. The sparse progression actually suits the intended presentation: the entity is always present, but this adventure is not primarily about unlocking its power.
+That progression is more important than taking every Living Vessel feat at the first opportunity.
 
 ## Party relationship
 
