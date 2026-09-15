@@ -118,6 +118,8 @@ That progression is more important than taking every Living Vessel feat at the f
 
 ## Party relationship
 
-Current direction is for the second Ministry agent to be an **Investigator**. That pairing is clean: the Investigator reconstructs what happened and understands the case; the firefighter handles the dangerous physical reality of the scene and keeps people alive while the investigation is happening.
+The second Ministry agent is **Edmund Hale, Commander**: scholar, procedural handler, and mission authority. That pairing keeps Caleb's physical rescue and protection role distinct from Edmund's command, scholarship, documentation, and containment responsibilities.
 
-This supersedes the older Thaumaturge / Swashbuckler working pair in `character-chassis.md` if retained as the current direction.
+Edmund is Caleb's handler in the professional sense. He understands the Ministry's procedures around the entity and is responsible for decisions about acceptable risk, but Caleb should never read as merely cargo or a prisoner. Caleb knows emergency scenes and the street-level city better than Edmund does; Edmund knows the institutional and occult framework surrounding Caleb's condition better than Caleb does.
+
+Their useful contrast is procedure versus emergency instinct rather than intellect versus muscle. Edmund knows what the manual says before the door opens. Caleb knows what to do when the room is already on fire.
