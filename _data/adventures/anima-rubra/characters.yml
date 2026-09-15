@@ -1,0 +1,169 @@
+party:
+  size: 4
+  level: 15
+  level_note: Current Anima Rubra chassis starts at level 15 and advances to level 16 during the adventure.
+  role_split:
+    matt: Church-aligned champion and older Veyne brother.
+    eli: Blood Oracle and younger Veyne brother, permanently changed by the orphanage communion.
+    edmund: Ministry commander, scholar, procedural handler, and field authority.
+    caleb: Ministry guardian, former firefighter, living vessel, rescuer, and protector.
+  design_rule: The brothers carry the adventure's direct relationship to the forbidden communion. The Ministry pair should read as working field agents first, with supernatural capability expressed through controlled professional tools rather than conventional adventurer identities.
+
+characters:
+  - id: pc-matt-veyne
+    name: Matthias "Matt" Veyne
+    ancestry: Human
+    class: Champion
+    affiliation: Church
+    role: Church-aligned brother, frontline divine presence, and moral counterweight to Eli
+    background:
+      summary: Second-generation immigrant to the region, raised locally in a traditional Catholic family whose Church ties provided continuity and community after his parents' arrival.
+      family_origin: Not yet fixed.
+      local_identity: Grew up in the region rather than arriving from abroad himself.
+    persona:
+      summary: More willing than Eli to trust inherited religious structure even after the brothers crossed its boundaries together.
+      relationships:
+        - Eli is his younger brother; they remain close despite recurring friction over the Church and the communion.
+        - He participated in the brothers' forbidden research before the orphanage disaster forced them to stop.
+    story_state:
+      - Both brothers treated the forbidden communion as a medical hypothesis and developed it experimentally during the plague.
+      - The orphanage rite saved nearly every child but permanently changed Eli and produced a lethal transformation in another ritualist.
+      - Matt remained aligned with the Church afterward.
+    build_guidance:
+      status: concept_locked_build_not_yet_documented
+      known:
+        - Champion is the current class chassis.
+        - He should remain the more Church-aligned of the two brothers.
+      missing:
+        - cause
+        - class-feat progression
+        - skill-feat progression
+        - equipment package
+
+  - id: pc-eli-veyne
+    name: Elias "Eli" Veyne
+    ancestry: Human
+    class: Oracle
+    manifestation: Blood Oracle
+    role: blood-linked divine caster and living consequence of the brothers' forbidden communion work
+    background:
+      summary: Second-generation immigrant to the region and Matt's younger brother, raised locally in the same traditional Catholic household.
+      family_origin: Not yet fixed.
+      local_identity: Grew up in the region rather than arriving from abroad himself.
+    persona:
+      summary: Still close to Matt, but his transformation gives him a fundamentally different relationship to the Church, the communion, and the force they awakened.
+      relationships:
+        - Matt is his older brother and former partner in the communion experiments.
+    story_state:
+      - Eli discovered the old ecclesiastical tome describing the forbidden blood-based communion rite.
+      - He and Matt developed the practice experimentally during the plague.
+      - During the orphanage rite he collapsed while bleeding from his eyes, nose, mouth, ears, and old wounds.
+      - When he woke days later he could sense blood, wounds could open without cause, and the force behind the communion answered him directly.
+      - The brothers stopped their work after the orphanage disaster and intended to destroy or secure the research before it was stolen.
+    build_guidance:
+      status: concept_locked_saved_progression_not_found
+      known:
+        - Oracle is the current class chassis.
+        - Blood Oracle is the established character concept.
+        - The supernatural condition originates in the orphanage communion rather than ordinary religious training.
+      missing:
+        - exact mystery or custom mystery rules
+        - class-feat progression
+        - cursebound feat progression
+        - spell repertoire
+        - skill-feat progression
+      recovery_note: A search of the current repository, File Library, and prior conversation context did not recover the previously suspected feat-by-feat build.
+
+  - id: pc-edmund-hale
+    name: Edmund Hale
+    ancestry: Human
+    class: Commander
+    affiliation: Ministry of Obscure Affairs
+    role: mission commander, scholar, procedural handler, and institutional field authority
+    background:
+      summary: Born and raised locally in a comfortable, educated, institution-facing family environment very different from Caleb's working-class upbringing.
+      local_identity: Knows the city through its institutions, records, professional networks, and formal authority.
+    persona:
+      summary: By-the-book without being passive; he trusts preparation, written procedure, accumulated scholarship, and competent institutions because those systems have worked for him.
+      behavior:
+        - reads before improvising
+        - documents extraordinary events instead of treating them as folklore
+        - prefers established containment procedure when one exists
+        - gives specialists room to speak, then makes the field decision
+        - acts as Caleb's handler without treating Caleb as merely a dangerous object
+    strengths:
+      narrative:
+        - Ministry procedure and institutional authority
+        - occult scholarship and archival familiarity
+        - mission coordination and risk management
+        - practical command of a volatile field asset in Caleb
+      mechanical:
+        - Commander is the current base-class direction.
+        - Intelligence investment supports the scholarly side of the character.
+    weaknesses:
+      narrative:
+        - procedural confidence can become rigidity when the case falls outside documented precedent
+        - his institutional upbringing can leave him less fluent in the street-level city Caleb knows instinctively
+    build_guidance:
+      status: active_design
+      ancestry_multiclass_option:
+        level: 9
+        choice: Multitalented
+        dedication: Wizard Dedication
+        school: School of Ars Grammatica
+        status: current_candidate_not_locked
+        purpose: Gives Edmund limited practical arcane training expressed through literacy, wards, symbols, command, translation, and dispelling rather than turning him into another full caster.
+
+  - id: pc-caleb-rourke
+    name: Caleb Rourke
+    ancestry: Human
+    background: Guard chassis reflavored as municipal fire service
+    class: Guardian
+    archetype: Living Vessel
+    affiliation: Ministry of Obscure Affairs
+    role: protector, damage interceptor, forced-entry specialist, civilian rescuer, and dangerous field asset under Edmund's supervision
+    background_notes:
+      summary: Born and raised locally in a working-class family and city culture. His authority comes from practical competence, emergency work, and knowing the city from the street inward.
+      incident: Became the unwilling vessel for an unidentified fire-associated fiend during an apparently ordinary house fire with an occult cause.
+      ministry_entry: The Ministry recognized what had taken residence in him and taught him enough containment to remain functional after ordinary fire service became unsafe.
+    persona:
+      summary: A firefighter first. He stays calm, assesses the hazard, gets people out, contains the problem, and worries about explanations afterward.
+      relationships:
+        - Edmund is his Ministry handler and professional counterweight: procedure and scholarship beside Caleb's emergency instincts and local knowledge.
+    build_guidance:
+      status: recommended_not_locked
+      starting_level: 15
+      adventure_advancement: 16
+      primary_attributes:
+        - Strength
+        - Constitution
+        - Wisdom
+      core_skills:
+        - Athletics
+        - Medicine
+        - Intimidation
+        - Society
+        - Fire Lore
+        - Occultism
+      highlighted_progression:
+        - level: 2
+          choice: Living Vessel Dedication
+          purpose: Establishes the contained fiend and Entity's Resurgence as a serious containment failure rather than a routine stance.
+        - level: 4
+          choice: Energy Interceptor
+          purpose: Extends Caleb's rescue-and-protection identity into energy hazards, including fire.
+        - level: 6
+          choice: Tap Vitality
+          purpose: Lets him restore himself by drawing on the entity after spending his durability protecting others.
+        - level: 8
+          choice: Exude Demonic Corruption
+          treatment: Reflavor to supernatural heat and flame while preserving the mechanical role as closely as practical.
+        - level: 10_or_12
+          choice: Group Taunt
+          purpose: Restore the Guardian's multi-target protection loop after the archetype-heavy early progression.
+        - level: 16
+          choice: Vessel's Form
+          purpose: First deliberate major manifestation while retaining control.
+      avoid:
+        - name: Entity's Strike
+          reason: Caleb should remain a firefighter using practical tools rather than converting the fiend into his routine attack identity.
