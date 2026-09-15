@@ -44,6 +44,7 @@ characters:
     name: Elias "Eli" Veyne
     ancestry: Human
     class: Oracle
+    mystery: Blood Mystery
     manifestation: Blood Oracle
     role: blood-linked divine caster and living consequence of the brothers' forbidden communion work
     background:
@@ -60,19 +61,55 @@ characters:
       - During the orphanage rite he collapsed while bleeding from his eyes, nose, mouth, ears, and old wounds.
       - When he woke days later he could sense blood, wounds could open without cause, and the force behind the communion answered him directly.
       - The brothers stopped their work after the orphanage disaster and intended to destroy or secure the research before it was stolen.
+    blood_mystery:
+      granted_spells:
+        cantrip:
+          name: Needle Darts
+          note: Blood Iron
+          url: https://2e.aonprd.com/Spells.aspx?ID=1375
+        first:
+          name: Fear
+          url: https://2e.aonprd.com/Spells.aspx?ID=1524
+        second:
+          name: Blood Vendetta
+          url: https://2e.aonprd.com/Spells.aspx?ID=1454
+        third:
+          name: Vampiric Feast
+          url: https://2e.aonprd.com/Spells.aspx?ID=1736
+      revelation_spells:
+        initial: null
+        advanced: null
+        greater: null
+      related_domains:
+        - name: Pain
+          url: https://2e.aonprd.com/Domains.aspx?ID=87
+        - name: Plague
+          url: https://2e.aonprd.com/Domains.aspx?ID=115
+        - name: Zeal
+          url: https://2e.aonprd.com/Domains.aspx?ID=100
+      mystery_skill:
+        name: Intimidation
+        url: https://2e.aonprd.com/Skills.aspx?ID=40
+      oracle_feat:
+        name: Nudge the Scales
+        url: https://2e.aonprd.com/Feats.aspx?ID=6055
+      curse:
+        name: Curse of the Open Vein
+        description: Your blood no longer remains where it belongs. Fresh wounds never fully close, old scars split without warning, and as your curse deepens, dark blood seeps steadily from your eyes. The scent of iron follows you wherever you go.
+        mechanics: When you have the cursebound condition, you take persistent bleed damage equal to your cursebound value, and you take a status penalty to Perception checks and Perception DCs that rely on sight equal to your cursebound value.
     build_guidance:
-      status: concept_locked_saved_progression_not_found
+      status: concept_and_mystery_locked_progression_not_yet_documented
       known:
         - Oracle is the current class chassis.
-        - Blood Oracle is the established character concept.
+        - Blood Mystery is the established custom mystery.
         - The supernatural condition originates in the orphanage communion rather than ordinary religious training.
+        - Nudge the Scales is the mystery's granted Oracle feat.
       missing:
-        - exact mystery or custom mystery rules
-        - class-feat progression
+        - revelation spells
+        - class-feat progression beyond the granted Oracle feat
         - cursebound feat progression
-        - spell repertoire
+        - full spell repertoire beyond mystery-granted spells
         - skill-feat progression
-      recovery_note: A search of the current repository, File Library, and prior conversation context did not recover the previously suspected feat-by-feat build.
 
   - id: pc-edmund-hale
     name: Edmund Hale
