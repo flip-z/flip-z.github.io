@@ -1030,3 +1030,740 @@ The Hart may communicate briefly through fear, pain, confusion, or attachment to
 
 Malformed wildlife, overgrown vegetation, and pursuit obstacles are not yet fully defined. Their presentation should emphasize natural life processes continuing beyond healthy limits: wounds buried under new tissue, useless bone remodeling, infection beneath healing, excessive fungal or vegetative growth, and regeneration that preserves damage instead of repairing it.
 
+
+\page
+
+# Anima Rubra
+
+{{note
+**Working adventure design.** These notes describe an evolving story and character framework, not a finalized playable adventure.
+}}
+
+
+\page
+
+## adventure chassis
+
+# Anima Rubra — Adventure Chassis Notes
+
+> Design notes only. This is a working story and investigation chassis, not finalized adventure canon.
+
+## Core premise
+
+A plague has been spreading through the city for months. Two brothers, both clergy, become increasingly unwilling to accept that ordinary ministry and medicine are enough.
+
+The younger brother discovers an old ecclesiastical tome describing a forbidden blood-based communion rite. Its underlying theory is that blood can act as a conduit through which vitality is redistributed among willing participants.
+
+The brothers treat the text as a medical hypothesis rather than revelation. They experiment cautiously, first on plants and animals and then on themselves and trusted volunteers. They keep records, correct errors in the original text, and slowly develop a more reliable practice.
+
+Their first human use happens earlier than planned when a respected member of their community suddenly deteriorates and appears certain to die. They perform the smallest ritual they believe can work. It succeeds. She survives.
+
+The brothers continue. A small trusted circle forms around them. Their methods improve and more plague victims survive.
+
+An older Church official discovers their work and recognizes the rite. He does not deny that it works. He warns them that this is exactly why the practice was forbidden: larger rites become increasingly unpredictable, and historical practitioners never learned where the true cost ended.
+
+The brothers pause, then resume as the plague continues killing people.
+
+## The orphanage disaster
+
+The plague spreads rapidly through a crowded orphanage. Dozens of children are sick and several are already dying. Individual rites would take too long.
+
+The brothers gather the small circle they have trained and attempt their largest communion yet.
+
+The rite works. Nearly every child survives.
+
+The younger brother collapses before it ends, bleeding from his eyes, nose, mouth, ears, and old wounds. One of the other ritualists transforms into a violent monster and kills two children before being struck down.
+
+When the younger brother wakes days later, he has become a Blood Oracle. He can sense blood, wounds may open without cause, and the same force the group had been trying to manipulate now answers him directly.
+
+The brothers finally stop their work. They lock away the original tome and collect their accumulated research while deciding what must be destroyed.
+
+Before they act, someone breaks in and steals both the tome and their research.
+
+## The quiet period
+
+For a time, nothing obvious happens. The plague continues spreading.
+
+The stolen work is being continued in secret by one or more members of the original circle. Their eventual leader should not be a simple fanatic. Their argument is empirical: the rites save lives, and abandoning them because the cost became visible condemns others to die from the plague instead.
+
+The hidden group keeps experimenting, refining the rite, and building a network of participants.
+
+## AR-00 — Opening disaster
+
+The adventure begins during a major public parade, festival, religious observance, or civic celebration held while the plague still hangs over the city.
+
+All four PCs are already present in the crowd:
+
+- the Champion brother;
+- the Blood Oracle brother;
+- two Ministry field agents.
+
+The Ministry agents may be in the city because of plague-related irregularities, reports of forbidden practice, prior Church correspondence, or another developing extraordinary case. The exact reason is not yet fixed.
+
+During the celebration, the hidden communion network attempts a large distributed ritual.
+
+The players do not begin with an explanation. They experience the event as it happens.
+
+Across the crowd, apparently unrelated people suddenly rupture into catastrophic bleeding or literally burst apart in sprays of blood. At the same time, visibly sick plague victims recover almost instantly. Others survive wounds or collapse and then rise again.
+
+Then the ritual goes wrong in a second way.
+
+One major transformed creature and several smaller ones emerge from among the participants or victims and begin attacking the crowd. Civilians panic and scatter for cover.
+
+Combat begins immediately.
+
+The opening encounter should therefore function as both the adventure hook and the first evidence scene. The party's first job is survival, protecting civilians, and putting down or containing the transformed creatures. Only afterward do they get the opportunity to examine what happened.
+
+Important opening principles:
+
+- Do not explain the ritual before or during the fight.
+- Healing and horror must occur visibly at the same time.
+- The brothers should recognize elements of their old work without immediately understanding the scale or modifications.
+- The Ministry agents should witness enough firsthand to justify immediate joint investigation.
+- The crowd should include grateful survivors as well as families of the dead, establishing the central moral conflict before any exposition.
+
+## Investigation direction after AR-00
+
+The opening scene becomes the primary crime scene once combat ends.
+
+From there, the investigation can branch into a nonlinear set of nodes.
+
+### AR-01 — The Celebration Ground
+
+Examine the aftermath of the opening combat and ritual.
+
+Possible evidence:
+
+- blood patterns inconsistent with visible wounds;
+- plague victims who are suddenly healthy;
+- healthy citizens who died catastrophically;
+- signs that multiple ritualists were positioned throughout the crowd;
+- one ritual position abandoned partway through;
+- witnesses who remember repeated phrases or gestures they assumed were part of the celebration;
+- transformed remains from the opening monsters.
+
+This establishes that the event was planned, distributed, and more sophisticated than the orphanage rite.
+
+### AR-02 — The Miraculous Survivors
+
+Interview people cured during the opening event.
+
+Some regard the unknown ritualists as saints. One may have been days from death and is now healthy. Another remembers a stranger cutting their palm nearby just before the event began.
+
+The investigators must argue against a practice whose benefits are standing in front of them alive.
+
+### AR-03 — A Prominent Victim
+
+One of the people killed in the opening ritual was a healthy, important civic figure.
+
+Their physician insists they were not infected. Their family demands murder charges.
+
+The Blood Oracle recognizes something about the corpse that resembles the brothers' earliest experiments on a scale they never achieved.
+
+This raises the possibility that the rite does not create vitality. It moves something.
+
+### AR-04 — The Older Cleric
+
+The Church official who originally ordered the brothers to stop possesses fragments of the historical record.
+
+He knew the rite had appeared during an earlier epidemic and had been suppressed after increasingly catastrophic outcomes.
+
+He was correct about the danger, but still cannot explain the mechanism completely.
+
+### AR-05 — The Orphanage
+
+Return to the site of the brothers' largest original rite.
+
+Potential discoveries:
+
+- the transformed ritualist changed before the younger brother fully collapsed;
+- one participant may have left the ritual circle early;
+- one member of the original circle suffered unusually little blood loss;
+- a surviving child may retain a minor unexplained aftereffect.
+
+The node can support the possibility that the orphanage disaster was not purely random.
+
+### AR-06 — The Original Circle
+
+The brothers' former collaborators become witnesses, suspects, and potential members of the new movement.
+
+Possible roles include:
+
+- a physician convinced the communion remains the best chance against the plague;
+- a frightened parishioner who stopped after the orphanage;
+- a former cleric who believes the Church knowingly suppressed lifesaving knowledge;
+- someone who secretly continued experimenting;
+- someone missing since the opening disaster.
+
+One of them stole the tome and research, but this should not be immediately obvious.
+
+### AR-07 — The Plague Ward
+
+A conventional treatment ward creates direct comparison between ordinary medicine and the communion.
+
+People are still dying here. Exhausted physicians may openly ask for access to the forbidden method if the rumors are true.
+
+The hidden movement can also be recruiting from this population.
+
+### AR-08 — Unauthorized Small Communion
+
+The party discovers desperate citizens performing a copied version of the rite themselves.
+
+They are not cultists. They are relatives trying to save someone.
+
+The instructions are incomplete but functional, proving that recovering the original tome will no longer contain the practice.
+
+### AR-09 — Church Archive
+
+Research into the rite's historical origins.
+
+Recurring historical pattern:
+
+- small rites are remarkably effective;
+- larger rites produce greater recoveries;
+- adverse outcomes become more common as participation grows;
+- every generation of practitioners believed it was close to solving the instability;
+- surviving Church records end after suppression.
+
+No complete historical explanation should exist.
+
+### AR-10 — Ministry Evidence Review
+
+A synthesis node where the investigators compare physical samples, testimony, timelines, historical reports, and ritual notes.
+
+The Ministry's institutional instinct should be to identify the phenomenon before deciding whether to contain, destroy, or exploit it.
+
+### AR-11 — Hidden Clinic
+
+The new movement has been running controlled communion treatments in secret.
+
+Their records show extraordinary survival rates and declining adverse outcomes.
+
+They believe they are genuinely improving the brothers' work.
+
+Some patients accepted the risks knowingly.
+
+### AR-12 — The Failed Patient
+
+A person treated by the hidden group survived but changed.
+
+Unlike the orphanage monster, this person remains lucid.
+
+The Blood Oracle recognizes aspects of his own condition in them, raising the possibility that his transformation is one category of outcome rather than a unique accident.
+
+### AR-13 — The Missing Ritualist
+
+A surviving member of the original circle is found hiding.
+
+They know who took the research and explain the ideological break: the thief initially agreed to stop after the orphanage, then changed course after watching the plague continue killing people while the cure sat locked away.
+
+### AR-14 — Public Agitation
+
+Knowledge of the communion spreads.
+
+Families of cured victims defend it. Families of the dead demand punishment. Church authorities demand suppression. Physicians divide. The Ministry comes under pressure to produce findings.
+
+Previous player actions should shape who trusts them and who shelters the movement.
+
+### AR-15 — The Cult Leader
+
+The person who stole the research finally confronts the party's argument directly.
+
+Their position is empirical:
+
+- the brothers' rites saved lives;
+- the orphanage killed two children but saved many more;
+- the opening public ritual killed several people but rescued many plague victims;
+- each failure provides data for improving the next rite.
+
+They are preparing something larger because they believe they have identified the cause of earlier failures.
+
+They may actually be correct.
+
+### AR-16 — The Great Communion
+
+The movement intends to affect a substantial portion of the infected city at once.
+
+The final investigation question is not simply how to stop it, but what the party now believes will happen.
+
+Possible earned conclusions:
+
+- the cult has misunderstood a crucial variable and the rite will become catastrophic;
+- the newest model likely works but demands an unacceptable sacrifice;
+- it can work if modified with knowledge only the Blood Oracle can provide;
+- nobody has enough evidence to predict the result confidently.
+
+The finale should follow from the party's conclusion rather than assuming that destroying the rite is correct.
+
+## Structural principle
+
+The middle of the adventure should remain nonlinear.
+
+A loose route is:
+
+**Opening disaster → survivors / dead / original circle → orphanage / archive / plague ward → unauthorized rites / hidden clinic → missing ritualist → cult leader → Great Communion**
+
+Most major investigation nodes should reveal two truths at once:
+
+1. the communion is more dangerous than its supporters admit;
+2. the communion saves people more effectively than its opponents admit.
+
+The central question is therefore not whether the practice is evil, but whether a demonstrably lifesaving practice with poorly understood and sometimes horrific costs can be justified, controlled, or safely abandoned.
+
+
+\page
+
+## character chassis
+
+# Anima Rubra — Character Chassis Notes
+
+> Design notes only. This is a loose working chassis, not finalized adventure canon.
+
+## Party frame
+
+Four PCs:
+
+- **Matthias "Matt" Veyne — Champion:** older Veyne brother. Remains aligned with the Church after the brothers' forbidden communion work and the orphanage disaster.
+- **Elias "Eli" Veyne — Blood Oracle:** younger Veyne brother. Permanently changed by the orphanage communion; he can sense blood, wounds may open without cause, and the force behind the rite now answers him directly.
+- **Edmund Hale — Commander:** Ministry field commander, scholar, procedural handler, and institutional authority. By-the-book without being passive; he trusts accumulated scholarship, written procedure, and competent institutions. Current mechanical direction is Commander with a possible level-9 Multitalented route into Wizard Dedication, School of Ars Grammatica.
+- **Caleb Rourke — Guardian / Living Vessel:** former city firefighter carrying an unidentified fire-associated fiend after an occult house-fire incident forced him out of ordinary fire service. He remains primarily a practical rescue worker and protector. The Guardian chassis handles interception and civilian protection; Living Vessel represents the contained entity. See `firefighter-living-vessel.md` for the current build direction.
+
+## Social background
+
+Matt and Eli are second-generation immigrants to the region. They were born and raised locally in a traditional Catholic household whose family roots outside the region are not yet fixed. The Church provided continuity and community for the family after their parents arrived.
+
+Caleb and Edmund are both local-born, but from very different parts of the same city. Caleb comes from a working-class civic and emergency-service world and knows the city from the street inward. Edmund comes from a comfortable, educated, institution-facing environment and knows the city through its records, professional networks, and formal authority.
+
+That difference should matter without turning either man into a caricature. Caleb's authority comes from practical competence and lived familiarity. Edmund's comes from preparation, scholarship, procedure, and legitimate institutional responsibility.
+
+## Mechanical direction
+
+The brothers already supply the party's overt magic through the Champion and Oracle. The Ministry pair should not add another conventional full caster.
+
+Caleb's Guardian / Living Vessel build gives the party a grounded protector whose supernatural element is unwanted and tightly contained rather than studied spellcasting.
+
+Edmund's Commander chassis supplies field coordination, risk management, and institutional procedure. Limited Wizard archetype training is appropriate if retained because it expresses scholarship through practical wards, symbols, command, translation, and dispelling rather than turning him into another primary caster.
+
+## Ministry pairing
+
+Edmund is Caleb's handler, but the relationship should read as a professional pairing rather than jailer and prisoner. Edmund understands the containment procedures, documentation, and institutional obligations around Caleb's condition. Caleb understands emergencies, physical hazards, rescue, and the street-level city in ways Edmund does not.
+
+Their contrast is useful:
+
+- Edmund reads the manual before the door opens.
+- Caleb knows what to do when the room is already on fire.
+- Edmund decides how much risk the Ministry can justify.
+- Caleb is often the person physically carrying that risk.
+
+## Ministry field flavor
+
+Both Ministry PCs should read first as working field agents rather than fantasy adventurer archetypes.
+
+Edmund should handle command decisions, records, formal interviews, institutional access, occult scholarship, containment procedure, and documentation.
+
+Caleb should handle forced entry, extraction, physical hazards, crowd movement, emergency treatment, climbing, hauling, and keeping people alive during unstable scenes. Ministry training adds enough occult procedure to recognize when an incident has crossed outside ordinary emergency response.
+
+Shared visual and procedural language can include long coats, notebooks, evidence satchels, Ministry badges or credentials, concealable weapons, manacles, lanterns, chalk, sealing wax, and specimen containers. Ministry procedure should emphasize interviewing witnesses, marking scenes, collecting strange material, sketching bodies or evidence, establishing timelines, requesting records, comparing testimony, and documenting extraordinary effects before containment or destruction.
+
+## Build documentation status
+
+Caleb currently has the most developed feat structure in `firefighter-living-vessel.md`.
+
+Eli's exact Blood Oracle feat progression has not been recovered from the current repository, File Library, or prior conversation context. Preserve the established Blood Oracle concept, but do not invent a level-by-level progression until that build is explicitly reconstructed.
+
+The current character-card data lives in `_data/adventures/anima-rubra/characters.yml`.
+
+
+\page
+
+## firefighter living vessel
+
+# Anima Rubra — Firefighter Living Vessel Build
+
+> Design notes only. Working mechanical outline for one of the two Ministry agents. Not finalized adventure canon.
+
+## Character concept
+
+Former city firefighter who became the unwilling vessel for an unidentified fire-associated fiend during an apparently ordinary house fire with an occult cause. He survived, but afterward could no longer safely continue ordinary fire service. The Ministry was one of the few institutions capable of recognizing that something had taken residence in him and teaching him enough containment to remain functional.
+
+He should still read primarily as a firefighter rather than a conventional occultist. His defining trait is disciplined emergency response: stay calm, assess the hazard, get people out, contain the problem, and only then worry about explanations. That same temperament is what lets him keep the entity under control.
+
+The entity should remain lightly defined. He does not know its true name or exact classification. It is intelligent enough to have instincts and intent, strongly associated with fire, and clearly fiendish, but it is not intended to become a second major plot inside *Anima Rubra*.
+
+## Mechanical chassis
+
+- **Ancestry:** Human
+- **Background:** Guard is the simplest existing chassis; reflavor the exact employment as municipal fire service. A custom firefighter background could instead emphasize Athletics, Medicine, and Fire Lore if desired later.
+- **Class:** Guardian
+- **Archetype:** Living Vessel
+- **Starting level:** 15
+- **Adventure advancement:** reaches level 16 during the adventure
+- **Primary role:** protector, damage interceptor, forced-entry / physical-control specialist, civilian rescuer
+- **Key abilities:** Strength first, then Constitution and Wisdom. Dexterity is useful but secondary. Intelligence and Charisma are not priorities.
+- **Core skills:** Athletics, Medicine, Intimidation, Society, Fire Lore if available through a custom background, and enough Occultism to represent Ministry training acquired after the incident.
+
+Guardian is the better base class because Living Vessel reinforces the class's existing loop instead of replacing it. He deliberately puts himself between danger and other people, takes damage on their behalf, keeps himself standing by drawing on the entity, and becomes most frightening when that containment finally slips.
+
+## Equipment and presentation
+
+Use a one-handed axe or similar practical chopping tool with a shield or free hand depending on the final feat package. The axe should read as a firefighter's working tool first and a weapon second.
+
+Heavy armor should be styled as reinforced Ministry field gear rather than knightly plate. The character should visually read as a responder who has adapted his old equipment and habits to occult field work.
+
+Do not take **Entity's Strike**. The vessel should not become his routine attack routine or compete with the axe for mechanical identity. The fiend should surface through resilience, heat, retaliation, altered behavior, and eventually full manifestation rather than a permanent claw attack.
+
+## Recommended class-feat progression
+
+### Level 1 — Guardian
+
+Use a core Guardian feat that reinforces protection and positioning rather than offense. Final choice can wait until the rest of the party stat blocks are locked.
+
+### Level 2 — Living Vessel Dedication
+
+Take it.
+
+**Entity's Resurgence** is the central supernatural mechanic. When he should go down, the thing inside him can take control instead. This maps directly onto the Guardian's normal behavior because he is intentionally absorbing danger for other people.
+
+Treat a resurgence as a serious containment failure, not a routine combat stance. The value is that the class itself naturally pushes him toward the threshold where the vessel can emerge.
+
+### Level 4 — Energy Interceptor
+
+Take **Energy Interceptor** instead of Entity's Strike.
+
+This is too specific to the firefighter identity to give up. It lets his core protective reaction extend into energy damage, including fire, and keeps the mundane rescue/protection side of the character mechanically visible even while the Living Vessel archetype develops.
+
+### Level 6 — Tap Vitality
+
+Take it.
+
+This is the strongest Living Vessel feat for the Guardian chassis. He spends his own durability protecting other people, then draws on the entity to restore himself and keep doing it.
+
+For this vessel, use of Tap Vitality can present as rising body temperature, smoke on the breath, ember-light under the skin, increasing fixation on fuel or open flame, or an unnaturally calm willingness to solve problems destructively. Keep these effects behavioral and sensory rather than turning them into a separate subplot.
+
+### Level 8 — Exude Demonic Corruption, reflavored to fire
+
+Take it, but reflavor the demon expression away from poison/corruption and into heat and flame while preserving the mechanical role as closely as practical.
+
+The point is not that he becomes a fire caster. The entity leaks outward when he consciously gives it room. His melee attacks carry supernatural heat and creatures that close with or strike him are burned by the same presence.
+
+This works especially well with Guardian because Taunt encourages enemies to attack him. The Living Vessel effect therefore punishes creatures for doing exactly what his base class asks them to do.
+
+### Level 10 or 12 — Group Taunt
+
+Take **Group Taunt** one feat slot later than normal rather than dropping it entirely.
+
+This restores an important Guardian expansion after the archetype-heavy early progression. The exact slot can be chosen around the final level-10 and level-12 Guardian options, but the intent is that by level 15 he already has Group Taunt online.
+
+### Levels 10–14 — Guardian catch-up
+
+Use the remaining class-feat slots primarily to strengthen the Guardian chassis rather than adding unrelated archetypes.
+
+Priority is to recover the best protection, reaction, positioning, and Taunt support missed by spending levels 2, 6, and 8 on Living Vessel. Final feat order should be tuned once the full level-15 stat block is built.
+
+Do not force additional Living Vessel feats simply because they are available. The possession should remain a concentrated secondary layer rather than consuming the character's entire build.
+
+### Level 16 — Vessel's Form
+
+Take **Vessel's Form** when the party reaches level 16 during the adventure.
+
+This should be the first time the character can deliberately allow a major manifestation while retaining control. Mechanically, the form's size, reach, temporary HP, mobility, and combat bonuses all reinforce the Guardian's job as a physical barrier and protector rather than merely increasing damage.
+
+Narratively, this level-up should matter. Before level 16, he contains the entity and occasionally lets pressure bleed through. At level 16, he can finally open the door substantially without surrendering himself.
+
+## Skill and general feat direction
+
+Prioritize practical responder feats over occult tricks.
+
+- **Battle Medicine:** immediate emergency treatment fits him cleanly.
+- **Assurance — Athletics:** represents reliable professional physical competence.
+- **Titan Wrestler:** useful for physically controlling transformed creatures larger than him.
+- **Quick Jump / Quick Climb:** good secondary options for rescue movement.
+- **Toughness:** directly supports the Guardian's damage-interception role.
+- **Incredible Initiative:** fits an experienced emergency responder reacting quickly when a scene goes bad.
+
+Exact skill-feat order can wait until the final level-15 sheet is built.
+
+## Build logic
+
+The Living Vessel feats are not replacing the Guardian's identity; they augment its core loop.
+
+1. **Guardian protects someone else.**
+2. **Guardian takes the danger onto himself.**
+3. **Tap Vitality lets him keep doing it by borrowing from the entity.**
+4. **Reflavored Exude Demonic Corruption makes close contact with him increasingly dangerous as containment loosens.**
+5. **Entity's Resurgence is what happens when he finally absorbs too much.**
+6. **Vessel's Form at 16 turns that same loss-of-control threat into something he can intentionally manage.**
+
+That progression is more important than taking every Living Vessel feat at the first opportunity.
+
+## Party relationship
+
+The second Ministry agent is **Edmund Hale, Commander**: scholar, procedural handler, and mission authority. That pairing keeps Caleb's physical rescue and protection role distinct from Edmund's command, scholarship, documentation, and containment responsibilities.
+
+Edmund is Caleb's handler in the professional sense. He understands the Ministry's procedures around the entity and is responsible for decisions about acceptable risk, but Caleb should never read as merely cargo or a prisoner. Caleb knows emergency scenes and the street-level city better than Edmund does; Edmund knows the institutional and occult framework surrounding Caleb's condition better than Caleb does.
+
+Their useful contrast is procedure versus emergency instinct rather than intellect versus muscle. Edmund knows what the manual says before the door opens. Caleb knows what to do when the room is already on fire.
+
+
+\page
+
+# Design Archive
+
+{{note
+**Development reference.** The following material documents workflows, questions, and unfinished work. It is not player-facing.
+}}
+
+
+\page
+
+## workflow
+
+---
+layout: gm
+title: Workflow Design
+adventure: forests-hart
+gm_only: true
+sitemap: false
+permalink: /adventures/forests-hart/gm/design/workflow/
+---
+
+# Workflow Design
+{: tabindex="-1" }
+
+_Status: working playtest design. Canonical state lives in `_data/adventures/forests-hart/`._
+
+## Core arc
+
+1. The Ministry arrives after years of low-priority reports from remote Coedmyr culminate in repeated accounts of a large malformed hare entering the village around dusk and killing cats, small dogs, and poultry.
+2. Investigation separates mundane local problems from the broader outbreak and gradually shows life processes continuing with impossible intensity: healing becomes overgrowth, repair becomes deformity, and renewal persists beyond healthy limits. The dusk hare encounter is the first hard confirmation that the recent wildlife reports describe something genuinely abnormal.
+3. The party reconstructs Coedmyr's old stewardship culture through Maelin, Nessa, Sera, Taran, surviving relics, the overlook, and the shrine. The four recurring spirits represent life, death, change, and tradition rather than a rigid ritual sequence.
+4. Ewan's neglected trap line leads to the Hart, which is both the source of the runaway vitality and its victim. The party should naturally conclude that the Hart needs to be saved.
+5. The party assembles a restoration from surviving practices. Wolf-associated tools impose limits, Turtle-associated practices stabilize, Bird-associated practices guide or redirect, and Hart-aligned stewardship consists of actual tending and restoration.
+6. The restoration initially works, then breaks. The Hart flees or containment moves, turning the rescue into an improvised pursuit rather than a reenacted ritual hunt.
+7. Final containment reveals that the corruption is inseparable from this physical Hart manifestation. The party must choose whether to kill it with the Wolf's Tooth, continue searching for another solution, or abandon Coedmyr to the consequences.
+
+## NPC play rule
+
+Named villagers are partial witnesses, not exposition channels. Their GM notes distinguish what they know, what they believe, and what they volunteer.
+
+Start from immediate lived experience. An NPC should not summarize information simply because it appears in their notes. Broader interpretation should emerge only when the party asks relevant questions, presents evidence, or earns enough trust for the subject to arise naturally.
+
+Taran is the clearest example. Asked broadly what happened to Coedmyr, he is likely to say that people left and work dried up. His deeper argument that old customs required labor, money, and enough people to sustain them belongs in a later conversation about those customs, responsibility, or why traditions disappeared.
+
+Sera should not narrate discoveries the archive is meant to reveal. Maelin is knowledgeable but not prophetic. Elara can provide the current problem branches readily, while deeper civic history should come through questions and records. Ewan knows his hunting routes and failures, not their supernatural significance.
+
+## Spiritual ecology
+
+Coedmyr's folklore belongs to a broader continent-wide spiritual tradition whose details vary by region.
+
+- **The Hart — life:** vitality, renewal, recovery, succession, replacement after loss.
+- **The Wolf — death:** limits, predation, restraint, culling, endings.
+- **The Bird — change:** movement, adaptation, migration, seasonal transition.
+- **The River Turtle — tradition:** continuity, memory, persistence, accumulated knowledge.
+
+These figures are not four mandatory keys. Their value is that Coedmyr's old practices kept their principles in relationship.
+
+The Hart's current corruption is not an invading substance. Its own vitalizing nature has become distorted inside a damaged spiritual ecology. Ewan's unattended trap is the acute breach point: an injured and trapped Hart responds with runaway renewal in a community that has lost much of the restraint, adaptability, memory, and coordinated stewardship that once shaped its relationship with the forest.
+
+Life without limits becomes destructive. Tradition without change becomes empty form. Change without continuity loses accumulated knowledge. Death without renewal becomes sterility.
+
+## Cultural frame
+
+Coedmyr was a difficult-to-reach spiritual pilgrimage destination. Visitors came specifically for the forest, shrines, vigils, seasonal practices, and other local traditions.
+
+The old tradition joined reverence with stewardship. The pilgrimage overlook served as a spiritual center and practical watchpoint. A keeper based there watched conditions, preserved working knowledge, and coordinated work distributed among hunters, farmers, shrine tenders, craftspeople, and other residents.
+
+As the village declined, pilgrimage became increasingly concentrated around pleasant and accessible practices. The overlook survived through meditation, exercise, tea, prayer, views, picnics, and simplified ceremony while harder forest work and the deeper keeper institution disappeared.
+
+Sera sincerely preserves what she inherited, but she did not inherit the complete keeper office. Maelin preserves older language and stories but is not an oracle. Taran supplies practical skepticism. Elara prioritizes village survival. Ewan embodies a concrete failure inside a broader decline without becoming the sole cause.
+
+## Preparation model
+
+- **FH-00 — Arrival:** establish ordinary decline, uncertain reports of the malformed hare, the spring red herring, and the dusk hare encounter as the first hard supernatural proof.
+- **FH-01 — Maelin and Nessa:** recover four-spirit context, fragmented stewardship history, and the Wolf's Tooth without teaching a Hart-killing cycle.
+- **FH-02 — Taran:** reconstruct the Tooth as a usable tool of restraint and limitation, not a purpose-built execution weapon.
+- **FH-03 — Overlook and shrine:** reveal the old distributed stewardship system, the bell's suppressive effect, and optional Turtle- or Bird-associated practices that can strengthen a restoration attempt.
+- **FH-04 — Trap line:** progress from neglected traps to a malformed doe and finally the corrupted, trapped Hart. The Hart should remain visibly worth saving.
+- **FH-05 — Prepare the Restoration:** recruit or involve villagers through existing relationships and assemble a plausible rescue from surviving practices.
+- **FH-FINAL — The Breaking Point:** begin with restoration, allow genuine early success, turn the breakdown into an improvised pursuit, then reveal that this manifestation cannot be restored with the available system.
+
+The completed Wolf's Tooth remains an important mechanical gate because the party needs a way to impose limits on the runaway vitality. It should not function as a narrative spoiler for the final lethal choice.
+
+## Doe investigation
+
+The doe should show excessive and maladaptive healing rather than a creature unable to finish dying.
+
+Bone remodeling continues around the trap jaws but overgrows the joint instead of restoring it. Inflammation and infection remain active beneath layers of new tissue. Skin or muscle repair incorporates debris or forms useless masses. The apparent rate of healing does not match the age of the injury.
+
+The investigator can establish that the trap itself is ordinary and reconstruct the impossible timing. A druid or another suitable specialist can establish that life processes are being unnaturally intensified and that a wider spiritual disturbance is influencing them. Neither result identifies the Hart as the source.
+
+## Hart source encounter
+
+Environmental abnormalities begin well before the Hart. Growth, fungi, insects, nesting, wound response, flowering, rooting, and other expressions of life become increasingly excessive or malformed toward the source.
+
+The Hart is unmistakably exceptional and visibly corrupted, but it should remain beautiful enough that saving it feels like the obvious objective. Its wounds heal incorrectly. New tissue or antler growth distorts otherwise graceful anatomy. Exhaustion and fear remain legible beneath the supernatural vitality.
+
+Its concentrated aura retains a 25-foot hazardous radius and DC 32 Fortitude save during structured play. Effects should manifest as runaway growth or repair in the exposed character's own body.
+
+## Communal response
+
+The response should not function as a hidden NPC optimization puzzle.
+
+A few named villagers plus interested locals are enough to show renewed local willingness to take responsibility for the forest. Everyone who joins should believe they are helping rescue the Hart and contain the outbreak.
+
+Earlier relationships matter most once the rescue fails. Sera may resist killing the Hart, Elara may prioritize survival, Ewan may be paralyzed by responsibility, Maelin may recognize the Wolf's principle without claiming divine authority, Taran may focus on practical failure, and Nessa may reject false certainty from fragmentary tradition.
+
+No NPC decides the final choice.
+
+## Finale
+
+**Attempted restoration:** The party uses the shrine and recovered practices to suppress, stabilize, redirect, and tend the Hart. It should appear to work at first.
+
+**Break:** The condition surges through the Hart again. Pain, panic, or containment failure sends it moving.
+
+**Pursuit:** The party must stay with the Hart and protect Coedmyr from its corrupting wake. This becomes a hunt only in the ordinary sense after the rescue fails; no old ritual told them to hunt it.
+
+**Containment:** Reestablished boundaries briefly make the Hart lucid and coherent. Repeated attempts at restoration reveal that corruption returns from within the manifestation and cannot be separated with the surviving practices.
+
+**Conflict:** Villagers react according to their beliefs and relationships with the party. The cost of continued rescue becomes immediate and visible.
+
+**Final choice:** The party can infer that the Wolf's Tooth, already established as a tool that imposes limits, can impose the ultimate limit on the corrupted manifestation. No tradition instructs them to do so.
+
+Killing the Hart stops the acute catastrophe but leaves the long-term spiritual consequence unknown. Continued rescue attempts remain valid player choices and should be adjudicated from established fiction rather than rejected by fiat.
+
+## Dependency graph
+
+```mermaid
+flowchart TD
+    ENTRY["FH-00 Ministry arrives"]
+    SAGE["FH-01 Maelin + Nessa<br/>four spirits + Wolf's Tooth"]
+    SMITH["FH-02 Taran Holt<br/>restore limiting implement"]
+    SHRINE["FH-03 Shrine / overlook<br/>stewardship network + tools"]
+    HUNTER["FH-04 Forest / trap line<br/>find corrupted Hart"]
+    RESPONSE["FH-05 Prepare restoration<br/>optional local participation"]
+    FINAL["FH-FINAL The Breaking Point"]
+
+    ENTRY --> SAGE
+    ENTRY --> SHRINE
+    ENTRY --> HUNTER
+    SHRINE -. forest hook .-> HUNTER
+    SAGE --> SMITH
+    SAGE -. informs .-> RESPONSE
+    SMITH --> RESPONSE
+    SHRINE --> RESPONSE
+    HUNTER --> RESPONSE
+    RESPONSE --> FINAL
+```
+
+## Mock test rule
+
+Do not repeatedly simulate the optimal breadcrumb path. Vary branch order and allow failed checks, missed clues, incorrect hypotheses, early Hart release, skipped NPCs, and weak local relationships.
+
+Track whether players plausibly believe the Hart can be saved before the finale, whether the failed restoration feels earned rather than predetermined, whether the first dusk hare encounter establishes the supernatural without explaining it, and whether earlier relationships materially change the social pressure of the final choice.
+
+
+\page
+
+## open questions
+
+---
+layout: gm
+title: Open Design Questions
+adventure: forests-hart
+gm_only: true
+sitemap: false
+permalink: /adventures/forests-hart/gm/design/open-questions/
+---
+
+# Open Design Questions
+{: tabindex="-1" }
+
+Answered decisions now live in the canonical data files. Remaining questions:
+
+1. Does the Wolf need a regional proper name, or should Coedmyr simply call the continent-wide figure the Wolf?
+2. What exact ceremonial implement does Taran Holt identify, and what pieces besides the Wolf's Tooth must be fabricated?
+3. What exact information can the party identify from the momentary weak bell aura before the sustained rite is attempted?
+4. How much unrelated Turtle, Bird, and obsolete religious lore should Maelin, Nessa, and the overlook contain before it becomes distracting rather than world-building?
+5. What was the formal title of Coedmyr's lost practical religious keeper or warden, and how clearly should the party be able to reconstruct that institution from Maelin, the archive, and the shrine?
+6. Which spirit-trail forest hooks should be canonical examples: abnormal animal cries, malformed tracks, abandoned traps, or a smaller curated set?
+7. How many pursuit obstacles make the finale substantial without overstaying it?
+8. Which pursuit obstacles give Athletics, Survival, magic, observation, and investigation distinct useful approaches?
+9. What are the exact breach-pressure thresholds, and how does each threshold alter the shrine phase?
+10. What exact event counts as an interruption of the shrine response?
+11. What are the shrine aura's radius and mechanical effects?
+12. What level and encounter budget should the Hart and shrine complications use for four level-10 PCs?
+13. What exact objectives represent separating the Hart from the surrounding disjunction during the shrine phase?
+14. What mechanically makes the Hart coherent, lucid, and exposed and enables Complete the Passage?
+15. What exact brief communication can the lucid Hart provide without turning into a procedural lore dump?
+16. What evidence makes continued attempts to preserve the exposed Hart clearly ineffective rather than a hidden gotcha?
+17. How should villager participation alter the finale mechanically without assigning mandatory roles or allowing NPCs to solve the encounter?
+18. Which named villagers are most likely to participate after different investigation paths, and how much unnamed local participation is enough to show renewed interest in the tradition?
+19. What exactly happens to Coedmyr after success, and what larger regional consequence follows failure?
+20. What are the final ancestry, background, skills, feats, equipment, motivations, and names for all four pregens?
+21. What personal bias does each PC bring to preserving versus completing the Hart manifestation's passage?
+
+
+\page
+
+## playtest notes
+
+---
+layout: gm
+title: Playtest Notes
+adventure: forests-hart
+gm_only: true
+sitemap: false
+permalink: /adventures/forests-hart/gm/design/playtest-notes/
+---
+
+# Playtest Notes
+{: tabindex="-1" }
+
+Use this page for observations that should feed back into the structured design.
+
+## Mock runs
+
+_No mock runs recorded yet._
+
+## Table playtests
+
+_No table playtests recorded yet._
+
+## Open changes
+
+- Finalize party composition and pregenerated sheets.
+- Finalize Hart mechanics and chase obstacles.
+- Finalize NPC names, motives, and clue delivery.
+- Determine exact shrine aura and bellkeeper action economy.
+
+
+\page
+
+## todos
+
+# Breach Below Bergum — Design TODOs
+
+## Giulia
+
+- Rewrite Giulia as an archaeologist-first Animist.
+- Shift her presentation and recommended play toward archaeology, epigraphy, funerary customs, material evidence, and interpretation of ancient structures.
+- Treat Apparitions as a secondary investigative tool rather than her defining identity.
+- Revisit skills, lore choices, feats, and spell recommendations once the revised character concept is settled.
+- Keep Animist as the working class unless rules validation shows the revised build is mechanically unsound or the party-role tradeoff justifies a class change.
+
+## Dungeon redesign
+
+- Redesign the dungeon around progressive archaeological descent rather than exposing a compact rectangular layout early.
+- Remove the colored-gem key structure.
+- Organize the complex into perceptible layers: breached peripheral burials, intentional Hryngar architecture, then the monumental inner complex.
+- Use artifacts, inscriptions, construction changes, sightlines, funerary remains, and environmental evidence to communicate history and mechanics.
+- Add bends, vertical changes, partial views, collapsed passages, and connective spaces so the party repeatedly revises its sense of the complex's scale.
+- Keep the number of meaningful encounters compact; increase the feeling of depth through traversal and discovery rather than room-count inflation.
+- Rework any gate or atrium progression so advancement follows understanding of the site rather than collection of obvious matching keys.
+
+
+\page
+
+## Compilation Notes
+
+This volume consolidates the principal adventure, character, compendium, and design Markdown files in `flip-z/flip-z.github.io/adventures`. The source has been preserved where possible; Jekyll front matter, image embeds, and site-specific navigation markup were removed. HTML-based mechanics were converted to plain text and need typographic review. Page breaks separate source sections, but longer chapters need further manual pagination and column control in Homebrewery V3. Maps and image assets were intentionally omitted.
